@@ -1,0 +1,35 @@
+# Core data science
+pandas>=2.2.0
+numpy>=1.26.0
+
+# ML - Primary (NBM)
+lightgbm>=4.5.0
+scikit-learn>=1.5.0
+
+# ML - Deep Learning (Autoencoder)
+torch>=2.5.0
+
+# Explainability
+shap>=0.46.0
+
+# Statistical detection
+statsmodels>=0.14.0
+
+# Visualization
+matplotlib>=3.9.0
+seaborn>=0.13.0
+plotly>=5.24.0
+
+# Dashboard
+streamlit>=1.40.0
+
+# Experiment tracking
+mlflow>=2.18.0
+
+# Jupyter
+jupyter>=1.1.0
+ipykernel>=6.29.0
+
+# Stretch goal - RAG
+# pinecone-client>=5.0.0
+# google-generativeai>=0.8.0
