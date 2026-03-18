@@ -1,0 +1,49 @@
+# Data (sensitive/large - dataset from Zenodo)
+data/
+
+# AI agent config
+.claude/
+CLAUDE.md
+
+# Docs (strategy docs, competition PDFs - local only)
+docs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment
+.env
+.env.local
+
+# MLflow
+mlruns/
+
+# Streamlit
+.streamlit/
+
+# Misc
+*.zip
+*.crdownload
