@@ -1,0 +1,43 @@
+{
+  "farm_a": {
+    "total_events_used": 10,
+    "total_rows_raw": 546958,
+    "total_rows_filtered": 464694,
+    "pct_retained": 84.96,
+    "status_type_distribution": {
+      "0": 490758,
+      "3": 10228,
+      "4": 45972
+    }
+  },
+  "farm_b": {
+    "total_events_used": 9,
+    "total_rows_raw": 505688,
+    "total_rows_filtered": 418792,
+    "pct_retained": 82.82,
+    "status_type_distribution": {
+      "0": 450749,
+      "1": 26361,
+      "4": 2424,
+      "5": 26154
+    }
+  },
+  "farm_c": {
+    "total_events_used": 31,
+    "total_rows_raw": 1698911,
+    "total_rows_filtered": 1439077,
+    "pct_retained": 84.71,
+    "status_type_distribution": {
+      "0": 1517499,
+      "3": 126314,
+      "4": 10609,
+      "5": 44489
+    }
+  },
+  "overall": {
+    "total_events_used": 50,
+    "total_rows_raw": 2751557,
+    "total_rows_filtered": 2322563,
+    "pct_retained": 84.41
+  }
+}
