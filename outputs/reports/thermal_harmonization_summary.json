@@ -1,0 +1,592 @@
+{
+  "gearbox": {
+    "subsystem_name": "Gearbox",
+    "sensors_farm_a": [
+      {
+        "sensor": "sensor_11_avg",
+        "description": "Temperature in gearbox bearing on high speed shaft"
+      },
+      {
+        "sensor": "sensor_12_avg",
+        "description": "Temperature oil in gearbox"
+      }
+    ],
+    "sensors_farm_b": [
+      {
+        "sensor": "sensor_34_avg",
+        "description": "Gearbox bearing temperature 1"
+      },
+      {
+        "sensor": "sensor_35_avg",
+        "description": "Gearbox bearing temperature 2"
+      },
+      {
+        "sensor": "sensor_36_avg",
+        "description": "Gearbox bearing temperature 3"
+      },
+      {
+        "sensor": "sensor_37_avg",
+        "description": "Gearbox bearing temperature 4"
+      },
+      {
+        "sensor": "sensor_38_avg",
+        "description": "Gearbox oil inlet temperature"
+      },
+      {
+        "sensor": "sensor_39_avg",
+        "description": "Gearbox oil tank temperature"
+      }
+    ],
+    "sensors_farm_c": [
+      {
+        "sensor": "sensor_151_avg",
+        "description": "Temperature 1 planetary bearing A1"
+      },
+      {
+        "sensor": "sensor_152_avg",
+        "description": "Temperature 1 planetary bearing A2"
+      },
+      {
+        "sensor": "sensor_153_avg",
+        "description": "Temperature 1 planetary bearing B1"
+      },
+      {
+        "sensor": "sensor_154_avg",
+        "description": "Temperature 1 planetary bearing B2"
+      },
+      {
+        "sensor": "sensor_155_avg",
+        "description": "Temperature 1 planetary bearing C1"
+      },
+      {
+        "sensor": "sensor_156_avg",
+        "description": "Temperature 1 planetary bearing C2"
+      },
+      {
+        "sensor": "sensor_157_avg",
+        "description": "Temperature 1 planetary bearing D1"
+      },
+      {
+        "sensor": "sensor_158_avg",
+        "description": "Temperature 1 planetary bearing D2"
+      },
+      {
+        "sensor": "sensor_159_avg",
+        "description": "Temperature 2 planetary bearing A1"
+      },
+      {
+        "sensor": "sensor_160_avg",
+        "description": "Temperature 2 planetary bearing A2"
+      },
+      {
+        "sensor": "sensor_161_avg",
+        "description": "Temperature 2 planetary bearing B1"
+      },
+      {
+        "sensor": "sensor_162_avg",
+        "description": "Temperature 2 planetary bearing B2"
+      },
+      {
+        "sensor": "sensor_163_avg",
+        "description": "Temperature 2 planetary bearing C1"
+      },
+      {
+        "sensor": "sensor_164_avg",
+        "description": "Temperature 2 planetary bearing C2"
+      },
+      {
+        "sensor": "sensor_165_avg",
+        "description": "Temperature 2 planetary bearing D1"
+      },
+      {
+        "sensor": "sensor_166_avg",
+        "description": "Temperature 2 planetary bearing D2"
+      },
+      {
+        "sensor": "sensor_186_avg",
+        "description": "Gearbox oil temperature 1 "
+      },
+      {
+        "sensor": "sensor_187_avg",
+        "description": "Gearbox oil temperature 2"
+      },
+      {
+        "sensor": "sensor_189_avg",
+        "description": "Gearbox oil inlet temperature 1"
+      },
+      {
+        "sensor": "sensor_190_avg",
+        "description": "Gearbox oil inlet temperature 2"
+      }
+    ],
+    "count_farm_a": 2,
+    "count_farm_b": 6,
+    "count_farm_c": 20
+  },
+  "generator_bearings": {
+    "subsystem_name": "Generator/Bearings",
+    "sensors_farm_a": [
+      {
+        "sensor": "sensor_13_avg",
+        "description": "Temperature in generator bearing 2 (Drive End)"
+      },
+      {
+        "sensor": "sensor_14_avg",
+        "description": "Temperature in generator bearing 1 (Non-Drive End)"
+      },
+      {
+        "sensor": "sensor_15_avg",
+        "description": "Temperature inside generator in stator windings phase 1"
+      },
+      {
+        "sensor": "sensor_16_avg",
+        "description": "Temperature inside generator in stator windings phase 2"
+      },
+      {
+        "sensor": "sensor_17_avg",
+        "description": "Temperature inside generator in stator windings phase 3"
+      }
+    ],
+    "sensors_farm_b": [
+      {
+        "sensor": "sensor_32_avg",
+        "description": "Generator bearing temperature 1"
+      },
+      {
+        "sensor": "sensor_33_avg",
+        "description": "Generator bearing temperature 2"
+      },
+      {
+        "sensor": "sensor_51_avg",
+        "description": "Rotor bearing temperature 1"
+      },
+      {
+        "sensor": "sensor_52_avg",
+        "description": "Rotor bearing temperature 2"
+      },
+      {
+        "sensor": "sensor_53_avg",
+        "description": "Slip ring temperature Generator"
+      }
+    ],
+    "sensors_farm_c": [
+      {
+        "sensor": "sensor_18_avg",
+        "description": "Generator cooling air temperature A"
+      },
+      {
+        "sensor": "sensor_19_avg",
+        "description": "Generator cooling air temperature B"
+      },
+      {
+        "sensor": "sensor_20_avg",
+        "description": "Generator cooling air temperature C"
+      },
+      {
+        "sensor": "sensor_21_avg",
+        "description": "Generator cooling air temperature D"
+      },
+      {
+        "sensor": "sensor_168_avg",
+        "description": "Temperature of axial bearing 1"
+      },
+      {
+        "sensor": "sensor_169_avg",
+        "description": "Temperature of axial bearing 2"
+      },
+      {
+        "sensor": "sensor_173_avg",
+        "description": "Generator temperature 1 cooling air inlet"
+      },
+      {
+        "sensor": "sensor_174_avg",
+        "description": "Generator temperature 2 cooling air inlet"
+      },
+      {
+        "sensor": "sensor_194_avg",
+        "description": "Axis 1 Rotor bearing inner ring temperature"
+      },
+      {
+        "sensor": "sensor_195_avg",
+        "description": "Axis 2 Rotor bearing inner ring temperature"
+      },
+      {
+        "sensor": "sensor_196_avg",
+        "description": "Rotor bearing temperature 1"
+      },
+      {
+        "sensor": "sensor_197_avg",
+        "description": "Rotor bearing temperature 2"
+      },
+      {
+        "sensor": "sensor_198_avg",
+        "description": "Rotor bearing temperature 3"
+      },
+      {
+        "sensor": "sensor_199_avg",
+        "description": "Temperature of stator winding U1"
+      },
+      {
+        "sensor": "sensor_200_avg",
+        "description": "Temperature of stator winding U2"
+      },
+      {
+        "sensor": "sensor_201_avg",
+        "description": "Temperature of stator winding V1"
+      },
+      {
+        "sensor": "sensor_202_avg",
+        "description": "Temperature of stator winding V2"
+      },
+      {
+        "sensor": "sensor_203_avg",
+        "description": "Temperature of stator winding W1"
+      },
+      {
+        "sensor": "sensor_204_avg",
+        "description": "Temperature of stator winding W2"
+      }
+    ],
+    "count_farm_a": 5,
+    "count_farm_b": 5,
+    "count_farm_c": 19
+  },
+  "transformer": {
+    "subsystem_name": "Transformer",
+    "sensors_farm_a": [
+      {
+        "sensor": "sensor_38_avg",
+        "description": "Temperature in HV transformer phase L1"
+      },
+      {
+        "sensor": "sensor_39_avg",
+        "description": "Temperature in HV transformer phase L2"
+      },
+      {
+        "sensor": "sensor_40_avg",
+        "description": "Temperature in HV transformer phase L3"
+      }
+    ],
+    "sensors_farm_b": [
+      {
+        "sensor": "sensor_31_avg",
+        "description": "Temperature internal consumption transformer"
+      },
+      {
+        "sensor": "sensor_40_avg",
+        "description": "Transformator core temperature"
+      },
+      {
+        "sensor": "sensor_41_avg",
+        "description": "Transformer L1 (mid-voltage) temperature "
+      },
+      {
+        "sensor": "sensor_42_avg",
+        "description": "Transformer L1 (undervoltage) temperature "
+      },
+      {
+        "sensor": "sensor_43_avg",
+        "description": "Transformer L2 (mid-voltage) temperature "
+      },
+      {
+        "sensor": "sensor_44_avg",
+        "description": "Transformer L2 (undervoltage) temperature "
+      },
+      {
+        "sensor": "sensor_45_avg",
+        "description": "Transformer L3 (mid-voltage) temperature "
+      },
+      {
+        "sensor": "sensor_46_avg",
+        "description": "Transformer L3 (undervoltage) temperature "
+      },
+      {
+        "sensor": "sensor_47_avg",
+        "description": "Transformer cell temperature"
+      }
+    ],
+    "sensors_farm_c": [
+      {
+        "sensor": "sensor_167_avg",
+        "description": "Air temp. transformer container"
+      },
+      {
+        "sensor": "sensor_188_avg",
+        "description": "Oil temperature EB transformer"
+      },
+      {
+        "sensor": "sensor_191_avg",
+        "description": "Oil temperature 1 main transformer"
+      },
+      {
+        "sensor": "sensor_192_avg",
+        "description": "Oil temperature 2 main transformer"
+      }
+    ],
+    "count_farm_a": 3,
+    "count_farm_b": 9,
+    "count_farm_c": 4
+  },
+  "hydraulic": {
+    "subsystem_name": "Hydraulic",
+    "sensors_farm_a": [
+      {
+        "sensor": "sensor_41_avg",
+        "description": "Temperature oil in hydraulic group"
+      }
+    ],
+    "sensors_farm_b": [],
+    "sensors_farm_c": [
+      {
+        "sensor": "sensor_178_avg",
+        "description": "Hydraulic oil tank temperature 1"
+      },
+      {
+        "sensor": "sensor_179_avg",
+        "description": "Hydraulic oil tank temperature 2"
+      }
+    ],
+    "count_farm_a": 1,
+    "count_farm_b": 0,
+    "count_farm_c": 2
+  },
+  "nacelle_ambient": {
+    "subsystem_name": "Nacelle/Ambient",
+    "sensors_farm_a": [
+      {
+        "sensor": "sensor_0_avg",
+        "description": "Ambient temperature"
+      },
+      {
+        "sensor": "sensor_6_avg",
+        "description": "Temperature in the hub controller"
+      },
+      {
+        "sensor": "sensor_7_avg",
+        "description": "Temperature in the top nacelle controller"
+      },
+      {
+        "sensor": "sensor_43_avg",
+        "description": "Nacelle temperature"
+      },
+      {
+        "sensor": "sensor_53_avg",
+        "description": "Temperature in the nose cone"
+      }
+    ],
+    "sensors_farm_b": [
+      {
+        "sensor": "sensor_8_avg",
+        "description": "Outside temperature"
+      },
+      {
+        "sensor": "sensor_22_avg",
+        "description": "Hub temperature"
+      }
+    ],
+    "sensors_farm_c": [
+      {
+        "sensor": "sensor_7_avg",
+        "description": "Ambient temperature"
+      },
+      {
+        "sensor": "sensor_41_avg",
+        "description": "Nacelle outside temperature"
+      },
+      {
+        "sensor": "sensor_65_avg",
+        "description": "Hub temperature"
+      },
+      {
+        "sensor": "sensor_177_avg",
+        "description": "Outside temperature"
+      }
+    ],
+    "count_farm_a": 5,
+    "count_farm_b": 2,
+    "count_farm_c": 4
+  },
+  "cooling": {
+    "subsystem_name": "Cooling",
+    "sensors_farm_a": [
+      {
+        "sensor": "sensor_8_avg",
+        "description": "Temperature in the choke coils on the VCS-section"
+      },
+      {
+        "sensor": "sensor_9_avg",
+        "description": "Temperature on the VCP-board"
+      },
+      {
+        "sensor": "sensor_10_avg",
+        "description": "Temperature in the VCS cooling water"
+      }
+    ],
+    "sensors_farm_b": [],
+    "sensors_farm_c": [
+      {
+        "sensor": "sensor_46_avg",
+        "description": "Water temperature flow TT1"
+      },
+      {
+        "sensor": "sensor_175_avg",
+        "description": "Axis 3 cooling element temperature"
+      },
+      {
+        "sensor": "sensor_176_avg",
+        "description": "Temperature cooling air exit"
+      },
+      {
+        "sensor": "sensor_208_avg",
+        "description": "Axis 1 cooling element temperature"
+      },
+      {
+        "sensor": "sensor_209_avg",
+        "description": "Axis 2 cooling element temperature"
+      },
+      {
+        "sensor": "sensor_228_avg",
+        "description": "Cooling water temp. generator inlet 1"
+      },
+      {
+        "sensor": "sensor_229_avg",
+        "description": "Cooling water temp. generator inlet 2"
+      },
+      {
+        "sensor": "sensor_233_avg",
+        "description": "Cooling water temp. generator outlet 1"
+      },
+      {
+        "sensor": "sensor_234_avg",
+        "description": "Cooling water temp. generator outlet 2"
+      }
+    ],
+    "count_farm_a": 3,
+    "count_farm_b": 0,
+    "count_farm_c": 9
+  },
+  "unmatched": {
+    "subsystem_name": "Unmatched",
+    "sensors_farm_a": [
+      {
+        "sensor": "sensor_19_avg",
+        "description": "Temperature in the split ring chamber"
+      },
+      {
+        "sensor": "sensor_20_avg",
+        "description": "Temperature in the busbar section"
+      },
+      {
+        "sensor": "sensor_21_avg",
+        "description": "Temperature measured by the IGBT-driver on the grid side inverter"
+      },
+      {
+        "sensor": "sensor_35_avg",
+        "description": "Temperature measured by the IGBT-driver on the rotor side inverter phase1"
+      },
+      {
+        "sensor": "sensor_36_avg",
+        "description": "Temperature measured by the IGBT-driver on the rotor side inverter phase2"
+      },
+      {
+        "sensor": "sensor_37_avg",
+        "description": "Temperature measured by the IGBT-driver on the rotor side inverter phase3"
+      }
+    ],
+    "sensors_farm_b": [
+      {
+        "sensor": "sensor_48_avg",
+        "description": "Motor temperature axis 1"
+      },
+      {
+        "sensor": "sensor_49_avg",
+        "description": "Motor temperature axis 2"
+      },
+      {
+        "sensor": "sensor_50_avg",
+        "description": "Motor temperature axis 3"
+      }
+    ],
+    "sensors_farm_c": [
+      {
+        "sensor": "sensor_15_avg",
+        "description": "Board temperature"
+      },
+      {
+        "sensor": "sensor_39_avg",
+        "description": "Electrical cabinet ambient temperature"
+      },
+      {
+        "sensor": "sensor_62_avg",
+        "description": "Temperature Axis 1"
+      },
+      {
+        "sensor": "sensor_63_avg",
+        "description": "Temperature Axis 2"
+      },
+      {
+        "sensor": "sensor_64_avg",
+        "description": "Temperature Axis 3"
+      },
+      {
+        "sensor": "sensor_170_avg",
+        "description": "Control box temperature"
+      },
+      {
+        "sensor": "sensor_171_avg",
+        "description": "Temperature converter room"
+      },
+      {
+        "sensor": "sensor_172_avg",
+        "description": "Converter cabinet temperature"
+      },
+      {
+        "sensor": "sensor_180_avg",
+        "description": "Axis1 Motor temperature KTY84"
+      },
+      {
+        "sensor": "sensor_181_avg",
+        "description": "Axis2 Motor temperature KTY84"
+      },
+      {
+        "sensor": "sensor_182_avg",
+        "description": "Axis3 Motor temperature KTY84"
+      },
+      {
+        "sensor": "sensor_183_avg",
+        "description": "Axis 1 Motor temperature PT100"
+      },
+      {
+        "sensor": "sensor_184_avg",
+        "description": "Axis 2 Motor temperature PT100"
+      },
+      {
+        "sensor": "sensor_185_avg",
+        "description": "Axis 3 Motor temperature PT100"
+      },
+      {
+        "sensor": "sensor_193_avg",
+        "description": "Temperature platform TBC200"
+      },
+      {
+        "sensor": "sensor_205_avg",
+        "description": "Temperature electrical cabinet "
+      },
+      {
+        "sensor": "sensor_206_avg",
+        "description": "Temperature electrical cabinet 1"
+      },
+      {
+        "sensor": "sensor_207_avg",
+        "description": "Temperature electrical cabinet 2"
+      },
+      {
+        "sensor": "sensor_210_avg",
+        "description": "Electrical cabinet temperature 3/4"
+      }
+    ],
+    "count_farm_a": 6,
+    "count_farm_b": 3,
+    "count_farm_c": 19
+  }
+}
