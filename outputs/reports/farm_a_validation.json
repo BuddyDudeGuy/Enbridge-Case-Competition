@@ -1,0 +1,462 @@
+{
+  "farm": "A",
+  "total_files": 22,
+  "all_valid": true,
+  "summary": "All 22 files passed validation. 86 columns each, valid status_type_id and train_test values.",
+  "files": [
+    {
+      "filename": "0.csv",
+      "rows": 54986,
+      "columns": 86,
+      "missing_values_total": 2,
+      "missing_values_by_column": {
+        "sensor_14_avg": 1,
+        "sensor_22_avg": 1
+      },
+      "non_numeric_non_metadata_cols": [],
+      "status_types_found": [
+        0,
+        3,
+        4
+      ],
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "issues": [],
+      "valid": true
+    },
+    {
+      "filename": "3.csv",
+      "rows": 55487,
+      "columns": 86,
+      "missing_values_total": 4,
+      "missing_values_by_column": {
+        "sensor_14_avg": 2,
+        "sensor_22_avg": 2
+      },
+      "non_numeric_non_metadata_cols": [],
+      "status_types_found": [
+        0,
+        3,
+        4
+      ],
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "issues": [],
+      "valid": true
+    },
+    {
+      "filename": "10.csv",
+      "rows": 53592,
+      "columns": 86,
+      "missing_values_total": 6,
+      "missing_values_by_column": {
+        "sensor_14_avg": 3,
+        "sensor_22_avg": 3
+      },
+      "non_numeric_non_metadata_cols": [],
+      "status_types_found": [
+        0,
+        3,
+        4
+      ],
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "issues": [],
+      "valid": true
+    },
+    {
+      "filename": "13.csv",
+      "rows": 54010,
+      "columns": 86,
+      "missing_values_total": 0,
+      "missing_values_by_column": {},
+      "non_numeric_non_metadata_cols": [],
+      "status_types_found": [
+        0,
+        3,
+        4
+      ],
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "issues": [],
+      "valid": true
+    },
+    {
+      "filename": "14.csv",
+      "rows": 54197,
+      "columns": 86,
+      "missing_values_total": 0,
+      "missing_values_by_column": {},
+      "non_numeric_non_metadata_cols": [],
+      "status_types_found": [
+        0,
+        3,
+        4
+      ],
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "issues": [],
+      "valid": true
+    },
+    {
+      "filename": "17.csv",
+      "rows": 55090,
+      "columns": 86,
+      "missing_values_total": 6,
+      "missing_values_by_column": {
+        "sensor_14_avg": 3,
+        "sensor_22_avg": 3
+      },
+      "non_numeric_non_metadata_cols": [],
+      "status_types_found": [
+        0,
+        3,
+        4
+      ],
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "issues": [],
+      "valid": true
+    },
+    {
+      "filename": "22.csv",
+      "rows": 53036,
+      "columns": 86,
+      "missing_values_total": 2,
+      "missing_values_by_column": {
+        "sensor_14_avg": 1,
+        "sensor_22_avg": 1
+      },
+      "non_numeric_non_metadata_cols": [],
+      "status_types_found": [
+        0,
+        3,
+        4
+      ],
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "issues": [],
+      "valid": true
+    },
+    {
+      "filename": "24.csv",
+      "rows": 55003,
+      "columns": 86,
+      "missing_values_total": 0,
+      "missing_values_by_column": {},
+      "non_numeric_non_metadata_cols": [],
+      "status_types_found": [
+        0,
+        3,
+        4
+      ],
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "issues": [],
+      "valid": true
+    },
+    {
+      "filename": "25.csv",
+      "rows": 54712,
+      "columns": 86,
+      "missing_values_total": 0,
+      "missing_values_by_column": {},
+      "non_numeric_non_metadata_cols": [],
+      "status_types_found": [
+        0,
+        3,
+        4
+      ],
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "issues": [],
+      "valid": true
+    },
+    {
+      "filename": "26.csv",
+      "rows": 53702,
+      "columns": 86,
+      "missing_values_total": 2,
+      "missing_values_by_column": {
+        "sensor_14_avg": 1,
+        "sensor_22_avg": 1
+      },
+      "non_numeric_non_metadata_cols": [],
+      "status_types_found": [
+        0,
+        3,
+        4
+      ],
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "issues": [],
+      "valid": true
+    },
+    {
+      "filename": "38.csv",
+      "rows": 54835,
+      "columns": 86,
+      "missing_values_total": 0,
+      "missing_values_by_column": {},
+      "non_numeric_non_metadata_cols": [],
+      "status_types_found": [
+        0,
+        3,
+        4
+      ],
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "issues": [],
+      "valid": true
+    },
+    {
+      "filename": "40.csv",
+      "rows": 56158,
+      "columns": 86,
+      "missing_values_total": 4,
+      "missing_values_by_column": {
+        "sensor_14_avg": 2,
+        "sensor_22_avg": 2
+      },
+      "non_numeric_non_metadata_cols": [],
+      "status_types_found": [
+        0,
+        3,
+        4
+      ],
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "issues": [],
+      "valid": true
+    },
+    {
+      "filename": "42.csv",
+      "rows": 53886,
+      "columns": 86,
+      "missing_values_total": 6,
+      "missing_values_by_column": {
+        "sensor_14_avg": 3,
+        "sensor_22_avg": 3
+      },
+      "non_numeric_non_metadata_cols": [],
+      "status_types_found": [
+        0,
+        3,
+        4
+      ],
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "issues": [],
+      "valid": true
+    },
+    {
+      "filename": "45.csv",
+      "rows": 53739,
+      "columns": 86,
+      "missing_values_total": 0,
+      "missing_values_by_column": {},
+      "non_numeric_non_metadata_cols": [],
+      "status_types_found": [
+        0,
+        3,
+        4
+      ],
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "issues": [],
+      "valid": true
+    },
+    {
+      "filename": "51.csv",
+      "rows": 54436,
+      "columns": 86,
+      "missing_values_total": 2,
+      "missing_values_by_column": {
+        "sensor_14_avg": 1,
+        "sensor_22_avg": 1
+      },
+      "non_numeric_non_metadata_cols": [],
+      "status_types_found": [
+        0,
+        3,
+        4
+      ],
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "issues": [],
+      "valid": true
+    },
+    {
+      "filename": "68.csv",
+      "rows": 54358,
+      "columns": 86,
+      "missing_values_total": 0,
+      "missing_values_by_column": {},
+      "non_numeric_non_metadata_cols": [],
+      "status_types_found": [
+        0,
+        3,
+        4
+      ],
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "issues": [],
+      "valid": true
+    },
+    {
+      "filename": "69.csv",
+      "rows": 54813,
+      "columns": 86,
+      "missing_values_total": 2,
+      "missing_values_by_column": {
+        "sensor_14_avg": 1,
+        "sensor_22_avg": 1
+      },
+      "non_numeric_non_metadata_cols": [],
+      "status_types_found": [
+        0,
+        3,
+        4
+      ],
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "issues": [],
+      "valid": true
+    },
+    {
+      "filename": "71.csv",
+      "rows": 54744,
+      "columns": 86,
+      "missing_values_total": 0,
+      "missing_values_by_column": {},
+      "non_numeric_non_metadata_cols": [],
+      "status_types_found": [
+        0,
+        3,
+        4
+      ],
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "issues": [],
+      "valid": true
+    },
+    {
+      "filename": "72.csv",
+      "rows": 54082,
+      "columns": 86,
+      "missing_values_total": 2,
+      "missing_values_by_column": {
+        "sensor_14_avg": 1,
+        "sensor_22_avg": 1
+      },
+      "non_numeric_non_metadata_cols": [],
+      "status_types_found": [
+        0,
+        3,
+        4
+      ],
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "issues": [],
+      "valid": true
+    },
+    {
+      "filename": "73.csv",
+      "rows": 54042,
+      "columns": 86,
+      "missing_values_total": 0,
+      "missing_values_by_column": {},
+      "non_numeric_non_metadata_cols": [],
+      "status_types_found": [
+        0,
+        3,
+        4
+      ],
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "issues": [],
+      "valid": true
+    },
+    {
+      "filename": "84.csv",
+      "rows": 53772,
+      "columns": 86,
+      "missing_values_total": 2,
+      "missing_values_by_column": {
+        "sensor_14_avg": 1,
+        "sensor_22_avg": 1
+      },
+      "non_numeric_non_metadata_cols": [],
+      "status_types_found": [
+        0,
+        3,
+        4
+      ],
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "issues": [],
+      "valid": true
+    },
+    {
+      "filename": "92.csv",
+      "rows": 54067,
+      "columns": 86,
+      "missing_values_total": 0,
+      "missing_values_by_column": {},
+      "non_numeric_non_metadata_cols": [],
+      "status_types_found": [
+        0,
+        3,
+        4
+      ],
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "issues": [],
+      "valid": true
+    }
+  ]
+}

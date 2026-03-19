@@ -1,0 +1,344 @@
+{
+  "farm": "B",
+  "total_files": 15,
+  "files": [
+    {
+      "filename": "2.csv",
+      "rows": 54774,
+      "columns": 257,
+      "missing_values_total": 7,
+      "missing_columns_count": 2,
+      "non_numeric_non_metadata_columns": [],
+      "status_types_found": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "valid": true,
+      "top_missing_columns": {
+        "power_62_std": 6,
+        "power_62_max": 1
+      }
+    },
+    {
+      "filename": "7.csv",
+      "rows": 57888,
+      "columns": 257,
+      "missing_values_total": 7,
+      "missing_columns_count": 2,
+      "non_numeric_non_metadata_columns": [],
+      "status_types_found": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "valid": true,
+      "top_missing_columns": {
+        "power_62_std": 6,
+        "power_62_max": 1
+      }
+    },
+    {
+      "filename": "19.csv",
+      "rows": 56274,
+      "columns": 257,
+      "missing_values_total": 1,
+      "missing_columns_count": 1,
+      "non_numeric_non_metadata_columns": [],
+      "status_types_found": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "valid": true,
+      "top_missing_columns": {
+        "power_62_max": 1
+      }
+    },
+    {
+      "filename": "21.csv",
+      "rows": 53514,
+      "columns": 257,
+      "missing_values_total": 6,
+      "missing_columns_count": 1,
+      "non_numeric_non_metadata_columns": [],
+      "status_types_found": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "valid": true,
+      "top_missing_columns": {
+        "power_62_std": 6
+      }
+    },
+    {
+      "filename": "23.csv",
+      "rows": 54542,
+      "columns": 257,
+      "missing_values_total": 1,
+      "missing_columns_count": 1,
+      "non_numeric_non_metadata_columns": [],
+      "status_types_found": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "valid": true,
+      "top_missing_columns": {
+        "power_62_max": 1
+      }
+    },
+    {
+      "filename": "27.csv",
+      "rows": 62268,
+      "columns": 257,
+      "missing_values_total": 7,
+      "missing_columns_count": 2,
+      "non_numeric_non_metadata_columns": [],
+      "status_types_found": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "valid": true,
+      "top_missing_columns": {
+        "power_62_std": 6,
+        "power_62_max": 1
+      }
+    },
+    {
+      "filename": "34.csv",
+      "rows": 56564,
+      "columns": 257,
+      "missing_values_total": 1,
+      "missing_columns_count": 1,
+      "non_numeric_non_metadata_columns": [],
+      "status_types_found": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "valid": true,
+      "top_missing_columns": {
+        "power_62_max": 1
+      }
+    },
+    {
+      "filename": "52.csv",
+      "rows": 55268,
+      "columns": 257,
+      "missing_values_total": 1,
+      "missing_columns_count": 1,
+      "non_numeric_non_metadata_columns": [],
+      "status_types_found": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "valid": true,
+      "top_missing_columns": {
+        "power_62_max": 1
+      }
+    },
+    {
+      "filename": "53.csv",
+      "rows": 58607,
+      "columns": 257,
+      "missing_values_total": 1,
+      "missing_columns_count": 1,
+      "non_numeric_non_metadata_columns": [],
+      "status_types_found": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "valid": true,
+      "top_missing_columns": {
+        "power_62_max": 1
+      }
+    },
+    {
+      "filename": "74.csv",
+      "rows": 55602,
+      "columns": 257,
+      "missing_values_total": 1,
+      "missing_columns_count": 1,
+      "non_numeric_non_metadata_columns": [],
+      "status_types_found": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "valid": true,
+      "top_missing_columns": {
+        "power_62_max": 1
+      }
+    },
+    {
+      "filename": "77.csv",
+      "rows": 61776,
+      "columns": 257,
+      "missing_values_total": 3,
+      "missing_columns_count": 2,
+      "non_numeric_non_metadata_columns": [],
+      "status_types_found": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "valid": true,
+      "top_missing_columns": {
+        "power_62_std": 2,
+        "power_62_max": 1
+      }
+    },
+    {
+      "filename": "82.csv",
+      "rows": 54992,
+      "columns": 257,
+      "missing_values_total": 44,
+      "missing_columns_count": 1,
+      "non_numeric_non_metadata_columns": [],
+      "status_types_found": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "valid": true,
+      "top_missing_columns": {
+        "power_62_std": 44
+      }
+    },
+    {
+      "filename": "83.csv",
+      "rows": 66154,
+      "columns": 257,
+      "missing_values_total": 1,
+      "missing_columns_count": 1,
+      "non_numeric_non_metadata_columns": [],
+      "status_types_found": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "valid": true,
+      "top_missing_columns": {
+        "power_62_std": 1
+      }
+    },
+    {
+      "filename": "86.csv",
+      "rows": 55486,
+      "columns": 257,
+      "missing_values_total": 4,
+      "missing_columns_count": 2,
+      "non_numeric_non_metadata_columns": [],
+      "status_types_found": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "valid": true,
+      "top_missing_columns": {
+        "power_62_std": 3,
+        "power_62_max": 1
+      }
+    },
+    {
+      "filename": "87.csv",
+      "rows": 55356,
+      "columns": 257,
+      "missing_values_total": 7,
+      "missing_columns_count": 2,
+      "non_numeric_non_metadata_columns": [],
+      "status_types_found": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "valid": true,
+      "top_missing_columns": {
+        "power_62_std": 6,
+        "power_62_max": 1
+      }
+    }
+  ],
+  "all_valid": true,
+  "summary": "All files passed validation with no issues."
+}

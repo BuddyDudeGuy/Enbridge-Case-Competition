@@ -1,0 +1,1065 @@
+{
+  "farm": "C",
+  "total_files": 58,
+  "files": [
+    {
+      "filename": "1.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 53569,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "4.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 56449,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "5.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 52795,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "6.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 54865,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "8.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 54802,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "9.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 56029,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "11.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 56437,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "12.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 56107,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "15.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 54433,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "16.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 53568,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "18.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 52848,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "20.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 54001,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "28.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 55918,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "29.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 54865,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "30.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 56111,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "31.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 54589,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "32.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 55009,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "33.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 55873,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "35.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 52615,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "36.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 55448,
+      "columns": 957,
+      "missing_values_total": 175684,
+      "missing_values_by_column_count": 836,
+      "top_missing_columns": {
+        "sensor_37_avg": 432,
+        "sensor_37_max": 432,
+        "sensor_37_min": 432,
+        "sensor_37_std": 432,
+        "sensor_182_avg": 432,
+        "sensor_182_max": 432,
+        "sensor_182_min": 432,
+        "sensor_182_std": 432,
+        "sensor_175_avg": 432,
+        "sensor_175_max": 432
+      },
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "37.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 53713,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "39.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 53727,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "41.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 55666,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "43.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 55153,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "44.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 63003,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "46.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 55133,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "47.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 53993,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "48.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 55297,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "49.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 53014,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "50.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 55153,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "54.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 55585,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "55.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 55753,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "56.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 53416,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "57.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 55009,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "58.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 54433,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "59.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 54865,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "60.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 54433,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "61.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 55585,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "62.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 53448,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "63.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 54865,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "64.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 54433,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "65.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 55918,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "66.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 53503,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "67.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 61489,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "70.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 56038,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "75.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 56161,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "76.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 52086,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "78.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 53146,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "79.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 53281,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "80.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 54913,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "81.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 53932,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "85.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 52417,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "88.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 55441,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "89.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 54577,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "90.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 54880,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "91.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 56608,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "93.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 55873,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "filename": "94.csv",
+      "valid": true,
+      "issues": [],
+      "rows": 54865,
+      "columns": 957,
+      "missing_values_total": 0,
+      "train_test_values": [
+        "prediction",
+        "train"
+      ],
+      "status_types_found": [
+        0,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "all_valid": true,
+  "summary": "All 58 files passed validation."
+}
