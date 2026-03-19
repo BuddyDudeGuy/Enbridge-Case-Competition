@@ -1,0 +1,636 @@
+{
+  "farm": "A",
+  "total_sensors": 54,
+  "category_counts": {
+    "Temperature": 25,
+    "Position/Angle": 4,
+    "Speed/RPM": 4,
+    "Other": 9,
+    "Current": 3,
+    "Power": 6,
+    "Voltage": 3
+  },
+  "sensors": [
+    {
+      "name": "sensor_0",
+      "description": "Ambient temperature",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "average"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_1",
+      "description": "Wind absolute direction",
+      "unit": "\ufffd",
+      "statistic_types": [
+        "average"
+      ],
+      "category": "Position/Angle",
+      "is_angle": true,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_2",
+      "description": "Wind relative direction",
+      "unit": "\ufffd",
+      "statistic_types": [
+        "average"
+      ],
+      "category": "Position/Angle",
+      "is_angle": true,
+      "is_counter": false
+    },
+    {
+      "name": "wind_speed_3",
+      "description": "Windspeed",
+      "unit": "m/s",
+      "statistic_types": [
+        "maximum",
+        "minimum",
+        "average",
+        "std_dev"
+      ],
+      "category": "Speed/RPM",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "wind_speed_4",
+      "description": "Estimated windspeed",
+      "unit": "m/s",
+      "statistic_types": [
+        "average"
+      ],
+      "category": "Speed/RPM",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_5",
+      "description": "Pitch angle",
+      "unit": "\ufffd",
+      "statistic_types": [
+        "maximum",
+        "minimum",
+        "std_dev",
+        "average"
+      ],
+      "category": "Position/Angle",
+      "is_angle": true,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_6",
+      "description": "Temperature in the hub controller",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "average"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_7",
+      "description": "Temperature in the top nacelle controller",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "average"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_8",
+      "description": "Temperature in the choke coils on the VCS-section",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "average"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_9",
+      "description": "Temperature on the VCP-board",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "average"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_10",
+      "description": "Temperature in the VCS cooling water",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "average"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_11",
+      "description": "Temperature in gearbox bearing on high speed shaft",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "average"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_12",
+      "description": "Temperature oil in gearbox",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "average"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_13",
+      "description": "Temperature in generator bearing 2 (Drive End)",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "average"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_14",
+      "description": "Temperature in generator bearing 1 (Non-Drive End)",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "average"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_15",
+      "description": "Temperature inside generator in stator windings phase 1",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "average"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_16",
+      "description": "Temperature inside generator in stator windings phase 2",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "average"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_17",
+      "description": "Temperature inside generator in stator windings phase 3",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "average"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_18",
+      "description": "Generator rpm in latest period",
+      "unit": "rpm",
+      "statistic_types": [
+        "maximum",
+        "minimum",
+        "average",
+        "std_dev"
+      ],
+      "category": "Speed/RPM",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_19",
+      "description": "Temperature in the split ring chamber",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "average"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_20",
+      "description": "Temperature in the busbar section",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "average"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_21",
+      "description": "Temperature measured by the IGBT-driver on the grid side inverter",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "average"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_22",
+      "description": "Actual phase displacement",
+      "unit": "",
+      "statistic_types": [
+        "average"
+      ],
+      "category": "Other",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_23",
+      "description": "Averaged current in phase 1",
+      "unit": "A",
+      "statistic_types": [
+        "average"
+      ],
+      "category": "Current",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_24",
+      "description": "Averaged current in phase 2",
+      "unit": "A",
+      "statistic_types": [
+        "average"
+      ],
+      "category": "Current",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_25",
+      "description": "Averaged current in phase 3",
+      "unit": "A",
+      "statistic_types": [
+        "average"
+      ],
+      "category": "Current",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_26",
+      "description": "Grid frequency",
+      "unit": "Hz",
+      "statistic_types": [
+        "average"
+      ],
+      "category": "Other",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "reactive_power_27",
+      "description": "Possible grid capacitive reactive power",
+      "unit": "kVAr",
+      "statistic_types": [
+        "average",
+        "maximum",
+        "minimum",
+        "std_dev"
+      ],
+      "category": "Other",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "reactive_power_28",
+      "description": "Possible grid inductive reactive power",
+      "unit": "kVAr",
+      "statistic_types": [
+        "average",
+        "maximum",
+        "minimum",
+        "std_dev"
+      ],
+      "category": "Other",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "power_29",
+      "description": "Possible grid active power",
+      "unit": "kW",
+      "statistic_types": [
+        "maximum",
+        "std_dev",
+        "average",
+        "minimum"
+      ],
+      "category": "Power",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "power_30",
+      "description": "Grid power",
+      "unit": "kW",
+      "statistic_types": [
+        "maximum",
+        "std_dev",
+        "minimum",
+        "average"
+      ],
+      "category": "Power",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_31",
+      "description": "Grid reactive power",
+      "unit": "kVAr",
+      "statistic_types": [
+        "average",
+        "maximum",
+        "minimum",
+        "std_dev"
+      ],
+      "category": "Other",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_32",
+      "description": "Averaged voltage in phase 1",
+      "unit": "V",
+      "statistic_types": [
+        "average"
+      ],
+      "category": "Voltage",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_33",
+      "description": "Averaged voltage in phase 2",
+      "unit": "V",
+      "statistic_types": [
+        "average"
+      ],
+      "category": "Voltage",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_34",
+      "description": "Averaged voltage in phase 3",
+      "unit": "V",
+      "statistic_types": [
+        "average"
+      ],
+      "category": "Voltage",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_35",
+      "description": "Temperature measured by the IGBT-driver on the rotor side inverter phase1",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "average"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_36",
+      "description": "Temperature measured by the IGBT-driver on the rotor side inverter phase2",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "average"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_37",
+      "description": "Temperature measured by the IGBT-driver on the rotor side inverter phase3",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "average"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_38",
+      "description": "Temperature in HV transformer phase L1",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "average"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_39",
+      "description": "Temperature in HV transformer phase L2",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "average"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_40",
+      "description": "Temperature in HV transformer phase L3",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "average"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_41",
+      "description": "Temperature oil in hydraulic group",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "average"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_42",
+      "description": "Nacelle direction",
+      "unit": "\ufffd",
+      "statistic_types": [
+        "average"
+      ],
+      "category": "Position/Angle",
+      "is_angle": true,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_43",
+      "description": "Nacelle temperature",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "average"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_44",
+      "description": "Active power - generator disconnected",
+      "unit": "Wh",
+      "statistic_types": [
+        "average"
+      ],
+      "category": "Power",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_45",
+      "description": "Active power - generator connected in delta",
+      "unit": "Wh",
+      "statistic_types": [
+        "average"
+      ],
+      "category": "Power",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_46",
+      "description": "Active power - generator connected in star",
+      "unit": "Wh",
+      "statistic_types": [
+        "average"
+      ],
+      "category": "Power",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_47",
+      "description": "Reactive power - generator disconnected",
+      "unit": "VArh",
+      "statistic_types": [
+        "average"
+      ],
+      "category": "Other",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_48",
+      "description": "Reactive power - generator connected in delta",
+      "unit": "VArh",
+      "statistic_types": [
+        "average"
+      ],
+      "category": "Other",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_49",
+      "description": "Reactive power - generator connected in star",
+      "unit": "VArh",
+      "statistic_types": [
+        "average"
+      ],
+      "category": "Other",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_50",
+      "description": "Total active power",
+      "unit": "Wh",
+      "statistic_types": [
+        "average"
+      ],
+      "category": "Power",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_51",
+      "description": "Total reactive power",
+      "unit": "VArh",
+      "statistic_types": [
+        "average"
+      ],
+      "category": "Other",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_52",
+      "description": "Rotor rpm",
+      "unit": "rpm",
+      "statistic_types": [
+        "minimum",
+        "average",
+        "std_dev",
+        "maximum"
+      ],
+      "category": "Speed/RPM",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_53",
+      "description": "Temperature in the nose cone",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "average"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    }
+  ]
+}

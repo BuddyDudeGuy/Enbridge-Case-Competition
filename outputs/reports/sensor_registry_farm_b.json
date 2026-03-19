@@ -1,0 +1,898 @@
+{
+  "farm": "B",
+  "total_sensors": 63,
+  "category_counts": {
+    "Other": 9,
+    "Power": 5,
+    "Position/Angle": 3,
+    "Speed/RPM": 7,
+    "Temperature": 25,
+    "Voltage": 4,
+    "Current": 7,
+    "Vibration": 3
+  },
+  "sensors": [
+    {
+      "name": "sensor_0",
+      "description": "Total negative reactive power",
+      "unit": "kvarh",
+      "statistic_types": [
+        "maximum",
+        "minimum",
+        "average",
+        "std_dev"
+      ],
+      "category": "Other",
+      "is_angle": false,
+      "is_counter": true
+    },
+    {
+      "name": "sensor_1",
+      "description": "Total negative active power",
+      "unit": "kWh",
+      "statistic_types": [
+        "maximum",
+        "std_dev",
+        "average",
+        "minimum"
+      ],
+      "category": "Power",
+      "is_angle": false,
+      "is_counter": true
+    },
+    {
+      "name": "sensor_2",
+      "description": "Total positive reactive power",
+      "unit": "kvarh",
+      "statistic_types": [
+        "average",
+        "minimum",
+        "maximum",
+        "std_dev"
+      ],
+      "category": "Other",
+      "is_angle": false,
+      "is_counter": true
+    },
+    {
+      "name": "sensor_3",
+      "description": "Total positive active power",
+      "unit": "kWh",
+      "statistic_types": [
+        "maximum",
+        "std_dev",
+        "minimum",
+        "average"
+      ],
+      "category": "Power",
+      "is_angle": false,
+      "is_counter": true
+    },
+    {
+      "name": "sensor_4",
+      "description": "Absolute wind direction",
+      "unit": "\ufffd",
+      "statistic_types": [
+        "average",
+        "maximum",
+        "minimum",
+        "std_dev"
+      ],
+      "category": "Position/Angle",
+      "is_angle": true,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_5",
+      "description": "Torque delta calculated",
+      "unit": "kNm",
+      "statistic_types": [
+        "average",
+        "maximum",
+        "std_dev",
+        "minimum"
+      ],
+      "category": "Other",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_6",
+      "description": "Wind speed anemometer 2 calculated",
+      "unit": "m/s",
+      "statistic_types": [
+        "average",
+        "minimum",
+        "std_dev",
+        "maximum"
+      ],
+      "category": "Speed/RPM",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_7",
+      "description": "Cable load",
+      "unit": "%",
+      "statistic_types": [
+        "std_dev",
+        "maximum",
+        "minimum",
+        "average"
+      ],
+      "category": "Other",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_8",
+      "description": "Outside temperature",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "maximum",
+        "average",
+        "minimum",
+        "std_dev"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_9",
+      "description": "Estimated tower natural frequency",
+      "unit": "mHz",
+      "statistic_types": [
+        "average",
+        "minimum",
+        "maximum",
+        "std_dev"
+      ],
+      "category": "Other",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_10",
+      "description": "Pitch angle",
+      "unit": "\ufffd",
+      "statistic_types": [
+        "maximum",
+        "std_dev",
+        "average",
+        "minimum"
+      ],
+      "category": "Position/Angle",
+      "is_angle": true,
+      "is_counter": false
+    },
+    {
+      "name": "reactive_power_11",
+      "description": "Reactive power",
+      "unit": "kvar",
+      "statistic_types": [
+        "average",
+        "std_dev",
+        "maximum",
+        "minimum"
+      ],
+      "category": "Other",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_12",
+      "description": "Torque estimated",
+      "unit": "Nm",
+      "statistic_types": [
+        "average",
+        "maximum",
+        "std_dev",
+        "minimum"
+      ],
+      "category": "Other",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_13",
+      "description": "RMS voltage L1",
+      "unit": "V",
+      "statistic_types": [
+        "std_dev",
+        "average",
+        "maximum",
+        "minimum"
+      ],
+      "category": "Voltage",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_14",
+      "description": "RMS voltage L2",
+      "unit": "V",
+      "statistic_types": [
+        "maximum",
+        "std_dev",
+        "average",
+        "minimum"
+      ],
+      "category": "Voltage",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_15",
+      "description": "RMS voltage L3",
+      "unit": "V",
+      "statistic_types": [
+        "average",
+        "std_dev",
+        "maximum",
+        "minimum"
+      ],
+      "category": "Voltage",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_16",
+      "description": "RMS current L1",
+      "unit": "A",
+      "statistic_types": [
+        "maximum",
+        "minimum",
+        "average",
+        "std_dev"
+      ],
+      "category": "Current",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_17",
+      "description": "RMS current L2",
+      "unit": "A",
+      "statistic_types": [
+        "average",
+        "maximum",
+        "minimum",
+        "std_dev"
+      ],
+      "category": "Current",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_18",
+      "description": "RMS current L3",
+      "unit": "A",
+      "statistic_types": [
+        "average",
+        "minimum",
+        "std_dev",
+        "maximum"
+      ],
+      "category": "Current",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_19",
+      "description": "Generator converter rotational peed",
+      "unit": "rpm",
+      "statistic_types": [
+        "maximum",
+        "minimum",
+        "average",
+        "std_dev"
+      ],
+      "category": "Speed/RPM",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_20",
+      "description": "Gearbox rotational speed",
+      "unit": "rpm",
+      "statistic_types": [
+        "std_dev",
+        "maximum",
+        "minimum",
+        "average"
+      ],
+      "category": "Speed/RPM",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_21",
+      "description": "Nacelle direction",
+      "unit": "\ufffd",
+      "statistic_types": [
+        "minimum",
+        "maximum",
+        "std_dev",
+        "average"
+      ],
+      "category": "Position/Angle",
+      "is_angle": true,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_22",
+      "description": "Hub temperature",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "std_dev",
+        "maximum",
+        "minimum",
+        "average"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_23",
+      "description": "Grid frequency",
+      "unit": "Hz",
+      "statistic_types": [
+        "minimum",
+        "average",
+        "maximum",
+        "std_dev"
+      ],
+      "category": "Other",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_24",
+      "description": "Grid voltage",
+      "unit": "V",
+      "statistic_types": [
+        "average",
+        "maximum",
+        "minimum",
+        "std_dev"
+      ],
+      "category": "Voltage",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_25",
+      "description": "Rotor speed",
+      "unit": "rpm",
+      "statistic_types": [
+        "average",
+        "maximum",
+        "minimum",
+        "std_dev"
+      ],
+      "category": "Speed/RPM",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_26",
+      "description": "Apparent power",
+      "unit": "kVA",
+      "statistic_types": [
+        "minimum",
+        "std_dev",
+        "average",
+        "maximum"
+      ],
+      "category": "Power",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_27",
+      "description": "Current",
+      "unit": "A",
+      "statistic_types": [
+        "maximum",
+        "minimum",
+        "std_dev",
+        "average"
+      ],
+      "category": "Current",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_28",
+      "description": "Motor current axis 1",
+      "unit": "A",
+      "statistic_types": [
+        "std_dev",
+        "minimum",
+        "average",
+        "maximum"
+      ],
+      "category": "Current",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_29",
+      "description": "Motor current axis 2",
+      "unit": "A",
+      "statistic_types": [
+        "average",
+        "minimum",
+        "std_dev",
+        "maximum"
+      ],
+      "category": "Current",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_30",
+      "description": "Motor current axis 3",
+      "unit": "A",
+      "statistic_types": [
+        "maximum",
+        "std_dev",
+        "minimum",
+        "average"
+      ],
+      "category": "Current",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_31",
+      "description": "Temperature internal consumption transformer",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "average",
+        "minimum",
+        "std_dev",
+        "maximum"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_32",
+      "description": "Generator bearing temperature 1",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "average",
+        "maximum",
+        "minimum",
+        "std_dev"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_33",
+      "description": "Generator bearing temperature 2",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "average",
+        "maximum",
+        "minimum",
+        "std_dev"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_34",
+      "description": "Gearbox bearing temperature 1",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "average",
+        "maximum",
+        "std_dev",
+        "minimum"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_35",
+      "description": "Gearbox bearing temperature 2",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "minimum",
+        "std_dev",
+        "average",
+        "maximum"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_36",
+      "description": "Gearbox bearing temperature 3",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "minimum",
+        "std_dev",
+        "maximum",
+        "average"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_37",
+      "description": "Gearbox bearing temperature 4",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "minimum",
+        "maximum",
+        "std_dev",
+        "average"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_38",
+      "description": "Gearbox oil inlet temperature",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "maximum",
+        "minimum",
+        "std_dev",
+        "average"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_39",
+      "description": "Gearbox oil tank temperature",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "average",
+        "maximum",
+        "minimum",
+        "std_dev"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_40",
+      "description": "Transformator core temperature",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "minimum",
+        "std_dev",
+        "average",
+        "maximum"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_41",
+      "description": "Transformer L1 (mid-voltage) temperature",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "average",
+        "std_dev",
+        "maximum",
+        "minimum"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_42",
+      "description": "Transformer L1 (undervoltage) temperature",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "maximum",
+        "minimum",
+        "std_dev",
+        "average"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_43",
+      "description": "Transformer L2 (mid-voltage) temperature",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "maximum",
+        "average",
+        "minimum",
+        "std_dev"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_44",
+      "description": "Transformer L2 (undervoltage) temperature",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "maximum",
+        "average",
+        "minimum",
+        "std_dev"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_45",
+      "description": "Transformer L3 (mid-voltage) temperature",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "average",
+        "maximum",
+        "minimum",
+        "std_dev"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_46",
+      "description": "Transformer L3 (undervoltage) temperature",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "std_dev",
+        "average",
+        "maximum",
+        "minimum"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_47",
+      "description": "Transformer cell temperature",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "maximum",
+        "minimum",
+        "std_dev",
+        "average"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_48",
+      "description": "Motor temperature axis 1",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "maximum",
+        "std_dev",
+        "average",
+        "minimum"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_49",
+      "description": "Motor temperature axis 2",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "average",
+        "minimum",
+        "maximum",
+        "std_dev"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_50",
+      "description": "Motor temperature axis 3",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "std_dev",
+        "maximum",
+        "minimum",
+        "average"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_51",
+      "description": "Rotor bearing temperature 1",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "average",
+        "std_dev",
+        "maximum",
+        "minimum"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_52",
+      "description": "Rotor bearing temperature 2",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "maximum",
+        "minimum",
+        "std_dev",
+        "average"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_53",
+      "description": "Slip ring temperature Generator",
+      "unit": "\ufffdC",
+      "statistic_types": [
+        "maximum",
+        "minimum",
+        "average",
+        "std_dev"
+      ],
+      "category": "Temperature",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_54",
+      "description": "Drive train vibration axis Z",
+      "unit": "mG",
+      "statistic_types": [
+        "maximum",
+        "minimum",
+        "std_dev",
+        "average"
+      ],
+      "category": "Vibration",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_55",
+      "description": "Tower vibration axis X",
+      "unit": "mG",
+      "statistic_types": [
+        "average",
+        "maximum",
+        "minimum",
+        "std_dev"
+      ],
+      "category": "Vibration",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_56",
+      "description": "Tower vibration axis Y",
+      "unit": "mG",
+      "statistic_types": [
+        "maximum",
+        "minimum",
+        "average",
+        "std_dev"
+      ],
+      "category": "Vibration",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "sensor_57",
+      "description": "Inverter torque",
+      "unit": "Nm",
+      "statistic_types": [
+        "average",
+        "std_dev",
+        "maximum",
+        "minimum"
+      ],
+      "category": "Other",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "power_58",
+      "description": "Available power",
+      "unit": "kW",
+      "statistic_types": [
+        "maximum",
+        "minimum",
+        "average",
+        "std_dev"
+      ],
+      "category": "Power",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "wind_speed_59",
+      "description": "Wind speed 1",
+      "unit": "m/s",
+      "statistic_types": [
+        "average",
+        "maximum",
+        "minimum",
+        "std_dev"
+      ],
+      "category": "Speed/RPM",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "wind_speed_60",
+      "description": "Wind speed 2",
+      "unit": "m/s",
+      "statistic_types": [
+        "average",
+        "minimum",
+        "maximum",
+        "std_dev"
+      ],
+      "category": "Speed/RPM",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "wind_speed_61",
+      "description": "Wind speed",
+      "unit": "m/s",
+      "statistic_types": [
+        "minimum",
+        "average",
+        "maximum",
+        "std_dev"
+      ],
+      "category": "Speed/RPM",
+      "is_angle": false,
+      "is_counter": false
+    },
+    {
+      "name": "power_62",
+      "description": "Active power",
+      "unit": "kW",
+      "statistic_types": [
+        "minimum",
+        "std_dev",
+        "maximum",
+        "average"
+      ],
+      "category": "Power",
+      "is_angle": false,
+      "is_counter": false
+    }
+  ]
+}

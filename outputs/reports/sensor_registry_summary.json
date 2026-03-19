@@ -1,0 +1,178 @@
+{
+  "all_categories": [
+    "Current",
+    "Flow/Level",
+    "Other",
+    "Position/Angle",
+    "Power",
+    "Pressure",
+    "Speed/RPM",
+    "Temperature",
+    "Vibration",
+    "Voltage"
+  ],
+  "per_farm": {
+    "A": {
+      "total_sensors": 54,
+      "category_counts": {
+        "Current": 3,
+        "Flow/Level": 0,
+        "Other": 9,
+        "Position/Angle": 4,
+        "Power": 6,
+        "Pressure": 0,
+        "Speed/RPM": 4,
+        "Temperature": 25,
+        "Vibration": 0,
+        "Voltage": 3
+      }
+    },
+    "B": {
+      "total_sensors": 63,
+      "category_counts": {
+        "Current": 7,
+        "Flow/Level": 0,
+        "Other": 9,
+        "Position/Angle": 3,
+        "Power": 5,
+        "Pressure": 0,
+        "Speed/RPM": 7,
+        "Temperature": 25,
+        "Vibration": 3,
+        "Voltage": 4
+      }
+    },
+    "C": {
+      "total_sensors": 238,
+      "category_counts": {
+        "Current": 44,
+        "Flow/Level": 6,
+        "Other": 24,
+        "Position/Angle": 14,
+        "Power": 11,
+        "Pressure": 24,
+        "Speed/RPM": 13,
+        "Temperature": 77,
+        "Vibration": 4,
+        "Voltage": 21
+      }
+    }
+  },
+  "cross_farm_comparison": {
+    "Current": {
+      "present_in_farms": [
+        "A",
+        "B",
+        "C"
+      ],
+      "counts": {
+        "A": 3,
+        "B": 7,
+        "C": 44
+      }
+    },
+    "Flow/Level": {
+      "present_in_farms": [
+        "C"
+      ],
+      "counts": {
+        "A": 0,
+        "B": 0,
+        "C": 6
+      }
+    },
+    "Other": {
+      "present_in_farms": [
+        "A",
+        "B",
+        "C"
+      ],
+      "counts": {
+        "A": 9,
+        "B": 9,
+        "C": 24
+      }
+    },
+    "Position/Angle": {
+      "present_in_farms": [
+        "A",
+        "B",
+        "C"
+      ],
+      "counts": {
+        "A": 4,
+        "B": 3,
+        "C": 14
+      }
+    },
+    "Power": {
+      "present_in_farms": [
+        "A",
+        "B",
+        "C"
+      ],
+      "counts": {
+        "A": 6,
+        "B": 5,
+        "C": 11
+      }
+    },
+    "Pressure": {
+      "present_in_farms": [
+        "C"
+      ],
+      "counts": {
+        "A": 0,
+        "B": 0,
+        "C": 24
+      }
+    },
+    "Speed/RPM": {
+      "present_in_farms": [
+        "A",
+        "B",
+        "C"
+      ],
+      "counts": {
+        "A": 4,
+        "B": 7,
+        "C": 13
+      }
+    },
+    "Temperature": {
+      "present_in_farms": [
+        "A",
+        "B",
+        "C"
+      ],
+      "counts": {
+        "A": 25,
+        "B": 25,
+        "C": 77
+      }
+    },
+    "Vibration": {
+      "present_in_farms": [
+        "B",
+        "C"
+      ],
+      "counts": {
+        "A": 0,
+        "B": 3,
+        "C": 4
+      }
+    },
+    "Voltage": {
+      "present_in_farms": [
+        "A",
+        "B",
+        "C"
+      ],
+      "counts": {
+        "A": 3,
+        "B": 4,
+        "C": 21
+      }
+    }
+  }
+}
