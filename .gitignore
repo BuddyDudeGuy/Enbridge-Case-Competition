@@ -1,5 +1,5 @@
 # Data (sensitive/large - dataset from Zenodo)
-data/
+/data/
 
 # AI agent config
 .claude/
