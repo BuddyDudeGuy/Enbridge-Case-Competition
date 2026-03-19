@@ -1,0 +1,67 @@
+{
+  "total_events": 95,
+  "anomaly_count": 45,
+  "normal_count": 50,
+  "per_farm": {
+    "A": {
+      "events": 22,
+      "anomalies": 12,
+      "normals": 10,
+      "unique_assets": 5
+    },
+    "B": {
+      "events": 15,
+      "anomalies": 6,
+      "normals": 9,
+      "unique_assets": 9
+    },
+    "C": {
+      "events": 58,
+      "anomalies": 27,
+      "normals": 31,
+      "unique_assets": 22
+    }
+  },
+  "fault_type_distribution": {
+    "Hydraulic group": 6,
+    "high temperature in transformer cell": 3,
+    "Gearbox failure": 2,
+    "Generator bearing failure": 2,
+    "23020 : Axis 3 not ready-to-operate": 2,
+    "Transformer failure": 1,
+    "Gearbox bearings damaged": 1,
+    "Rotor Bearing 2 - Damage": 1,
+    "Turbine is stopped due to a main bearing damage": 1,
+    "Turbine is in standstill since 01.08 due to rotorbearing damage.": 1,
+    "Harting plug Nacelle/HUB damaged + NCR20_HUB: Wiring blade control system": 1,
+    "Converter Failure from 17.11 12:30 - 18.11. 13:57, Fuse Filter Supply ": 1,
+    "Failure due to Rotorbrake and Hydraulic problemes - Hydraulic pump A disabeld, 2h later turbine back in production - Analysis indicates a longer anomaly in temp_hydraulic_oil_tank_1_average until 15.01.2024 which is neither confirmed nor refuted.": 1,
+    "10115 : Oil level error, two-pump mode + Oil Leakage Gear Oil Supply + 12019: Rotor brake B cannot be closed + P20_yaw carbon brush damaged": 1,
+    "We had some failures (st\u00f6rung 24VAC Versorgung Rotorbremse) on the 16th in the afternoon. From 17th onwards a longer standstill where we don't know the root cause to. ": 1,
+    "P20_spinner_carbonbrush defekt + P20_Accumulators_hydraulic system": 1,
+    "15004 : Safety chain relay open + 93005 : Gear oil cooler bypass valve": 1,
+    "Pitchfailure - defect Beckhoffcard, Axis 2, rectified on 23/01 - Anomalie liegt aber l\u00e4nger an als der Fehler, Batterien waren ok": 1,
+    "Randomn small failures regarding pitch resulting in a longer standstill due to a defect pitch encoder (26/02)": 1,
+    "P20_Grounding role brake disc + P20_cover-lightning-main-cabinet-hub": 1,
+    "Communication fault BK1120 in NC300": 1,
+    "Pitch failure - defect fan on pitch motor": 1,
+    "P20_Blade3_Grease Collector missing": 1,
+    "P20_DGUV-v3 RCD 28F1 NC310 defective + 0 : P20_Blades_Cabinet Caps missing": 1,
+    "Valve in water cooling system was left in wrong position after maintenance actions on 05-08-2020": 1,
+    "Failure 2023-04-05 03:30 - defective coupling between gear oil pump and motor": 1,
+    "Communication and Pitchfailure - slip ring and Beckhoff card": 1,
+    "Turbine has some issues with overpressure on the main transformer": 1,
+    "PENDING19_PREV_YAW_Grease pump defective": 1,
+    "WEC in failure - current measurement own consumption": 1,
+    "COMMUNICATION FAULT BK1120 IN NC300 A2": 1,
+    "21002 : Axis 1 DC-link voltage low, batt": 1,
+    "Turbine had several short standstills (max 8min) with failure \"Schwingungen Umrichter Drehmomenten Level 1\"": 1,
+    "WEC in failure - hub battery charger defect": 1,
+    "WEC in failure with pitch battery issues - rewiring": 1
+  },
+  "unique_assets_per_farm": {
+    "A": 5,
+    "B": 9,
+    "C": 22
+  }
+}
