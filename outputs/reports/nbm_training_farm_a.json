@@ -1,0 +1,81 @@
+{
+  "farm": "Wind Farm A",
+  "farm_letter": "A",
+  "input_features": [
+    "wind_speed_3_avg",
+    "wind_speed_4_avg",
+    "power_29_avg",
+    "power_30_avg",
+    "sensor_0_avg",
+    "sensor_18_avg",
+    "sensor_52_avg",
+    "sensor_5_avg"
+  ],
+  "lgbm_params": {
+    "n_estimators": 500,
+    "learning_rate": 0.05,
+    "max_depth": 6,
+    "num_leaves": 31,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "random_state": 42,
+    "verbose": -1
+  },
+  "models": [
+    {
+      "subsystem": "gearbox",
+      "target_sensor": "sensor_12_avg",
+      "target_description": "Temperature oil in gearbox",
+      "n_training_rows": 464694,
+      "n_dropped_nan": 0,
+      "mae": 2.032584,
+      "rmse": 2.642045,
+      "r2": 0.852237,
+      "training_time_seconds": 3.81
+    },
+    {
+      "subsystem": "generator_bearings",
+      "target_sensor": "sensor_13_avg",
+      "target_description": "Temperature in generator bearing 2 (Drive End)",
+      "n_training_rows": 464694,
+      "n_dropped_nan": 0,
+      "mae": 4.004201,
+      "rmse": 5.362205,
+      "r2": 0.839636,
+      "training_time_seconds": 1.92
+    },
+    {
+      "subsystem": "transformer",
+      "target_sensor": "sensor_38_avg",
+      "target_description": "Temperature in HV transformer phase L1",
+      "n_training_rows": 464694,
+      "n_dropped_nan": 0,
+      "mae": 7.749341,
+      "rmse": 9.231835,
+      "r2": 0.510144,
+      "training_time_seconds": 1.62
+    },
+    {
+      "subsystem": "hydraulic",
+      "target_sensor": "sensor_41_avg",
+      "target_description": "Temperature oil in hydraulic group",
+      "n_training_rows": 464694,
+      "n_dropped_nan": 0,
+      "mae": 4.048551,
+      "rmse": 5.257572,
+      "r2": 0.633269,
+      "training_time_seconds": 1.77
+    },
+    {
+      "subsystem": "cooling",
+      "target_sensor": "sensor_10_avg",
+      "target_description": "Temperature in the VCS cooling water",
+      "n_training_rows": 464694,
+      "n_dropped_nan": 0,
+      "mae": 1.161861,
+      "rmse": 1.597953,
+      "r2": 0.898997,
+      "training_time_seconds": 1.65
+    }
+  ]
+}

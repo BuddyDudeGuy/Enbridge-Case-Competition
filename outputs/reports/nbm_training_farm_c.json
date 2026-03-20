@@ -1,0 +1,86 @@
+{
+  "farm": "Wind Farm C",
+  "farm_letter": "C",
+  "input_features": [
+    "wind_speed_235_avg",
+    "wind_speed_236_avg",
+    "wind_speed_237_avg",
+    "power_6_avg",
+    "power_5_avg",
+    "sensor_7_avg",
+    "sensor_144_avg",
+    "sensor_145_avg",
+    "sensor_8_avg",
+    "sensor_76_avg",
+    "sensor_103_avg",
+    "sensor_104_avg",
+    "sensor_105_avg"
+  ],
+  "lgbm_params": {
+    "n_estimators": 500,
+    "learning_rate": 0.05,
+    "max_depth": 6,
+    "num_leaves": 31,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "random_state": 42,
+    "verbose": -1
+  },
+  "models": [
+    {
+      "subsystem": "gearbox",
+      "target_sensor": "sensor_186_avg",
+      "target_description": "Gearbox oil temperature 1",
+      "n_training_rows": 1438937,
+      "n_dropped_nan": 140,
+      "mae": 1.528622,
+      "rmse": 2.121313,
+      "r2": 0.799134,
+      "training_time_seconds": 8.98
+    },
+    {
+      "subsystem": "generator_bearings",
+      "target_sensor": "sensor_196_avg",
+      "target_description": "Rotor bearing temperature 1",
+      "n_training_rows": 1438937,
+      "n_dropped_nan": 140,
+      "mae": 1.638208,
+      "rmse": 2.291426,
+      "r2": 0.728647,
+      "training_time_seconds": 6.55
+    },
+    {
+      "subsystem": "transformer",
+      "target_sensor": "sensor_191_avg",
+      "target_description": "Oil temperature 1 main transformer",
+      "n_training_rows": 1438937,
+      "n_dropped_nan": 140,
+      "mae": 2.793879,
+      "rmse": 3.743024,
+      "r2": 0.575985,
+      "training_time_seconds": 6.83
+    },
+    {
+      "subsystem": "hydraulic",
+      "target_sensor": "sensor_178_avg",
+      "target_description": "Hydraulic oil tank temperature 1",
+      "n_training_rows": 1438937,
+      "n_dropped_nan": 140,
+      "mae": 2.16446,
+      "rmse": 2.850494,
+      "r2": 0.69191,
+      "training_time_seconds": 6.56
+    },
+    {
+      "subsystem": "cooling",
+      "target_sensor": "sensor_228_avg",
+      "target_description": "Cooling water temp. generator inlet 1",
+      "n_training_rows": 1438937,
+      "n_dropped_nan": 140,
+      "mae": 1.555046,
+      "rmse": 2.566966,
+      "r2": 0.688723,
+      "training_time_seconds": 5.88
+    }
+  ]
+}

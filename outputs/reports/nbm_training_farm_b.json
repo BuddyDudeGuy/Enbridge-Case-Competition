@@ -1,0 +1,61 @@
+{
+  "farm": "Wind Farm B",
+  "farm_letter": "B",
+  "input_features": [
+    "wind_speed_59_avg",
+    "wind_speed_60_avg",
+    "wind_speed_61_avg",
+    "power_62_avg",
+    "power_58_avg",
+    "sensor_8_avg",
+    "sensor_19_avg",
+    "sensor_20_avg",
+    "sensor_25_avg",
+    "sensor_10_avg"
+  ],
+  "lgbm_params": {
+    "n_estimators": 500,
+    "learning_rate": 0.05,
+    "max_depth": 6,
+    "num_leaves": 31,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "random_state": 42,
+    "verbose": -1
+  },
+  "models": [
+    {
+      "subsystem": "gearbox",
+      "target_sensor": "sensor_39_avg",
+      "target_description": "Gearbox oil tank temperature",
+      "n_training_rows": 418792,
+      "n_dropped_nan": 0,
+      "mae": 1.538642,
+      "rmse": 2.385063,
+      "r2": 0.812943,
+      "training_time_seconds": 7.04
+    },
+    {
+      "subsystem": "generator_bearings",
+      "target_sensor": "sensor_32_avg",
+      "target_description": "Generator bearing temperature 1",
+      "n_training_rows": 418792,
+      "n_dropped_nan": 0,
+      "mae": 6.152205,
+      "rmse": 10.219248,
+      "r2": 0.318023,
+      "training_time_seconds": 4.22
+    },
+    {
+      "subsystem": "transformer",
+      "target_sensor": "sensor_40_avg",
+      "target_description": "Transformator core temperature",
+      "n_training_rows": 418792,
+      "n_dropped_nan": 0,
+      "mae": 4.098233,
+      "rmse": 5.652991,
+      "r2": 0.472425,
+      "training_time_seconds": 2.96
+    }
+  ]
+}
