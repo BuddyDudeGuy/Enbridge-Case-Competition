@@ -1,0 +1,449 @@
+{
+  "description": "Phase 4.4 \u2014 Threshold calibration results",
+  "n_events": 95,
+  "n_anomaly": 45,
+  "n_normal": 50,
+  "recommended_strategy": "strategy_2_best_feature",
+  "recommended_strategy_name": "2.  Best single feature",
+  "conservative_strategy": "strategy_1c_p99_perfarm",
+  "conservative_strategy_name": "1c. Percentile p99 (per-farm)",
+  "analysis": {
+    "care_proxy_formula": "2*accuracy + detection_rate",
+    "care_formula": "(2*Accuracy + Detection + Earliness) / 4",
+    "key_findings": [
+      "Transformer and hydraulic models (R2 < 0) are the primary source of false alarms",
+      "Restricting to strong models (R2 >= 0.5) dramatically reduces false alarms",
+      "Per-farm thresholds outperform global thresholds (farms have different normal baselines)",
+      "Best overall: 2.  Best single feature \u2014 CARE proxy 2.138",
+      "Best conservative: 1c. Percentile p99 (per-farm) \u2014 low false alarm with decent detection"
+    ]
+  },
+  "strategies": {
+    "strategy_1a_p95_global": {
+      "tp": 17,
+      "fp": 10,
+      "tn": 40,
+      "fn": 28,
+      "n_anomaly": 45,
+      "n_normal": 50,
+      "detection_rate": 0.3778,
+      "false_alarm_rate": 0.2,
+      "accuracy_care": 0.8,
+      "precision": 0.6296,
+      "f1": 0.4722,
+      "care_safe": true,
+      "thresholds": {
+        "gearbox": 24.3864,
+        "generator_bearings": 67.4118,
+        "transformer": 30.8771,
+        "hydraulic": 19.8891,
+        "cooling": 23.0837
+      },
+      "percentile": 95
+    },
+    "strategy_1b_p99_global": {
+      "tp": 8,
+      "fp": 4,
+      "tn": 46,
+      "fn": 37,
+      "n_anomaly": 45,
+      "n_normal": 50,
+      "detection_rate": 0.1778,
+      "false_alarm_rate": 0.08,
+      "accuracy_care": 0.92,
+      "precision": 0.6667,
+      "f1": 0.2807,
+      "care_safe": true,
+      "thresholds": {
+        "gearbox": 26.9801,
+        "generator_bearings": 73.2285,
+        "transformer": 50.6532,
+        "hydraulic": 24.0551,
+        "cooling": 33.8554
+      },
+      "percentile": 99
+    },
+    "strategy_1c_p99_perfarm": {
+      "tp": 20,
+      "fp": 8,
+      "tn": 42,
+      "fn": 25,
+      "n_anomaly": 45,
+      "n_normal": 50,
+      "detection_rate": 0.4444,
+      "false_alarm_rate": 0.16,
+      "accuracy_care": 0.84,
+      "precision": 0.7143,
+      "f1": 0.5479,
+      "care_safe": true,
+      "thresholds_per_farm": {
+        "A": {
+          "gearbox": 18.2811,
+          "generator_bearings": 26.6378,
+          "transformer": 31.0437,
+          "hydraulic": 20.8979,
+          "cooling": 10.6439
+        },
+        "B": {
+          "gearbox": 25.1045,
+          "generator_bearings": 74.0255,
+          "transformer": 66.3877
+        },
+        "C": {
+          "gearbox": 26.085,
+          "generator_bearings": 24.5432,
+          "transformer": 26.9674,
+          "hydraulic": 24.2313,
+          "cooling": 34.838
+        }
+      },
+      "percentile": 99
+    },
+    "strategy_1d_p99_strong_only": {
+      "tp": 5,
+      "fp": 1,
+      "tn": 49,
+      "fn": 40,
+      "n_anomaly": 45,
+      "n_normal": 50,
+      "detection_rate": 0.1111,
+      "false_alarm_rate": 0.02,
+      "accuracy_care": 0.98,
+      "precision": 0.8333,
+      "f1": 0.1961,
+      "care_safe": true,
+      "thresholds": {
+        "gearbox": 26.9801,
+        "generator_bearings": 73.2285,
+        "transformer": 50.6532,
+        "hydraulic": 24.0551,
+        "cooling": 33.8554
+      },
+      "strong_subs_per_farm": {
+        "A": [
+          "gearbox",
+          "generator_bearings",
+          "cooling"
+        ],
+        "B": [
+          "gearbox"
+        ],
+        "C": [
+          "gearbox",
+          "generator_bearings",
+          "cooling"
+        ]
+      },
+      "percentile": 99
+    },
+    "strategy_1e_p95_strong_only": {
+      "tp": 10,
+      "fp": 4,
+      "tn": 46,
+      "fn": 35,
+      "n_anomaly": 45,
+      "n_normal": 50,
+      "detection_rate": 0.2222,
+      "false_alarm_rate": 0.08,
+      "accuracy_care": 0.92,
+      "precision": 0.7143,
+      "f1": 0.339,
+      "care_safe": true,
+      "thresholds": {
+        "gearbox": 24.3864,
+        "generator_bearings": 67.4118,
+        "transformer": 30.8771,
+        "hydraulic": 19.8891,
+        "cooling": 23.0837
+      },
+      "strong_subs_per_farm": {
+        "A": [
+          "gearbox",
+          "generator_bearings",
+          "cooling"
+        ],
+        "B": [
+          "gearbox"
+        ],
+        "C": [
+          "gearbox",
+          "generator_bearings",
+          "cooling"
+        ]
+      },
+      "percentile": 95
+    },
+    "strategy_2_best_feature": {
+      "tp": 35,
+      "fp": 16,
+      "tn": 34,
+      "fn": 10,
+      "n_anomaly": 45,
+      "n_normal": 50,
+      "detection_rate": 0.7778,
+      "false_alarm_rate": 0.32,
+      "accuracy_care": 0.68,
+      "precision": 0.6863,
+      "f1": 0.7292,
+      "care_safe": true,
+      "feature": "transformer_overall_std",
+      "threshold": 3.953358,
+      "youden_j": 0.4578
+    },
+    "strategy_3a_zscore_all": {
+      "tp": 31,
+      "fp": 20,
+      "tn": 30,
+      "fn": 14,
+      "n_anomaly": 45,
+      "n_normal": 50,
+      "detection_rate": 0.6889,
+      "false_alarm_rate": 0.4,
+      "accuracy_care": 0.6,
+      "precision": 0.6078,
+      "f1": 0.6458,
+      "care_safe": true,
+      "z_threshold": 0.0,
+      "youden_j": 0.2889,
+      "subsystem_weights": {
+        "gearbox": 0.4021,
+        "generator_bearings": 0.2295,
+        "transformer": 0.0,
+        "hydraulic": 0.0,
+        "cooling": 0.3684
+      },
+      "normal_stats": {
+        "gearbox": {
+          "mean": 13.4941,
+          "std": 5.4515
+        },
+        "generator_bearings": {
+          "mean": 20.577,
+          "std": 18.4812
+        },
+        "transformer": {
+          "mean": 18.0362,
+          "std": 9.7957
+        },
+        "hydraulic": {
+          "mean": 11.1545,
+          "std": 5.3479
+        },
+        "cooling": {
+          "mean": 14.0262,
+          "std": 6.7099
+        }
+      }
+    },
+    "strategy_3b_zscore_strong": {
+      "tp": 29,
+      "fp": 16,
+      "tn": 34,
+      "fn": 16,
+      "n_anomaly": 45,
+      "n_normal": 50,
+      "detection_rate": 0.6444,
+      "false_alarm_rate": 0.32,
+      "accuracy_care": 0.68,
+      "precision": 0.6444,
+      "f1": 0.6444,
+      "care_safe": true,
+      "z_threshold": 0.1,
+      "youden_j": 0.3244,
+      "subsystem_weights": {
+        "gearbox": 0.3565,
+        "generator_bearings": 0.3169,
+        "transformer": 0.0,
+        "hydraulic": 0.0,
+        "cooling": 0.3266
+      },
+      "strong_subs_per_farm": {
+        "A": [
+          "gearbox",
+          "generator_bearings",
+          "cooling"
+        ],
+        "B": [
+          "gearbox"
+        ],
+        "C": [
+          "gearbox",
+          "generator_bearings",
+          "cooling"
+        ]
+      }
+    },
+    "strategy_4a_multifeat_p95": {
+      "tp": 35,
+      "fp": 23,
+      "tn": 27,
+      "fn": 10,
+      "n_anomaly": 45,
+      "n_normal": 50,
+      "detection_rate": 0.7778,
+      "false_alarm_rate": 0.46,
+      "accuracy_care": 0.54,
+      "precision": 0.6034,
+      "f1": 0.6796,
+      "care_safe": true,
+      "thresholds_per_farm": {
+        "A": {
+          "gearbox": {
+            "overall_max": 17.6655,
+            "max_24h": 9.0004,
+            "overall_std": 3.08,
+            "anomaly_frac": 0.091
+          },
+          "generator_bearings": {
+            "overall_max": 25.9246,
+            "max_24h": 20.5564,
+            "overall_std": 5.7422,
+            "anomaly_frac": 0.1385
+          },
+          "cooling": {
+            "overall_max": 9.5975,
+            "max_24h": 6.8789,
+            "overall_std": 1.8295,
+            "anomaly_frac": 0.0877
+          }
+        },
+        "B": {
+          "gearbox": {
+            "overall_max": 24.8826,
+            "max_24h": 20.6224,
+            "overall_std": 3.6895,
+            "anomaly_frac": 0.0835
+          }
+        },
+        "C": {
+          "gearbox": {
+            "overall_max": 19.2897,
+            "max_24h": 7.5563,
+            "overall_std": 3.4663,
+            "anomaly_frac": 0.1041
+          },
+          "generator_bearings": {
+            "overall_max": 16.4769,
+            "max_24h": 7.4493,
+            "overall_std": 3.3635,
+            "anomaly_frac": 0.0973
+          },
+          "cooling": {
+            "overall_max": 25.5216,
+            "max_24h": 16.8038,
+            "overall_std": 4.6089,
+            "anomaly_frac": 0.1086
+          }
+        }
+      },
+      "strong_subs_per_farm": {
+        "A": [
+          "gearbox",
+          "generator_bearings",
+          "cooling"
+        ],
+        "B": [
+          "gearbox"
+        ],
+        "C": [
+          "gearbox",
+          "generator_bearings",
+          "cooling"
+        ]
+      },
+      "feature_suffixes": [
+        "overall_max",
+        "max_24h",
+        "overall_std",
+        "anomaly_frac"
+      ],
+      "percentile": 95
+    },
+    "strategy_4b_multifeat_p99": {
+      "tp": 29,
+      "fp": 18,
+      "tn": 32,
+      "fn": 16,
+      "n_anomaly": 45,
+      "n_normal": 50,
+      "detection_rate": 0.6444,
+      "false_alarm_rate": 0.36,
+      "accuracy_care": 0.64,
+      "precision": 0.617,
+      "f1": 0.6304,
+      "care_safe": true,
+      "thresholds_per_farm": {
+        "A": {
+          "gearbox": {
+            "overall_max": 18.2811,
+            "max_24h": 9.4989,
+            "overall_std": 3.2209,
+            "anomaly_frac": 0.1047
+          },
+          "generator_bearings": {
+            "overall_max": 26.6378,
+            "max_24h": 21.8213,
+            "overall_std": 5.8432,
+            "anomaly_frac": 0.1527
+          },
+          "cooling": {
+            "overall_max": 10.6439,
+            "max_24h": 6.8997,
+            "overall_std": 1.8853,
+            "anomaly_frac": 0.0882
+          }
+        },
+        "B": {
+          "gearbox": {
+            "overall_max": 25.1045,
+            "max_24h": 21.115,
+            "overall_std": 3.7056,
+            "anomaly_frac": 0.0864
+          }
+        },
+        "C": {
+          "gearbox": {
+            "overall_max": 26.085,
+            "max_24h": 11.6085,
+            "overall_std": 3.6675,
+            "anomaly_frac": 0.1242
+          },
+          "generator_bearings": {
+            "overall_max": 24.5432,
+            "max_24h": 11.4408,
+            "overall_std": 4.4598,
+            "anomaly_frac": 0.1336
+          },
+          "cooling": {
+            "overall_max": 34.838,
+            "max_24h": 21.8983,
+            "overall_std": 7.2231,
+            "anomaly_frac": 0.1381
+          }
+        }
+      },
+      "strong_subs_per_farm": {
+        "A": [
+          "gearbox",
+          "generator_bearings",
+          "cooling"
+        ],
+        "B": [
+          "gearbox"
+        ],
+        "C": [
+          "gearbox",
+          "generator_bearings",
+          "cooling"
+        ]
+      },
+      "feature_suffixes": [
+        "overall_max",
+        "max_24h",
+        "overall_std",
+        "anomaly_frac"
+      ],
+      "percentile": 99
+    }
+  }
+}
