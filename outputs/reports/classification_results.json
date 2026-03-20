@@ -1,0 +1,1392 @@
+{
+  "description": "Phase 4.6 -- Event-level classification results",
+  "strategy": "Union of best-single-feature (transformer_overall_std) + weighted z-score voting (strong models)",
+  "overall_metrics": {
+    "tp": 39,
+    "fp": 16,
+    "tn": 34,
+    "fn": 6,
+    "n_total": 95,
+    "n_anomaly": 45,
+    "n_normal": 50,
+    "accuracy": 0.7684,
+    "precision": 0.7091,
+    "recall": 0.8667,
+    "f1": 0.78,
+    "specificity": 0.68,
+    "care_accuracy": 0.68,
+    "detection_rate": 0.8667,
+    "false_alarm_rate": 0.32
+  },
+  "per_farm_metrics": {
+    "A": {
+      "tp": 9,
+      "fp": 1,
+      "tn": 9,
+      "fn": 3,
+      "n_total": 22,
+      "n_anomaly": 12,
+      "n_normal": 10,
+      "accuracy": 0.8182,
+      "precision": 0.9,
+      "recall": 0.75,
+      "f1": 0.8182,
+      "specificity": 0.9,
+      "care_accuracy": 0.9,
+      "detection_rate": 0.75,
+      "false_alarm_rate": 0.1
+    },
+    "B": {
+      "tp": 5,
+      "fp": 3,
+      "tn": 6,
+      "fn": 1,
+      "n_total": 15,
+      "n_anomaly": 6,
+      "n_normal": 9,
+      "accuracy": 0.7333,
+      "precision": 0.625,
+      "recall": 0.8333,
+      "f1": 0.7143,
+      "specificity": 0.6667,
+      "care_accuracy": 0.6667,
+      "detection_rate": 0.8333,
+      "false_alarm_rate": 0.3333
+    },
+    "C": {
+      "tp": 25,
+      "fp": 12,
+      "tn": 19,
+      "fn": 2,
+      "n_total": 58,
+      "n_anomaly": 27,
+      "n_normal": 31,
+      "accuracy": 0.7586,
+      "precision": 0.6757,
+      "recall": 0.9259,
+      "f1": 0.7813,
+      "specificity": 0.6129,
+      "care_accuracy": 0.6129,
+      "detection_rate": 0.9259,
+      "false_alarm_rate": 0.3871
+    }
+  },
+  "correct_anomalies": [
+    {
+      "farm": "A",
+      "event_id": 40,
+      "aggregated_score": 6.2515,
+      "confidence": 3.4381,
+      "transformer_overall_std": 5.7505,
+      "weighted_zscore": 3.8819,
+      "description": "Generator bearing failure"
+    },
+    {
+      "farm": "C",
+      "event_id": 33,
+      "aggregated_score": 5.718,
+      "confidence": 47.5189,
+      "transformer_overall_std": 5.5868,
+      "weighted_zscore": 52.3708,
+      "description": "P20_Blade3_Grease Collector missing"
+    },
+    {
+      "farm": "C",
+      "event_id": 11,
+      "aggregated_score": 5.3562,
+      "confidence": 48.4938,
+      "transformer_overall_std": 6.6736,
+      "weighted_zscore": 53.4432,
+      "description": "P20_DGUV-v3 RCD 28F1 NC310 defective + 0 : P20_Blades_Cabinet Caps missing"
+    },
+    {
+      "farm": "C",
+      "event_id": 5,
+      "aggregated_score": 4.9579,
+      "confidence": 0.9425,
+      "transformer_overall_std": 7.0454,
+      "weighted_zscore": 0.3422,
+      "description": "WEC in failure - current measurement own consumption"
+    },
+    {
+      "farm": "C",
+      "event_id": 30,
+      "aggregated_score": 4.2543,
+      "confidence": 1.8317,
+      "transformer_overall_std": 10.2707,
+      "weighted_zscore": 0.3606,
+      "description": "Pitch failure - defect fan on pitch motor"
+    },
+    {
+      "farm": "C",
+      "event_id": 31,
+      "aggregated_score": 4.0138,
+      "confidence": 1.7484,
+      "transformer_overall_std": 9.9685,
+      "weighted_zscore": 1.5254,
+      "description": "Communication and Pitchfailure - slip ring and Beckhoff card"
+    },
+    {
+      "farm": "C",
+      "event_id": 16,
+      "aggregated_score": 3.8643,
+      "confidence": 1.8694,
+      "transformer_overall_std": 10.4075,
+      "weighted_zscore": 1.0522,
+      "description": "WEC in failure - hub battery charger defect"
+    },
+    {
+      "farm": "C",
+      "event_id": 66,
+      "aggregated_score": 3.6396,
+      "confidence": 1.4632,
+      "transformer_overall_std": 8.9343,
+      "weighted_zscore": 0.5367,
+      "description": "Pitchfailure - defect Beckhoffcard, Axis 2, rectified on 23/01 - Anomalie liegt aber l\u00e4nger an als der Fehler, Batterien waren ok"
+    },
+    {
+      "farm": "C",
+      "event_id": 79,
+      "aggregated_score": 3.3958,
+      "confidence": 0.4122,
+      "transformer_overall_std": 3.5165,
+      "weighted_zscore": 0.5534,
+      "description": "Communication fault BK1120 in NC300"
+    },
+    {
+      "farm": "C",
+      "event_id": 35,
+      "aggregated_score": 2.9971,
+      "confidence": 0.6177,
+      "transformer_overall_std": 5.8675,
+      "weighted_zscore": 0.3271,
+      "description": "Turbine had several short standstills (max 8min) with failure \"Schwingungen Umrichter Drehmomenten Level 1\""
+    },
+    {
+      "farm": "A",
+      "event_id": 0,
+      "aggregated_score": 2.855,
+      "confidence": 0.2313,
+      "transformer_overall_std": 8.615,
+      "weighted_zscore": 0.2681,
+      "description": "Generator bearing failure"
+    },
+    {
+      "farm": "C",
+      "event_id": 39,
+      "aggregated_score": 2.8382,
+      "confidence": 1.5085,
+      "transformer_overall_std": 9.0986,
+      "weighted_zscore": 0.4612,
+      "description": "15004 : Safety chain relay open + 93005 : Gear oil cooler bypass valve"
+    },
+    {
+      "farm": "C",
+      "event_id": 18,
+      "aggregated_score": 2.8381,
+      "confidence": 0.6728,
+      "transformer_overall_std": 6.0674,
+      "weighted_zscore": 0.2761,
+      "description": "We had some failures (st\u00f6rung 24VAC Versorgung Rotorbremse) on the 16th in the afternoon. From 17th onwards a longer standstill where we don't know the root cause to. "
+    },
+    {
+      "farm": "A",
+      "event_id": 42,
+      "aggregated_score": 2.3004,
+      "confidence": 0.5041,
+      "transformer_overall_std": 5.6146,
+      "weighted_zscore": 0.6545,
+      "description": "Hydraulic group"
+    },
+    {
+      "farm": "A",
+      "event_id": 73,
+      "aggregated_score": 2.0836,
+      "confidence": 0.0872,
+      "transformer_overall_std": 7.6068,
+      "weighted_zscore": -0.4011,
+      "description": "Hydraulic group"
+    },
+    {
+      "farm": "C",
+      "event_id": 49,
+      "aggregated_score": 1.7833,
+      "confidence": 0.5314,
+      "transformer_overall_std": 5.5546,
+      "weighted_zscore": 0.0603,
+      "description": "Failure 2023-04-05 03:30 - defective coupling between gear oil pump and motor"
+    },
+    {
+      "farm": "C",
+      "event_id": 28,
+      "aggregated_score": 1.3604,
+      "confidence": 0.5175,
+      "transformer_overall_std": 5.504,
+      "weighted_zscore": 0.5122,
+      "description": "P20_spinner_carbonbrush defekt + P20_Accumulators_hydraulic system"
+    },
+    {
+      "farm": "A",
+      "event_id": 10,
+      "aggregated_score": 1.316,
+      "confidence": 0.1014,
+      "transformer_overall_std": 7.7059,
+      "weighted_zscore": -0.3353,
+      "description": "Gearbox failure"
+    },
+    {
+      "farm": "A",
+      "event_id": 45,
+      "aggregated_score": 1.3003,
+      "confidence": 0.0453,
+      "transformer_overall_std": 7.3133,
+      "weighted_zscore": -0.5819,
+      "description": "Hydraulic group"
+    },
+    {
+      "farm": "C",
+      "event_id": 47,
+      "aggregated_score": 1.1403,
+      "confidence": 0.011,
+      "transformer_overall_std": 3.6671,
+      "weighted_zscore": -0.1755,
+      "description": "Failure due to Rotorbrake and Hydraulic problemes - Hydraulic pump A disabeld, 2h later turbine back in production - Analysis indicates a longer anomaly in temp_hydraulic_oil_tank_1_average until 15.01.2024 which is neither confirmed nor refuted."
+    },
+    {
+      "farm": "C",
+      "event_id": 76,
+      "aggregated_score": 1.0133,
+      "confidence": 0.4828,
+      "transformer_overall_std": 5.3782,
+      "weighted_zscore": -0.3583,
+      "description": "WEC in failure with pitch battery issues - rewiring"
+    },
+    {
+      "farm": "C",
+      "event_id": 9,
+      "aggregated_score": 0.9446,
+      "confidence": 0.4155,
+      "transformer_overall_std": 5.1341,
+      "weighted_zscore": -0.2803,
+      "description": "PENDING19_PREV_YAW_Grease pump defective"
+    },
+    {
+      "farm": "A",
+      "event_id": 72,
+      "aggregated_score": 0.942,
+      "confidence": 0.0373,
+      "transformer_overall_std": 7.2574,
+      "weighted_zscore": 0.1227,
+      "description": "Gearbox failure"
+    },
+    {
+      "farm": "B",
+      "event_id": 77,
+      "aggregated_score": 0.9096,
+      "confidence": 2.3407,
+      "transformer_overall_std": 5.5041,
+      "weighted_zscore": 2.6747,
+      "description": "Turbine is in standstill since 01.08 due to rotorbearing damage."
+    },
+    {
+      "farm": "A",
+      "event_id": 51,
+      "aggregated_score": 0.8617,
+      "confidence": 0.0722,
+      "transformer_overall_std": 7.5016,
+      "weighted_zscore": 0.1227,
+      "description": "Gearbox bearings damaged"
+    },
+    {
+      "farm": "B",
+      "event_id": 7,
+      "aggregated_score": 0.8295,
+      "confidence": 0.8995,
+      "transformer_overall_std": 4.575,
+      "weighted_zscore": 1.0894,
+      "description": "high temperature in transformer cell"
+    },
+    {
+      "farm": "C",
+      "event_id": 12,
+      "aggregated_score": 0.8109,
+      "confidence": 0.2281,
+      "transformer_overall_std": 3.6395,
+      "weighted_zscore": 0.3509,
+      "description": "10115 : Oil level error, two-pump mode + Oil Leakage Gear Oil Supply + 12019: Rotor brake B cannot be closed + P20_yaw carbon brush damaged"
+    },
+    {
+      "farm": "B",
+      "event_id": 27,
+      "aggregated_score": 0.8076,
+      "confidence": 1.5261,
+      "transformer_overall_std": 3.9684,
+      "weighted_zscore": 1.7788,
+      "description": "Turbine is stopped due to a main bearing damage"
+    },
+    {
+      "farm": "C",
+      "event_id": 55,
+      "aggregated_score": 0.7596,
+      "confidence": 0.1016,
+      "transformer_overall_std": 3.5397,
+      "weighted_zscore": 0.2118,
+      "description": "Harting plug Nacelle/HUB damaged + NCR20_HUB: Wiring blade control system"
+    },
+    {
+      "farm": "C",
+      "event_id": 91,
+      "aggregated_score": 0.7324,
+      "confidence": 0.2386,
+      "transformer_overall_std": 4.1444,
+      "weighted_zscore": 0.3624,
+      "description": "23020 : Axis 3 not ready-to-operate"
+    },
+    {
+      "farm": "B",
+      "event_id": 53,
+      "aggregated_score": 0.6985,
+      "confidence": 2.0619,
+      "transformer_overall_std": 6.4668,
+      "weighted_zscore": 2.3681,
+      "description": "Rotor Bearing 2 - Damage"
+    },
+    {
+      "farm": "B",
+      "event_id": 19,
+      "aggregated_score": 0.6905,
+      "confidence": 2.0407,
+      "transformer_overall_std": 4.6991,
+      "weighted_zscore": 2.3448,
+      "description": "high temperature in transformer cell"
+    },
+    {
+      "farm": "A",
+      "event_id": 26,
+      "aggregated_score": 0.6255,
+      "confidence": 0.0755,
+      "transformer_overall_std": 7.525,
+      "weighted_zscore": -0.2503,
+      "description": "Hydraulic group"
+    },
+    {
+      "farm": "C",
+      "event_id": 81,
+      "aggregated_score": 0.592,
+      "confidence": 0.2905,
+      "transformer_overall_std": 4.6805,
+      "weighted_zscore": -0.3094,
+      "description": "Converter Failure from 17.11 12:30 - 18.11. 13:57, Fuse Filter Supply "
+    },
+    {
+      "farm": "C",
+      "event_id": 67,
+      "aggregated_score": 0.5126,
+      "confidence": 0.3193,
+      "transformer_overall_std": 4.785,
+      "weighted_zscore": 0.3282,
+      "description": "Turbine has some issues with overpressure on the main transformer"
+    },
+    {
+      "farm": "C",
+      "event_id": 70,
+      "aggregated_score": 0.5086,
+      "confidence": 0.224,
+      "transformer_overall_std": 4.4395,
+      "weighted_zscore": -0.037,
+      "description": "21002 : Axis 1 DC-link voltage low, batt"
+    },
+    {
+      "farm": "C",
+      "event_id": 4,
+      "aggregated_score": 0.3978,
+      "confidence": 0.0949,
+      "transformer_overall_std": 2.4482,
+      "weighted_zscore": 0.2044,
+      "description": "23020 : Axis 3 not ready-to-operate"
+    },
+    {
+      "farm": "C",
+      "event_id": 44,
+      "aggregated_score": 0.3919,
+      "confidence": 0.0434,
+      "transformer_overall_std": 2.9216,
+      "weighted_zscore": 0.1477,
+      "description": "Valve in water cooling system was left in wrong position after maintenance actions on 05-08-2020"
+    },
+    {
+      "farm": "C",
+      "event_id": 90,
+      "aggregated_score": 0.2487,
+      "confidence": 0.0177,
+      "transformer_overall_std": 3.6911,
+      "weighted_zscore": -0.1351,
+      "description": "COMMUNICATION FAULT BK1120 IN NC300 A2"
+    }
+  ],
+  "missed_anomalies": [
+    {
+      "farm": "A",
+      "event_id": 22,
+      "aggregated_score": 2.0668,
+      "confidence": -0.8105,
+      "transformer_overall_std": 6.4016,
+      "weighted_zscore": -0.7915,
+      "description": "Hydraulic group"
+    },
+    {
+      "farm": "A",
+      "event_id": 84,
+      "aggregated_score": 1.3421,
+      "confidence": -0.3529,
+      "transformer_overall_std": 5.9217,
+      "weighted_zscore": -0.2882,
+      "description": "Hydraulic group"
+    },
+    {
+      "farm": "C",
+      "event_id": 78,
+      "aggregated_score": 1.3164,
+      "confidence": -0.2917,
+      "transformer_overall_std": 3.2035,
+      "weighted_zscore": -0.2209,
+      "description": "P20_Grounding role brake disc + P20_cover-lightning-main-cabinet-hub"
+    },
+    {
+      "farm": "C",
+      "event_id": 15,
+      "aggregated_score": 0.7851,
+      "confidence": -0.6775,
+      "transformer_overall_std": 2.3391,
+      "weighted_zscore": -0.6452,
+      "description": "Randomn small failures regarding pitch resulting in a longer standstill due to a defect pitch encoder (26/02)"
+    },
+    {
+      "farm": "A",
+      "event_id": 68,
+      "aggregated_score": 0.7149,
+      "confidence": -0.7078,
+      "transformer_overall_std": 4.5693,
+      "weighted_zscore": -0.6786,
+      "description": "Transformer failure"
+    },
+    {
+      "farm": "B",
+      "event_id": 34,
+      "aggregated_score": 0.4193,
+      "confidence": -0.0547,
+      "transformer_overall_std": 3.7272,
+      "weighted_zscore": 0.818,
+      "description": "high temperature in transformer cell"
+    }
+  ],
+  "false_alarms": [
+    {
+      "farm": "C",
+      "event_id": 85,
+      "aggregated_score": 1.8258,
+      "confidence": 0.3518,
+      "transformer_overall_std": 3.6174,
+      "weighted_zscore": 0.487,
+      "description": ""
+    },
+    {
+      "farm": "C",
+      "event_id": 36,
+      "aggregated_score": 1.6364,
+      "confidence": 1.9786,
+      "transformer_overall_std": 5.801,
+      "weighted_zscore": 2.2764,
+      "description": ""
+    },
+    {
+      "farm": "B",
+      "event_id": 86,
+      "aggregated_score": 1.1371,
+      "confidence": 1.8545,
+      "transformer_overall_std": 4.7579,
+      "weighted_zscore": 2.1399,
+      "description": ""
+    },
+    {
+      "farm": "C",
+      "event_id": 94,
+      "aggregated_score": 1.0146,
+      "confidence": 0.467,
+      "transformer_overall_std": 2.8665,
+      "weighted_zscore": 0.6137,
+      "description": ""
+    },
+    {
+      "farm": "C",
+      "event_id": 29,
+      "aggregated_score": 0.9796,
+      "confidence": 0.0348,
+      "transformer_overall_std": 3.0595,
+      "weighted_zscore": 0.1383,
+      "description": ""
+    },
+    {
+      "farm": "C",
+      "event_id": 54,
+      "aggregated_score": 0.9053,
+      "confidence": 0.3511,
+      "transformer_overall_std": 2.3152,
+      "weighted_zscore": 0.4862,
+      "description": ""
+    },
+    {
+      "farm": "C",
+      "event_id": 88,
+      "aggregated_score": 0.8938,
+      "confidence": 0.5784,
+      "transformer_overall_std": 5.7251,
+      "weighted_zscore": 0.4232,
+      "description": ""
+    },
+    {
+      "farm": "C",
+      "event_id": 41,
+      "aggregated_score": 0.8065,
+      "confidence": 0.0407,
+      "transformer_overall_std": 3.543,
+      "weighted_zscore": 0.1447,
+      "description": ""
+    },
+    {
+      "farm": "C",
+      "event_id": 6,
+      "aggregated_score": 0.7997,
+      "confidence": 0.0295,
+      "transformer_overall_std": 3.734,
+      "weighted_zscore": 0.095,
+      "description": ""
+    },
+    {
+      "farm": "C",
+      "event_id": 61,
+      "aggregated_score": 0.6676,
+      "confidence": 0.1489,
+      "transformer_overall_std": 3.3773,
+      "weighted_zscore": 0.2637,
+      "description": ""
+    },
+    {
+      "farm": "B",
+      "event_id": 74,
+      "aggregated_score": 0.6539,
+      "confidence": 1.7389,
+      "transformer_overall_std": 5.6108,
+      "weighted_zscore": 2.0128,
+      "description": ""
+    },
+    {
+      "farm": "C",
+      "event_id": 59,
+      "aggregated_score": 0.5697,
+      "confidence": 0.3018,
+      "transformer_overall_std": 4.7216,
+      "weighted_zscore": -0.1588,
+      "description": ""
+    },
+    {
+      "farm": "A",
+      "event_id": 13,
+      "aggregated_score": 0.5656,
+      "confidence": 0.14,
+      "transformer_overall_std": 7.9763,
+      "weighted_zscore": -0.3101,
+      "description": ""
+    },
+    {
+      "farm": "C",
+      "event_id": 60,
+      "aggregated_score": 0.5259,
+      "confidence": 0.0682,
+      "transformer_overall_std": 3.8746,
+      "weighted_zscore": -0.0715,
+      "description": ""
+    },
+    {
+      "farm": "B",
+      "event_id": 83,
+      "aggregated_score": 0.5042,
+      "confidence": 1.4518,
+      "transformer_overall_std": 4.1116,
+      "weighted_zscore": 1.6969,
+      "description": ""
+    },
+    {
+      "farm": "C",
+      "event_id": 89,
+      "aggregated_score": 0.3931,
+      "confidence": 0.06,
+      "transformer_overall_std": 3.8446,
+      "weighted_zscore": -0.4227,
+      "description": ""
+    }
+  ],
+  "n_correct_normals": 34,
+  "per_event_predictions": [
+    {
+      "farm": "A",
+      "event_id": 68,
+      "true_label": "anomaly",
+      "predicted_label": "normal",
+      "aggregated_score": 0.7149,
+      "confidence": -0.7078
+    },
+    {
+      "farm": "A",
+      "event_id": 22,
+      "true_label": "anomaly",
+      "predicted_label": "normal",
+      "aggregated_score": 2.0668,
+      "confidence": -0.8105
+    },
+    {
+      "farm": "A",
+      "event_id": 72,
+      "true_label": "anomaly",
+      "predicted_label": "anomaly",
+      "aggregated_score": 0.942,
+      "confidence": 0.0373
+    },
+    {
+      "farm": "A",
+      "event_id": 73,
+      "true_label": "anomaly",
+      "predicted_label": "anomaly",
+      "aggregated_score": 2.0836,
+      "confidence": 0.0872
+    },
+    {
+      "farm": "A",
+      "event_id": 0,
+      "true_label": "anomaly",
+      "predicted_label": "anomaly",
+      "aggregated_score": 2.855,
+      "confidence": 0.2313
+    },
+    {
+      "farm": "A",
+      "event_id": 26,
+      "true_label": "anomaly",
+      "predicted_label": "anomaly",
+      "aggregated_score": 0.6255,
+      "confidence": 0.0755
+    },
+    {
+      "farm": "A",
+      "event_id": 40,
+      "true_label": "anomaly",
+      "predicted_label": "anomaly",
+      "aggregated_score": 6.2515,
+      "confidence": 3.4381
+    },
+    {
+      "farm": "A",
+      "event_id": 42,
+      "true_label": "anomaly",
+      "predicted_label": "anomaly",
+      "aggregated_score": 2.3004,
+      "confidence": 0.5041
+    },
+    {
+      "farm": "A",
+      "event_id": 10,
+      "true_label": "anomaly",
+      "predicted_label": "anomaly",
+      "aggregated_score": 1.316,
+      "confidence": 0.1014
+    },
+    {
+      "farm": "A",
+      "event_id": 45,
+      "true_label": "anomaly",
+      "predicted_label": "anomaly",
+      "aggregated_score": 1.3003,
+      "confidence": 0.0453
+    },
+    {
+      "farm": "A",
+      "event_id": 84,
+      "true_label": "anomaly",
+      "predicted_label": "normal",
+      "aggregated_score": 1.3421,
+      "confidence": -0.3529
+    },
+    {
+      "farm": "A",
+      "event_id": 25,
+      "true_label": "normal",
+      "predicted_label": "normal",
+      "aggregated_score": 0.632,
+      "confidence": -0.6833
+    },
+    {
+      "farm": "A",
+      "event_id": 69,
+      "true_label": "normal",
+      "predicted_label": "normal",
+      "aggregated_score": 0.5754,
+      "confidence": -0.5875
+    },
+    {
+      "farm": "A",
+      "event_id": 13,
+      "true_label": "normal",
+      "predicted_label": "anomaly",
+      "aggregated_score": 0.5656,
+      "confidence": 0.14
+    },
+    {
+      "farm": "A",
+      "event_id": 24,
+      "true_label": "normal",
+      "predicted_label": "normal",
+      "aggregated_score": 0.458,
+      "confidence": -0.3352
+    },
+    {
+      "farm": "A",
+      "event_id": 3,
+      "true_label": "normal",
+      "predicted_label": "normal",
+      "aggregated_score": 0.9469,
+      "confidence": -0.085
+    },
+    {
+      "farm": "A",
+      "event_id": 17,
+      "true_label": "normal",
+      "predicted_label": "normal",
+      "aggregated_score": 0.9332,
+      "confidence": -0.2948
+    },
+    {
+      "farm": "A",
+      "event_id": 38,
+      "true_label": "normal",
+      "predicted_label": "normal",
+      "aggregated_score": 0.9166,
+      "confidence": -0.6671
+    },
+    {
+      "farm": "A",
+      "event_id": 71,
+      "true_label": "normal",
+      "predicted_label": "normal",
+      "aggregated_score": 0.8093,
+      "confidence": -0.2163
+    },
+    {
+      "farm": "A",
+      "event_id": 14,
+      "true_label": "normal",
+      "predicted_label": "normal",
+      "aggregated_score": 0.922,
+      "confidence": -0.3831
+    },
+    {
+      "farm": "A",
+      "event_id": 92,
+      "true_label": "normal",
+      "predicted_label": "normal",
+      "aggregated_score": 0.7968,
+      "confidence": -0.6915
+    },
+    {
+      "farm": "A",
+      "event_id": 51,
+      "true_label": "anomaly",
+      "predicted_label": "anomaly",
+      "aggregated_score": 0.8617,
+      "confidence": 0.0722
+    },
+    {
+      "farm": "B",
+      "event_id": 34,
+      "true_label": "anomaly",
+      "predicted_label": "normal",
+      "aggregated_score": 0.4193,
+      "confidence": -0.0547
+    },
+    {
+      "farm": "B",
+      "event_id": 7,
+      "true_label": "anomaly",
+      "predicted_label": "anomaly",
+      "aggregated_score": 0.8295,
+      "confidence": 0.8995
+    },
+    {
+      "farm": "B",
+      "event_id": 53,
+      "true_label": "anomaly",
+      "predicted_label": "anomaly",
+      "aggregated_score": 0.6985,
+      "confidence": 2.0619
+    },
+    {
+      "farm": "B",
+      "event_id": 27,
+      "true_label": "anomaly",
+      "predicted_label": "anomaly",
+      "aggregated_score": 0.8076,
+      "confidence": 1.5261
+    },
+    {
+      "farm": "B",
+      "event_id": 19,
+      "true_label": "anomaly",
+      "predicted_label": "anomaly",
+      "aggregated_score": 0.6905,
+      "confidence": 2.0407
+    },
+    {
+      "farm": "B",
+      "event_id": 77,
+      "true_label": "anomaly",
+      "predicted_label": "anomaly",
+      "aggregated_score": 0.9096,
+      "confidence": 2.3407
+    },
+    {
+      "farm": "B",
+      "event_id": 83,
+      "true_label": "normal",
+      "predicted_label": "anomaly",
+      "aggregated_score": 0.5042,
+      "confidence": 1.4518
+    },
+    {
+      "farm": "B",
+      "event_id": 52,
+      "true_label": "normal",
+      "predicted_label": "normal",
+      "aggregated_score": 0.9184,
+      "confidence": -0.4558
+    },
+    {
+      "farm": "B",
+      "event_id": 21,
+      "true_label": "normal",
+      "predicted_label": "normal",
+      "aggregated_score": 1.1932,
+      "confidence": -0.1961
+    },
+    {
+      "farm": "B",
+      "event_id": 2,
+      "true_label": "normal",
+      "predicted_label": "normal",
+      "aggregated_score": 0.9508,
+      "confidence": -0.4919
+    },
+    {
+      "farm": "B",
+      "event_id": 23,
+      "true_label": "normal",
+      "predicted_label": "normal",
+      "aggregated_score": 0.9296,
+      "confidence": -0.0245
+    },
+    {
+      "farm": "B",
+      "event_id": 87,
+      "true_label": "normal",
+      "predicted_label": "normal",
+      "aggregated_score": 0.1955,
+      "confidence": -0.0012
+    },
+    {
+      "farm": "B",
+      "event_id": 74,
+      "true_label": "normal",
+      "predicted_label": "anomaly",
+      "aggregated_score": 0.6539,
+      "confidence": 1.7389
+    },
+    {
+      "farm": "B",
+      "event_id": 86,
+      "true_label": "normal",
+      "predicted_label": "anomaly",
+      "aggregated_score": 1.1371,
+      "confidence": 1.8545
+    },
+    {
+      "farm": "B",
+      "event_id": 82,
+      "true_label": "normal",
+      "predicted_label": "normal",
+      "aggregated_score": 0.4597,
+      "confidence": -0.0418
+    },
+    {
+      "farm": "C",
+      "event_id": 55,
+      "true_label": "anomaly",
+      "predicted_label": "anomaly",
+      "aggregated_score": 0.7596,
+      "confidence": 0.1016
+    },
+    {
+      "farm": "C",
+      "event_id": 81,
+      "true_label": "anomaly",
+      "predicted_label": "anomaly",
+      "aggregated_score": 0.592,
+      "confidence": 0.2905
+    },
+    {
+      "farm": "C",
+      "event_id": 47,
+      "true_label": "anomaly",
+      "predicted_label": "anomaly",
+      "aggregated_score": 1.1403,
+      "confidence": 0.011
+    },
+    {
+      "farm": "C",
+      "event_id": 12,
+      "true_label": "anomaly",
+      "predicted_label": "anomaly",
+      "aggregated_score": 0.8109,
+      "confidence": 0.2281
+    },
+    {
+      "farm": "C",
+      "event_id": 4,
+      "true_label": "anomaly",
+      "predicted_label": "anomaly",
+      "aggregated_score": 0.3978,
+      "confidence": 0.0949
+    },
+    {
+      "farm": "C",
+      "event_id": 18,
+      "true_label": "anomaly",
+      "predicted_label": "anomaly",
+      "aggregated_score": 2.8381,
+      "confidence": 0.6728
+    },
+    {
+      "farm": "C",
+      "event_id": 28,
+      "true_label": "anomaly",
+      "predicted_label": "anomaly",
+      "aggregated_score": 1.3604,
+      "confidence": 0.5175
+    },
+    {
+      "farm": "C",
+      "event_id": 39,
+      "true_label": "anomaly",
+      "predicted_label": "anomaly",
+      "aggregated_score": 2.8382,
+      "confidence": 1.5085
+    },
+    {
+      "farm": "C",
+      "event_id": 66,
+      "true_label": "anomaly",
+      "predicted_label": "anomaly",
+      "aggregated_score": 3.6396,
+      "confidence": 1.4632
+    },
+    {
+      "farm": "C",
+      "event_id": 15,
+      "true_label": "anomaly",
+      "predicted_label": "normal",
+      "aggregated_score": 0.7851,
+      "confidence": -0.6775
+    },
+    {
+      "farm": "C",
+      "event_id": 78,
+      "true_label": "anomaly",
+      "predicted_label": "normal",
+      "aggregated_score": 1.3164,
+      "confidence": -0.2917
+    },
+    {
+      "farm": "C",
+      "event_id": 79,
+      "true_label": "anomaly",
+      "predicted_label": "anomaly",
+      "aggregated_score": 3.3958,
+      "confidence": 0.4122
+    },
+    {
+      "farm": "C",
+      "event_id": 30,
+      "true_label": "anomaly",
+      "predicted_label": "anomaly",
+      "aggregated_score": 4.2543,
+      "confidence": 1.8317
+    },
+    {
+      "farm": "C",
+      "event_id": 33,
+      "true_label": "anomaly",
+      "predicted_label": "anomaly",
+      "aggregated_score": 5.718,
+      "confidence": 47.5189
+    },
+    {
+      "farm": "C",
+      "event_id": 11,
+      "true_label": "anomaly",
+      "predicted_label": "anomaly",
+      "aggregated_score": 5.3562,
+      "confidence": 48.4938
+    },
+    {
+      "farm": "C",
+      "event_id": 44,
+      "true_label": "anomaly",
+      "predicted_label": "anomaly",
+      "aggregated_score": 0.3919,
+      "confidence": 0.0434
+    },
+    {
+      "farm": "C",
+      "event_id": 49,
+      "true_label": "anomaly",
+      "predicted_label": "anomaly",
+      "aggregated_score": 1.7833,
+      "confidence": 0.5314
+    },
+    {
+      "farm": "C",
+      "event_id": 31,
+      "true_label": "anomaly",
+      "predicted_label": "anomaly",
+      "aggregated_score": 4.0138,
+      "confidence": 1.7484
+    },
+    {
+      "farm": "C",
+      "event_id": 67,
+      "true_label": "anomaly",
+      "predicted_label": "anomaly",
+      "aggregated_score": 0.5126,
+      "confidence": 0.3193
+    },
+    {
+      "farm": "C",
+      "event_id": 9,
+      "true_label": "anomaly",
+      "predicted_label": "anomaly",
+      "aggregated_score": 0.9446,
+      "confidence": 0.4155
+    },
+    {
+      "farm": "C",
+      "event_id": 91,
+      "true_label": "anomaly",
+      "predicted_label": "anomaly",
+      "aggregated_score": 0.7324,
+      "confidence": 0.2386
+    },
+    {
+      "farm": "C",
+      "event_id": 5,
+      "true_label": "anomaly",
+      "predicted_label": "anomaly",
+      "aggregated_score": 4.9579,
+      "confidence": 0.9425
+    },
+    {
+      "farm": "C",
+      "event_id": 90,
+      "true_label": "anomaly",
+      "predicted_label": "anomaly",
+      "aggregated_score": 0.2487,
+      "confidence": 0.0177
+    },
+    {
+      "farm": "C",
+      "event_id": 70,
+      "true_label": "anomaly",
+      "predicted_label": "anomaly",
+      "aggregated_score": 0.5086,
+      "confidence": 0.224
+    },
+    {
+      "farm": "C",
+      "event_id": 35,
+      "true_label": "anomaly",
+      "predicted_label": "anomaly",
+      "aggregated_score": 2.9971,
+      "confidence": 0.6177
+    },
+    {
+      "farm": "C",
+      "event_id": 16,
+      "true_label": "anomaly",
+      "predicted_label": "anomaly",
+      "aggregated_score": 3.8643,
+      "confidence": 1.8694
+    },
+    {
+      "farm": "C",
+      "event_id": 76,
+      "true_label": "anomaly",
+      "predicted_label": "anomaly",
+      "aggregated_score": 1.0133,
+      "confidence": 0.4828
+    },
+    {
+      "farm": "C",
+      "event_id": 8,
+      "true_label": "normal",
+      "predicted_label": "normal",
+      "aggregated_score": 0.7358,
+      "confidence": -0.8215
+    },
+    {
+      "farm": "C",
+      "event_id": 85,
+      "true_label": "normal",
+      "predicted_label": "anomaly",
+      "aggregated_score": 1.8258,
+      "confidence": 0.3518
+    },
+    {
+      "farm": "C",
+      "event_id": 6,
+      "true_label": "normal",
+      "predicted_label": "anomaly",
+      "aggregated_score": 0.7997,
+      "confidence": 0.0295
+    },
+    {
+      "farm": "C",
+      "event_id": 62,
+      "true_label": "normal",
+      "predicted_label": "normal",
+      "aggregated_score": 0.9409,
+      "confidence": -1.271
+    },
+    {
+      "farm": "C",
+      "event_id": 36,
+      "true_label": "normal",
+      "predicted_label": "anomaly",
+      "aggregated_score": 1.6364,
+      "confidence": 1.9786
+    },
+    {
+      "farm": "C",
+      "event_id": 56,
+      "true_label": "normal",
+      "predicted_label": "normal",
+      "aggregated_score": 0.5294,
+      "confidence": -0.4117
+    },
+    {
+      "farm": "C",
+      "event_id": 94,
+      "true_label": "normal",
+      "predicted_label": "anomaly",
+      "aggregated_score": 1.0146,
+      "confidence": 0.467
+    },
+    {
+      "farm": "C",
+      "event_id": 54,
+      "true_label": "normal",
+      "predicted_label": "anomaly",
+      "aggregated_score": 0.9053,
+      "confidence": 0.3511
+    },
+    {
+      "farm": "C",
+      "event_id": 43,
+      "true_label": "normal",
+      "predicted_label": "normal",
+      "aggregated_score": 0.7697,
+      "confidence": -0.899
+    },
+    {
+      "farm": "C",
+      "event_id": 50,
+      "true_label": "normal",
+      "predicted_label": "normal",
+      "aggregated_score": 0.6271,
+      "confidence": -0.7312
+    },
+    {
+      "farm": "C",
+      "event_id": 64,
+      "true_label": "normal",
+      "predicted_label": "normal",
+      "aggregated_score": 0.4019,
+      "confidence": -0.467
+    },
+    {
+      "farm": "C",
+      "event_id": 46,
+      "true_label": "normal",
+      "predicted_label": "normal",
+      "aggregated_score": 0.4804,
+      "confidence": -0.3661
+    },
+    {
+      "farm": "C",
+      "event_id": 65,
+      "true_label": "normal",
+      "predicted_label": "normal",
+      "aggregated_score": 0.3541,
+      "confidence": -0.5003
+    },
+    {
+      "farm": "C",
+      "event_id": 61,
+      "true_label": "normal",
+      "predicted_label": "anomaly",
+      "aggregated_score": 0.6676,
+      "confidence": 0.1489
+    },
+    {
+      "farm": "C",
+      "event_id": 93,
+      "true_label": "normal",
+      "predicted_label": "normal",
+      "aggregated_score": 0.7237,
+      "confidence": -0.548
+    },
+    {
+      "farm": "C",
+      "event_id": 75,
+      "true_label": "normal",
+      "predicted_label": "normal",
+      "aggregated_score": 0.1609,
+      "confidence": -0.1053
+    },
+    {
+      "farm": "C",
+      "event_id": 41,
+      "true_label": "normal",
+      "predicted_label": "anomaly",
+      "aggregated_score": 0.8065,
+      "confidence": 0.0407
+    },
+    {
+      "farm": "C",
+      "event_id": 58,
+      "true_label": "normal",
+      "predicted_label": "normal",
+      "aggregated_score": 0.7292,
+      "confidence": -0.7416
+    },
+    {
+      "farm": "C",
+      "event_id": 48,
+      "true_label": "normal",
+      "predicted_label": "normal",
+      "aggregated_score": 0.5087,
+      "confidence": -0.5116
+    },
+    {
+      "farm": "C",
+      "event_id": 88,
+      "true_label": "normal",
+      "predicted_label": "anomaly",
+      "aggregated_score": 0.8938,
+      "confidence": 0.5784
+    },
+    {
+      "farm": "C",
+      "event_id": 57,
+      "true_label": "normal",
+      "predicted_label": "normal",
+      "aggregated_score": 0.3344,
+      "confidence": -0.4642
+    },
+    {
+      "farm": "C",
+      "event_id": 32,
+      "true_label": "normal",
+      "predicted_label": "normal",
+      "aggregated_score": 0.7685,
+      "confidence": -0.8623
+    },
+    {
+      "farm": "C",
+      "event_id": 89,
+      "true_label": "normal",
+      "predicted_label": "anomaly",
+      "aggregated_score": 0.3931,
+      "confidence": 0.06
+    },
+    {
+      "farm": "C",
+      "event_id": 59,
+      "true_label": "normal",
+      "predicted_label": "anomaly",
+      "aggregated_score": 0.5697,
+      "confidence": 0.3018
+    },
+    {
+      "farm": "C",
+      "event_id": 63,
+      "true_label": "normal",
+      "predicted_label": "normal",
+      "aggregated_score": 0.8764,
+      "confidence": -0.7459
+    },
+    {
+      "farm": "C",
+      "event_id": 80,
+      "true_label": "normal",
+      "predicted_label": "normal",
+      "aggregated_score": 0.295,
+      "confidence": -0.3071
+    },
+    {
+      "farm": "C",
+      "event_id": 37,
+      "true_label": "normal",
+      "predicted_label": "normal",
+      "aggregated_score": 0.5011,
+      "confidence": -0.2087
+    },
+    {
+      "farm": "C",
+      "event_id": 29,
+      "true_label": "normal",
+      "predicted_label": "anomaly",
+      "aggregated_score": 0.9796,
+      "confidence": 0.0348
+    },
+    {
+      "farm": "C",
+      "event_id": 1,
+      "true_label": "normal",
+      "predicted_label": "normal",
+      "aggregated_score": 0.7431,
+      "confidence": -0.1685
+    },
+    {
+      "farm": "C",
+      "event_id": 20,
+      "true_label": "normal",
+      "predicted_label": "normal",
+      "aggregated_score": 0.3542,
+      "confidence": -0.4941
+    },
+    {
+      "farm": "C",
+      "event_id": 60,
+      "true_label": "normal",
+      "predicted_label": "anomaly",
+      "aggregated_score": 0.5259,
+      "confidence": 0.0682
+    }
+  ]
+}
