@@ -1,0 +1,2868 @@
+{
+  "A": {
+    "0": {
+      "gearbox": {
+        "mean_residual": -0.568242,
+        "max_residual": 12.675137,
+        "std_residual": 2.822896,
+        "n_rows": 2838
+      },
+      "generator_bearings": {
+        "mean_residual": 3.851908,
+        "max_residual": 34.898577,
+        "std_residual": 10.842468,
+        "n_rows": 2838
+      },
+      "transformer": {
+        "mean_residual": 10.61681,
+        "max_residual": 31.749369,
+        "std_residual": 8.614954,
+        "n_rows": 2838
+      },
+      "hydraulic": {
+        "mean_residual": 1.081807,
+        "max_residual": 14.775686,
+        "std_residual": 4.620285,
+        "n_rows": 2838
+      },
+      "cooling": {
+        "mean_residual": -0.27793,
+        "max_residual": 5.054831,
+        "std_residual": 1.491485,
+        "n_rows": 2838
+      }
+    },
+    "3": {
+      "gearbox": {
+        "mean_residual": -0.565522,
+        "max_residual": 18.435027,
+        "std_residual": 2.521951,
+        "n_rows": 3302
+      },
+      "generator_bearings": {
+        "mean_residual": -4.202585,
+        "max_residual": 15.817096,
+        "std_residual": 4.294,
+        "n_rows": 3302
+      },
+      "transformer": {
+        "mean_residual": 5.277785,
+        "max_residual": 30.782889,
+        "std_residual": 6.944119,
+        "n_rows": 3302
+      },
+      "hydraulic": {
+        "mean_residual": 6.599622,
+        "max_residual": 17.851718,
+        "std_residual": 4.610564,
+        "n_rows": 3302
+      },
+      "cooling": {
+        "mean_residual": -0.326819,
+        "max_residual": 6.808315,
+        "std_residual": 1.484231,
+        "n_rows": 3302
+      }
+    },
+    "10": {
+      "gearbox": {
+        "mean_residual": 0.090058,
+        "max_residual": 14.116942,
+        "std_residual": 2.663144,
+        "n_rows": 1269
+      },
+      "generator_bearings": {
+        "mean_residual": -2.858034,
+        "max_residual": 15.188696,
+        "std_residual": 4.814372,
+        "n_rows": 1269
+      },
+      "transformer": {
+        "mean_residual": 5.640267,
+        "max_residual": 27.373809,
+        "std_residual": 7.705915,
+        "n_rows": 1269
+      },
+      "hydraulic": {
+        "mean_residual": 4.511973,
+        "max_residual": 16.780321,
+        "std_residual": 4.224027,
+        "n_rows": 1269
+      },
+      "cooling": {
+        "mean_residual": -0.507049,
+        "max_residual": 6.391022,
+        "std_residual": 1.285629,
+        "n_rows": 1269
+      }
+    },
+    "13": {
+      "gearbox": {
+        "mean_residual": 0.317319,
+        "max_residual": 8.283644,
+        "std_residual": 2.139906,
+        "n_rows": 3583
+      },
+      "generator_bearings": {
+        "mean_residual": 0.21497,
+        "max_residual": 26.816073,
+        "std_residual": 4.996377,
+        "n_rows": 3583
+      },
+      "transformer": {
+        "mean_residual": -5.051188,
+        "max_residual": 19.400552,
+        "std_residual": 7.976328,
+        "n_rows": 3583
+      },
+      "hydraulic": {
+        "mean_residual": -1.8978,
+        "max_residual": 12.431551,
+        "std_residual": 3.589789,
+        "n_rows": 3583
+      },
+      "cooling": {
+        "mean_residual": -0.065829,
+        "max_residual": 5.725365,
+        "std_residual": 1.146292,
+        "n_rows": 3583
+      }
+    },
+    "14": {
+      "gearbox": {
+        "mean_residual": 0.628352,
+        "max_residual": 13.84686,
+        "std_residual": 2.310757,
+        "n_rows": 1901
+      },
+      "generator_bearings": {
+        "mean_residual": 0.648194,
+        "max_residual": 17.594103,
+        "std_residual": 4.656981,
+        "n_rows": 1901
+      },
+      "transformer": {
+        "mean_residual": -7.808976,
+        "max_residual": 13.754858,
+        "std_residual": 6.765016,
+        "n_rows": 1901
+      },
+      "hydraulic": {
+        "mean_residual": -1.166168,
+        "max_residual": 17.460376,
+        "std_residual": 4.58138,
+        "n_rows": 1901
+      },
+      "cooling": {
+        "mean_residual": 0.813619,
+        "max_residual": 7.18964,
+        "std_residual": 1.744255,
+        "n_rows": 1901
+      }
+    },
+    "17": {
+      "gearbox": {
+        "mean_residual": -1.031127,
+        "max_residual": 12.660164,
+        "std_residual": 2.864695,
+        "n_rows": 2781
+      },
+      "generator_bearings": {
+        "mean_residual": -2.795429,
+        "max_residual": 11.374964,
+        "std_residual": 3.713788,
+        "n_rows": 2781
+      },
+      "transformer": {
+        "mean_residual": 5.768812,
+        "max_residual": 31.069541,
+        "std_residual": 5.952327,
+        "n_rows": 2781
+      },
+      "hydraulic": {
+        "mean_residual": 6.980026,
+        "max_residual": 20.999564,
+        "std_residual": 5.048735,
+        "n_rows": 2781
+      },
+      "cooling": {
+        "mean_residual": -0.441354,
+        "max_residual": 10.905525,
+        "std_residual": 1.722975,
+        "n_rows": 2781
+      }
+    },
+    "22": {
+      "gearbox": {
+        "mean_residual": 1.004846,
+        "max_residual": 6.721361,
+        "std_residual": 2.067525,
+        "n_rows": 1148
+      },
+      "generator_bearings": {
+        "mean_residual": 0.001982,
+        "max_residual": 23.41958,
+        "std_residual": 6.191888,
+        "n_rows": 1148
+      },
+      "transformer": {
+        "mean_residual": -3.627632,
+        "max_residual": 16.286364,
+        "std_residual": 6.401608,
+        "n_rows": 1148
+      },
+      "hydraulic": {
+        "mean_residual": -1.494614,
+        "max_residual": 7.526533,
+        "std_residual": 3.094775,
+        "n_rows": 1148
+      },
+      "cooling": {
+        "mean_residual": 0.161196,
+        "max_residual": 5.86197,
+        "std_residual": 1.416924,
+        "n_rows": 1148
+      }
+    },
+    "24": {
+      "gearbox": {
+        "mean_residual": 0.533092,
+        "max_residual": 13.385233,
+        "std_residual": 2.342985,
+        "n_rows": 2714
+      },
+      "generator_bearings": {
+        "mean_residual": 0.94537,
+        "max_residual": 24.835049,
+        "std_residual": 5.868461,
+        "n_rows": 2714
+      },
+      "transformer": {
+        "mean_residual": 7.187421,
+        "max_residual": 25.919234,
+        "std_residual": 6.646469,
+        "n_rows": 2714
+      },
+      "hydraulic": {
+        "mean_residual": 0.732807,
+        "max_residual": 17.827912,
+        "std_residual": 4.381813,
+        "n_rows": 2714
+      },
+      "cooling": {
+        "mean_residual": 0.085943,
+        "max_residual": 5.779955,
+        "std_residual": 1.143647,
+        "n_rows": 2714
+      }
+    },
+    "25": {
+      "gearbox": {
+        "mean_residual": -0.087758,
+        "max_residual": 7.850797,
+        "std_residual": 2.272281,
+        "n_rows": 2423
+      },
+      "generator_bearings": {
+        "mean_residual": 2.141208,
+        "max_residual": 22.13758,
+        "std_residual": 5.58792,
+        "n_rows": 2423
+      },
+      "transformer": {
+        "mean_residual": 3.672781,
+        "max_residual": 20.503114,
+        "std_residual": 6.241614,
+        "n_rows": 2423
+      },
+      "hydraulic": {
+        "mean_residual": -2.12055,
+        "max_residual": 16.037744,
+        "std_residual": 4.010201,
+        "n_rows": 2423
+      },
+      "cooling": {
+        "mean_residual": -0.277186,
+        "max_residual": 6.022941,
+        "std_residual": 1.109665,
+        "n_rows": 2423
+      }
+    },
+    "26": {
+      "gearbox": {
+        "mean_residual": 0.460906,
+        "max_residual": 13.810078,
+        "std_residual": 2.339615,
+        "n_rows": 1441
+      },
+      "generator_bearings": {
+        "mean_residual": -3.12855,
+        "max_residual": 15.498294,
+        "std_residual": 4.921869,
+        "n_rows": 1441
+      },
+      "transformer": {
+        "mean_residual": 5.724837,
+        "max_residual": 30.378076,
+        "std_residual": 7.525013,
+        "n_rows": 1441
+      },
+      "hydraulic": {
+        "mean_residual": -0.108005,
+        "max_residual": 12.86416,
+        "std_residual": 4.392516,
+        "n_rows": 1441
+      },
+      "cooling": {
+        "mean_residual": -0.147817,
+        "max_residual": 7.357787,
+        "std_residual": 1.406602,
+        "n_rows": 1441
+      }
+    },
+    "38": {
+      "gearbox": {
+        "mean_residual": 1.730997,
+        "max_residual": 8.474411,
+        "std_residual": 2.257465,
+        "n_rows": 2544
+      },
+      "generator_bearings": {
+        "mean_residual": 1.533229,
+        "max_residual": 18.623871,
+        "std_residual": 5.12726,
+        "n_rows": 2544
+      },
+      "transformer": {
+        "mean_residual": -7.384672,
+        "max_residual": 14.631257,
+        "std_residual": 6.994073,
+        "n_rows": 2544
+      },
+      "hydraulic": {
+        "mean_residual": -1.496497,
+        "max_residual": 12.189426,
+        "std_residual": 3.458439,
+        "n_rows": 2544
+      },
+      "cooling": {
+        "mean_residual": 0.873042,
+        "max_residual": 6.267956,
+        "std_residual": 1.47465,
+        "n_rows": 2544
+      }
+    },
+    "40": {
+      "gearbox": {
+        "mean_residual": -4.112196,
+        "max_residual": 13.309928,
+        "std_residual": 6.262639,
+        "n_rows": 4939
+      },
+      "generator_bearings": {
+        "mean_residual": -1.395485,
+        "max_residual": 183.557245,
+        "std_residual": 11.488792,
+        "n_rows": 4939
+      },
+      "transformer": {
+        "mean_residual": 3.563482,
+        "max_residual": 25.52127,
+        "std_residual": 5.750484,
+        "n_rows": 4939
+      },
+      "hydraulic": {
+        "mean_residual": 5.315354,
+        "max_residual": 23.151008,
+        "std_residual": 5.701707,
+        "n_rows": 4939
+      },
+      "cooling": {
+        "mean_residual": -0.563581,
+        "max_residual": 8.962927,
+        "std_residual": 2.026844,
+        "n_rows": 4939
+      }
+    },
+    "42": {
+      "gearbox": {
+        "mean_residual": -1.183596,
+        "max_residual": 25.51996,
+        "std_residual": 3.317878,
+        "n_rows": 1583
+      },
+      "generator_bearings": {
+        "mean_residual": -3.283846,
+        "max_residual": 22.568785,
+        "std_residual": 4.442941,
+        "n_rows": 1583
+      },
+      "transformer": {
+        "mean_residual": 8.127526,
+        "max_residual": 31.252848,
+        "std_residual": 5.614619,
+        "n_rows": 1583
+      },
+      "hydraulic": {
+        "mean_residual": 6.430014,
+        "max_residual": 20.209017,
+        "std_residual": 4.368894,
+        "n_rows": 1583
+      },
+      "cooling": {
+        "mean_residual": -0.662503,
+        "max_residual": 10.141981,
+        "std_residual": 1.535992,
+        "n_rows": 1583
+      }
+    },
+    "45": {
+      "gearbox": {
+        "mean_residual": 1.568837,
+        "max_residual": 9.500559,
+        "std_residual": 2.341308,
+        "n_rows": 1440
+      },
+      "generator_bearings": {
+        "mean_residual": -0.857193,
+        "max_residual": 15.262944,
+        "std_residual": 4.77002,
+        "n_rows": 1440
+      },
+      "transformer": {
+        "mean_residual": -4.799544,
+        "max_residual": 13.463125,
+        "std_residual": 7.313323,
+        "n_rows": 1440
+      },
+      "hydraulic": {
+        "mean_residual": -0.805149,
+        "max_residual": 16.340337,
+        "std_residual": 4.345521,
+        "n_rows": 1440
+      },
+      "cooling": {
+        "mean_residual": 0.814435,
+        "max_residual": 6.185812,
+        "std_residual": 1.608051,
+        "n_rows": 1440
+      }
+    },
+    "51": {
+      "gearbox": {
+        "mean_residual": 0.743286,
+        "max_residual": 20.793201,
+        "std_residual": 2.679225,
+        "n_rows": 2393
+      },
+      "generator_bearings": {
+        "mean_residual": -0.61827,
+        "max_residual": 17.000221,
+        "std_residual": 4.95021,
+        "n_rows": 2393
+      },
+      "transformer": {
+        "mean_residual": -4.4978,
+        "max_residual": 22.041034,
+        "std_residual": 7.501631,
+        "n_rows": 2393
+      },
+      "hydraulic": {
+        "mean_residual": -2.447313,
+        "max_residual": 11.043952,
+        "std_residual": 3.338754,
+        "n_rows": 2393
+      },
+      "cooling": {
+        "mean_residual": 0.007198,
+        "max_residual": 6.731259,
+        "std_residual": 1.282807,
+        "n_rows": 2393
+      }
+    },
+    "68": {
+      "gearbox": {
+        "mean_residual": 0.188894,
+        "max_residual": 7.540586,
+        "std_residual": 2.090895,
+        "n_rows": 2295
+      },
+      "generator_bearings": {
+        "mean_residual": 0.906962,
+        "max_residual": 20.872416,
+        "std_residual": 4.598191,
+        "n_rows": 2295
+      },
+      "transformer": {
+        "mean_residual": 9.295605,
+        "max_residual": 23.876643,
+        "std_residual": 4.569253,
+        "n_rows": 2295
+      },
+      "hydraulic": {
+        "mean_residual": 0.093336,
+        "max_residual": 13.67965,
+        "std_residual": 3.137611,
+        "n_rows": 2295
+      },
+      "cooling": {
+        "mean_residual": -0.214615,
+        "max_residual": 5.317637,
+        "std_residual": 1.367794,
+        "n_rows": 2295
+      }
+    },
+    "69": {
+      "gearbox": {
+        "mean_residual": 0.398301,
+        "max_residual": 10.08282,
+        "std_residual": 2.567978,
+        "n_rows": 2593
+      },
+      "generator_bearings": {
+        "mean_residual": 1.711594,
+        "max_residual": 22.37955,
+        "std_residual": 5.352817,
+        "n_rows": 2593
+      },
+      "transformer": {
+        "mean_residual": 7.335696,
+        "max_residual": 23.70713,
+        "std_residual": 5.627131,
+        "n_rows": 2593
+      },
+      "hydraulic": {
+        "mean_residual": -3.127248,
+        "max_residual": 12.951621,
+        "std_residual": 3.206294,
+        "n_rows": 2593
+      },
+      "cooling": {
+        "mean_residual": -0.359804,
+        "max_residual": 5.187433,
+        "std_residual": 1.344206,
+        "n_rows": 2593
+      }
+    },
+    "71": {
+      "gearbox": {
+        "mean_residual": 0.143618,
+        "max_residual": 16.724866,
+        "std_residual": 3.256159,
+        "n_rows": 2449
+      },
+      "generator_bearings": {
+        "mean_residual": 2.15009,
+        "max_residual": 20.252638,
+        "std_residual": 5.039113,
+        "n_rows": 2449
+      },
+      "transformer": {
+        "mean_residual": 8.562864,
+        "max_residual": 27.646351,
+        "std_residual": 5.598687,
+        "n_rows": 2449
+      },
+      "hydraulic": {
+        "mean_residual": 0.658866,
+        "max_residual": 19.870063,
+        "std_residual": 5.157143,
+        "n_rows": 2449
+      },
+      "cooling": {
+        "mean_residual": 0.016125,
+        "max_residual": 6.965888,
+        "std_residual": 1.899297,
+        "n_rows": 2449
+      }
+    },
+    "72": {
+      "gearbox": {
+        "mean_residual": 0.72891,
+        "max_residual": 20.793201,
+        "std_residual": 2.80177,
+        "n_rows": 2017
+      },
+      "generator_bearings": {
+        "mean_residual": -0.370589,
+        "max_residual": 17.000221,
+        "std_residual": 4.829309,
+        "n_rows": 2017
+      },
+      "transformer": {
+        "mean_residual": -5.291275,
+        "max_residual": 21.201219,
+        "std_residual": 7.257381,
+        "n_rows": 2017
+      },
+      "hydraulic": {
+        "mean_residual": -2.34159,
+        "max_residual": 11.043952,
+        "std_residual": 3.151371,
+        "n_rows": 2017
+      },
+      "cooling": {
+        "mean_residual": 0.012192,
+        "max_residual": 6.731259,
+        "std_residual": 1.279198,
+        "n_rows": 2017
+      }
+    },
+    "73": {
+      "gearbox": {
+        "mean_residual": -0.231165,
+        "max_residual": 8.034317,
+        "std_residual": 2.205713,
+        "n_rows": 1729
+      },
+      "generator_bearings": {
+        "mean_residual": 6.17641,
+        "max_residual": 33.012223,
+        "std_residual": 9.285337,
+        "n_rows": 1729
+      },
+      "transformer": {
+        "mean_residual": 8.059319,
+        "max_residual": 32.542417,
+        "std_residual": 7.606771,
+        "n_rows": 1729
+      },
+      "hydraulic": {
+        "mean_residual": 1.298979,
+        "max_residual": 14.311823,
+        "std_residual": 5.16548,
+        "n_rows": 1729
+      },
+      "cooling": {
+        "mean_residual": -0.704589,
+        "max_residual": 5.010079,
+        "std_residual": 1.444788,
+        "n_rows": 1729
+      }
+    },
+    "84": {
+      "gearbox": {
+        "mean_residual": 1.280452,
+        "max_residual": 12.07937,
+        "std_residual": 2.491946,
+        "n_rows": 1437
+      },
+      "generator_bearings": {
+        "mean_residual": 3.011763,
+        "max_residual": 16.525164,
+        "std_residual": 4.72577,
+        "n_rows": 1437
+      },
+      "transformer": {
+        "mean_residual": -7.420529,
+        "max_residual": 17.364521,
+        "std_residual": 5.921673,
+        "n_rows": 1437
+      },
+      "hydraulic": {
+        "mean_residual": -2.863105,
+        "max_residual": 10.722881,
+        "std_residual": 2.995348,
+        "n_rows": 1437
+      },
+      "cooling": {
+        "mean_residual": 0.534797,
+        "max_residual": 6.158533,
+        "std_residual": 1.677765,
+        "n_rows": 1437
+      }
+    },
+    "92": {
+      "gearbox": {
+        "mean_residual": -0.417444,
+        "max_residual": 6.687262,
+        "std_residual": 2.143976,
+        "n_rows": 1774
+      },
+      "generator_bearings": {
+        "mean_residual": 0.738968,
+        "max_residual": 17.222848,
+        "std_residual": 5.042143,
+        "n_rows": 1774
+      },
+      "transformer": {
+        "mean_residual": 0.746486,
+        "max_residual": 16.237548,
+        "std_residual": 6.857324,
+        "n_rows": 1774
+      },
+      "hydraulic": {
+        "mean_residual": -0.72532,
+        "max_residual": 14.830484,
+        "std_residual": 4.583046,
+        "n_rows": 1774
+      },
+      "cooling": {
+        "mean_residual": -0.454697,
+        "max_residual": 6.835963,
+        "std_residual": 1.167393,
+        "n_rows": 1774
+      }
+    }
+  },
+  "B": {
+    "2": {
+      "gearbox": {
+        "mean_residual": -0.272524,
+        "max_residual": 14.69291,
+        "std_residual": 3.140693,
+        "n_rows": 2215
+      },
+      "generator_bearings": {
+        "mean_residual": 5.624529,
+        "max_residual": 70.122733,
+        "std_residual": 15.162818,
+        "n_rows": 2215
+      },
+      "transformer": {
+        "mean_residual": 1.301449,
+        "max_residual": 8.369097,
+        "std_residual": 2.003283,
+        "n_rows": 2215
+      }
+    },
+    "7": {
+      "gearbox": {
+        "mean_residual": 0.788094,
+        "max_residual": 19.433225,
+        "std_residual": 2.563109,
+        "n_rows": 5329
+      },
+      "generator_bearings": {
+        "mean_residual": 0.367979,
+        "max_residual": 60.339032,
+        "std_residual": 6.722906,
+        "n_rows": 5329
+      },
+      "transformer": {
+        "mean_residual": 1.817493,
+        "max_residual": 14.171673,
+        "std_residual": 4.574968,
+        "n_rows": 5329
+      }
+    },
+    "19": {
+      "gearbox": {
+        "mean_residual": 0.152439,
+        "max_residual": 26.276718,
+        "std_residual": 3.041776,
+        "n_rows": 3745
+      },
+      "generator_bearings": {
+        "mean_residual": -1.549932,
+        "max_residual": 66.058629,
+        "std_residual": 11.154905,
+        "n_rows": 3745
+      },
+      "transformer": {
+        "mean_residual": -1.45009,
+        "max_residual": 16.638321,
+        "std_residual": 4.699072,
+        "n_rows": 3745
+      }
+    },
+    "21": {
+      "gearbox": {
+        "mean_residual": -0.559984,
+        "max_residual": 15.792866,
+        "std_residual": 3.709666,
+        "n_rows": 1297
+      },
+      "generator_bearings": {
+        "mean_residual": -0.62741,
+        "max_residual": 74.181017,
+        "std_residual": 9.749476,
+        "n_rows": 1297
+      },
+      "transformer": {
+        "mean_residual": 2.12711,
+        "max_residual": 12.628669,
+        "std_residual": 3.169655,
+        "n_rows": 1297
+      }
+    },
+    "23": {
+      "gearbox": {
+        "mean_residual": -0.328582,
+        "max_residual": 15.578356,
+        "std_residual": 2.850914,
+        "n_rows": 1983
+      },
+      "generator_bearings": {
+        "mean_residual": 2.214889,
+        "max_residual": 64.029026,
+        "std_residual": 10.018997,
+        "n_rows": 1983
+      },
+      "transformer": {
+        "mean_residual": -0.355213,
+        "max_residual": 13.655288,
+        "std_residual": 3.846239,
+        "n_rows": 1983
+      }
+    },
+    "27": {
+      "gearbox": {
+        "mean_residual": -0.644511,
+        "max_residual": 19.698708,
+        "std_residual": 4.143368,
+        "n_rows": 9937
+      },
+      "generator_bearings": {
+        "mean_residual": -3.193102,
+        "max_residual": 72.237157,
+        "std_residual": 9.87691,
+        "n_rows": 9937
+      },
+      "transformer": {
+        "mean_residual": 0.652488,
+        "max_residual": 17.15898,
+        "std_residual": 3.968372,
+        "n_rows": 9937
+      }
+    },
+    "34": {
+      "gearbox": {
+        "mean_residual": 0.06039,
+        "max_residual": 17.953427,
+        "std_residual": 2.725392,
+        "n_rows": 4033
+      },
+      "generator_bearings": {
+        "mean_residual": -6.193431,
+        "max_residual": 11.784947,
+        "std_residual": 3.826237,
+        "n_rows": 4033
+      },
+      "transformer": {
+        "mean_residual": -1.358412,
+        "max_residual": 14.55932,
+        "std_residual": 3.72724,
+        "n_rows": 4033
+      }
+    },
+    "52": {
+      "gearbox": {
+        "mean_residual": 0.276593,
+        "max_residual": 11.306244,
+        "std_residual": 1.805405,
+        "n_rows": 2737
+      },
+      "generator_bearings": {
+        "mean_residual": -5.133496,
+        "max_residual": 5.132297,
+        "std_residual": 2.915384,
+        "n_rows": 2737
+      },
+      "transformer": {
+        "mean_residual": -1.789299,
+        "max_residual": 9.177921,
+        "std_residual": 3.568733,
+        "n_rows": 2737
+      }
+    },
+    "53": {
+      "gearbox": {
+        "mean_residual": 0.253455,
+        "max_residual": 26.404038,
+        "std_residual": 3.55275,
+        "n_rows": 6048
+      },
+      "generator_bearings": {
+        "mean_residual": 0.770816,
+        "max_residual": 65.092923,
+        "std_residual": 8.382425,
+        "n_rows": 6048
+      },
+      "transformer": {
+        "mean_residual": 1.310273,
+        "max_residual": 30.036631,
+        "std_residual": 6.46676,
+        "n_rows": 6048
+      }
+    },
+    "74": {
+      "gearbox": {
+        "mean_residual": 0.313636,
+        "max_residual": 24.466694,
+        "std_residual": 2.190443,
+        "n_rows": 3073
+      },
+      "generator_bearings": {
+        "mean_residual": -5.49478,
+        "max_residual": 64.098329,
+        "std_residual": 9.041618,
+        "n_rows": 3073
+      },
+      "transformer": {
+        "mean_residual": 1.305826,
+        "max_residual": 30.954121,
+        "std_residual": 5.610763,
+        "n_rows": 3073
+      }
+    },
+    "77": {
+      "gearbox": {
+        "mean_residual": -0.361512,
+        "max_residual": 21.027274,
+        "std_residual": 3.595645,
+        "n_rows": 9217
+      },
+      "generator_bearings": {
+        "mean_residual": -4.597996,
+        "max_residual": 64.64338,
+        "std_residual": 13.477483,
+        "n_rows": 9217
+      },
+      "transformer": {
+        "mean_residual": -5.271124,
+        "max_residual": 13.821728,
+        "std_residual": 5.504144,
+        "n_rows": 9217
+      }
+    },
+    "82": {
+      "gearbox": {
+        "mean_residual": -0.139035,
+        "max_residual": 19.536733,
+        "std_residual": 3.071763,
+        "n_rows": 2449
+      },
+      "generator_bearings": {
+        "mean_residual": -0.647319,
+        "max_residual": 15.997486,
+        "std_residual": 4.660937,
+        "n_rows": 2449
+      },
+      "transformer": {
+        "mean_residual": 1.767493,
+        "max_residual": 17.772919,
+        "std_residual": 3.778331,
+        "n_rows": 2449
+      }
+    },
+    "83": {
+      "gearbox": {
+        "mean_residual": -0.15443,
+        "max_residual": 22.744998,
+        "std_residual": 3.659164,
+        "n_rows": 14113
+      },
+      "generator_bearings": {
+        "mean_residual": -0.993176,
+        "max_residual": 57.08665,
+        "std_residual": 7.634964,
+        "n_rows": 14113
+      },
+      "transformer": {
+        "mean_residual": 3.609924,
+        "max_residual": 21.941461,
+        "std_residual": 4.11163,
+        "n_rows": 14113
+      }
+    },
+    "86": {
+      "gearbox": {
+        "mean_residual": 0.556461,
+        "max_residual": 25.159943,
+        "std_residual": 3.287176,
+        "n_rows": 2927
+      },
+      "generator_bearings": {
+        "mean_residual": -8.166418,
+        "max_residual": 25.567342,
+        "std_residual": 6.935212,
+        "n_rows": 2927
+      },
+      "transformer": {
+        "mean_residual": -7.022404,
+        "max_residual": 13.59789,
+        "std_residual": 4.757927,
+        "n_rows": 2927
+      }
+    },
+    "87": {
+      "gearbox": {
+        "mean_residual": 0.036944,
+        "max_residual": 19.698708,
+        "std_residual": 3.187184,
+        "n_rows": 3025
+      },
+      "generator_bearings": {
+        "mean_residual": 0.993149,
+        "max_residual": 72.237157,
+        "std_residual": 14.287089,
+        "n_rows": 3025
+      },
+      "transformer": {
+        "mean_residual": 0.695363,
+        "max_residual": 17.15898,
+        "std_residual": 3.938344,
+        "n_rows": 3025
+      }
+    }
+  },
+  "C": {
+    "1": {
+      "gearbox": {
+        "mean_residual": 1.30737,
+        "max_residual": 11.597786,
+        "std_residual": 1.496685,
+        "n_rows": 2161
+      },
+      "generator_bearings": {
+        "mean_residual": 1.365447,
+        "max_residual": 10.513628,
+        "std_residual": 1.27967,
+        "n_rows": 2161
+      },
+      "transformer": {
+        "mean_residual": 3.920208,
+        "max_residual": 16.264125,
+        "std_residual": 3.223611,
+        "n_rows": 2161
+      },
+      "hydraulic": {
+        "mean_residual": -3.411651,
+        "max_residual": 2.205189,
+        "std_residual": 2.127239,
+        "n_rows": 2161
+      },
+      "cooling": {
+        "mean_residual": 0.722485,
+        "max_residual": 18.36458,
+        "std_residual": 1.520531,
+        "n_rows": 2161
+      }
+    },
+    "4": {
+      "gearbox": {
+        "mean_residual": 0.227343,
+        "max_residual": 15.070246,
+        "std_residual": 2.033516,
+        "n_rows": 3889
+      },
+      "generator_bearings": {
+        "mean_residual": 0.551039,
+        "max_residual": 9.727671,
+        "std_residual": 2.153407,
+        "n_rows": 3889
+      },
+      "transformer": {
+        "mean_residual": -0.009552,
+        "max_residual": 15.359761,
+        "std_residual": 2.448191,
+        "n_rows": 3889
+      },
+      "hydraulic": {
+        "mean_residual": 0.798587,
+        "max_residual": 5.46985,
+        "std_residual": 1.976109,
+        "n_rows": 3889
+      },
+      "cooling": {
+        "mean_residual": 0.673817,
+        "max_residual": 18.872837,
+        "std_residual": 2.186385,
+        "n_rows": 3889
+      }
+    },
+    "5": {
+      "gearbox": {
+        "mean_residual": 0.011451,
+        "max_residual": 14.810067,
+        "std_residual": 4.018083,
+        "n_rows": 667
+      },
+      "generator_bearings": {
+        "mean_residual": -1.687492,
+        "max_residual": 7.372613,
+        "std_residual": 3.554603,
+        "n_rows": 667
+      },
+      "transformer": {
+        "mean_residual": -4.098314,
+        "max_residual": 14.703121,
+        "std_residual": 7.045441,
+        "n_rows": 667
+      },
+      "hydraulic": {
+        "mean_residual": -1.550334,
+        "max_residual": 4.427555,
+        "std_residual": 2.306584,
+        "n_rows": 667
+      },
+      "cooling": {
+        "mean_residual": 0.285123,
+        "max_residual": 20.262401,
+        "std_residual": 4.50967,
+        "n_rows": 667
+      }
+    },
+    "6": {
+      "gearbox": {
+        "mean_residual": 0.362303,
+        "max_residual": 11.325548,
+        "std_residual": 1.99914,
+        "n_rows": 2305
+      },
+      "generator_bearings": {
+        "mean_residual": 0.645058,
+        "max_residual": 14.265376,
+        "std_residual": 2.269181,
+        "n_rows": 2305
+      },
+      "transformer": {
+        "mean_residual": -4.058086,
+        "max_residual": 9.834782,
+        "std_residual": 3.734012,
+        "n_rows": 2305
+      },
+      "hydraulic": {
+        "mean_residual": 1.985672,
+        "max_residual": 8.710071,
+        "std_residual": 3.424,
+        "n_rows": 2305
+      },
+      "cooling": {
+        "mean_residual": 1.194016,
+        "max_residual": 21.115556,
+        "std_residual": 2.615885,
+        "n_rows": 2305
+      }
+    },
+    "8": {
+      "gearbox": {
+        "mean_residual": 0.961734,
+        "max_residual": 6.570747,
+        "std_residual": 1.375532,
+        "n_rows": 2242
+      },
+      "generator_bearings": {
+        "mean_residual": 0.868204,
+        "max_residual": 7.33867,
+        "std_residual": 1.476888,
+        "n_rows": 2242
+      },
+      "transformer": {
+        "mean_residual": 1.379595,
+        "max_residual": 15.89001,
+        "std_residual": 3.018386,
+        "n_rows": 2242
+      },
+      "hydraulic": {
+        "mean_residual": 6.302658,
+        "max_residual": 10.472558,
+        "std_residual": 1.872133,
+        "n_rows": 2242
+      },
+      "cooling": {
+        "mean_residual": 0.504238,
+        "max_residual": 11.481249,
+        "std_residual": 0.929872,
+        "n_rows": 2242
+      }
+    },
+    "9": {
+      "gearbox": {
+        "mean_residual": 1.863853,
+        "max_residual": 9.753442,
+        "std_residual": 1.897417,
+        "n_rows": 3469
+      },
+      "generator_bearings": {
+        "mean_residual": 2.476201,
+        "max_residual": 10.832223,
+        "std_residual": 2.086032,
+        "n_rows": 3469
+      },
+      "transformer": {
+        "mean_residual": 2.967025,
+        "max_residual": 26.645534,
+        "std_residual": 5.134071,
+        "n_rows": 3469
+      },
+      "hydraulic": {
+        "mean_residual": 2.056803,
+        "max_residual": 18.353722,
+        "std_residual": 2.68505,
+        "n_rows": 3469
+      },
+      "cooling": {
+        "mean_residual": 0.782851,
+        "max_residual": 16.725526,
+        "std_residual": 2.451113,
+        "n_rows": 3469
+      }
+    },
+    "11": {
+      "gearbox": {
+        "mean_residual": 802.835445,
+        "max_residual": 825.710523,
+        "std_residual": 6.846336,
+        "n_rows": 4021
+      },
+      "generator_bearings": {
+        "mean_residual": -2.843289,
+        "max_residual": 15.170505,
+        "std_residual": 4.407592,
+        "n_rows": 4021
+      },
+      "transformer": {
+        "mean_residual": -4.609954,
+        "max_residual": 17.560732,
+        "std_residual": 6.673594,
+        "n_rows": 4021
+      },
+      "hydraulic": {
+        "mean_residual": -2.174517,
+        "max_residual": 24.322811,
+        "std_residual": 4.920575,
+        "n_rows": 4021
+      },
+      "cooling": {
+        "mean_residual": -0.989484,
+        "max_residual": 19.229661,
+        "std_residual": 6.150331,
+        "n_rows": 4021
+      }
+    },
+    "12": {
+      "gearbox": {
+        "mean_residual": -0.976196,
+        "max_residual": 15.24349,
+        "std_residual": 2.96172,
+        "n_rows": 3547
+      },
+      "generator_bearings": {
+        "mean_residual": -0.636192,
+        "max_residual": 12.650083,
+        "std_residual": 3.052479,
+        "n_rows": 3547
+      },
+      "transformer": {
+        "mean_residual": 2.678488,
+        "max_residual": 15.869902,
+        "std_residual": 3.639462,
+        "n_rows": 3547
+      },
+      "hydraulic": {
+        "mean_residual": 1.634001,
+        "max_residual": 27.622995,
+        "std_residual": 4.132217,
+        "n_rows": 3547
+      },
+      "cooling": {
+        "mean_residual": -0.493185,
+        "max_residual": 21.677237,
+        "std_residual": 3.463737,
+        "n_rows": 3547
+      }
+    },
+    "15": {
+      "gearbox": {
+        "mean_residual": 1.256564,
+        "max_residual": 7.283631,
+        "std_residual": 1.92288,
+        "n_rows": 2737
+      },
+      "generator_bearings": {
+        "mean_residual": -0.935271,
+        "max_residual": 7.632724,
+        "std_residual": 2.252557,
+        "n_rows": 2737
+      },
+      "transformer": {
+        "mean_residual": -1.794487,
+        "max_residual": 11.313851,
+        "std_residual": 2.339057,
+        "n_rows": 2737
+      },
+      "hydraulic": {
+        "mean_residual": -7.407009,
+        "max_residual": -1.167437,
+        "std_residual": 1.785117,
+        "n_rows": 2737
+      },
+      "cooling": {
+        "mean_residual": -0.758041,
+        "max_residual": 9.201602,
+        "std_residual": 2.016592,
+        "n_rows": 2737
+      }
+    },
+    "16": {
+      "gearbox": {
+        "mean_residual": -6.34006,
+        "max_residual": 6.641704,
+        "std_residual": 4.816436,
+        "n_rows": 2304
+      },
+      "generator_bearings": {
+        "mean_residual": -8.801526,
+        "max_residual": 4.868732,
+        "std_residual": 5.366796,
+        "n_rows": 2304
+      },
+      "transformer": {
+        "mean_residual": -15.443609,
+        "max_residual": 12.413285,
+        "std_residual": 10.407453,
+        "n_rows": 2304
+      },
+      "hydraulic": {
+        "mean_residual": -3.545181,
+        "max_residual": 23.669826,
+        "std_residual": 3.940995,
+        "n_rows": 2304
+      },
+      "cooling": {
+        "mean_residual": -4.187454,
+        "max_residual": 12.143364,
+        "std_residual": 3.678942,
+        "n_rows": 2304
+      }
+    },
+    "18": {
+      "gearbox": {
+        "mean_residual": -1.770057,
+        "max_residual": 15.736321,
+        "std_residual": 3.434418,
+        "n_rows": 1728
+      },
+      "generator_bearings": {
+        "mean_residual": -2.835254,
+        "max_residual": 8.299119,
+        "std_residual": 4.407696,
+        "n_rows": 1728
+      },
+      "transformer": {
+        "mean_residual": -5.730858,
+        "max_residual": 4.349305,
+        "std_residual": 6.067375,
+        "n_rows": 1728
+      },
+      "hydraulic": {
+        "mean_residual": 2.702129,
+        "max_residual": 14.735644,
+        "std_residual": 4.474714,
+        "n_rows": 1728
+      },
+      "cooling": {
+        "mean_residual": 1.421038,
+        "max_residual": 19.63293,
+        "std_residual": 3.375291,
+        "n_rows": 1728
+      }
+    },
+    "20": {
+      "gearbox": {
+        "mean_residual": 0.400229,
+        "max_residual": 6.787701,
+        "std_residual": 1.578389,
+        "n_rows": 2593
+      },
+      "generator_bearings": {
+        "mean_residual": 0.755329,
+        "max_residual": 6.552199,
+        "std_residual": 1.709114,
+        "n_rows": 2593
+      },
+      "transformer": {
+        "mean_residual": 2.185665,
+        "max_residual": 14.352175,
+        "std_residual": 2.779876,
+        "n_rows": 2593
+      },
+      "hydraulic": {
+        "mean_residual": -0.872381,
+        "max_residual": 3.489987,
+        "std_residual": 1.663054,
+        "n_rows": 2593
+      },
+      "cooling": {
+        "mean_residual": 0.629608,
+        "max_residual": 10.535384,
+        "std_residual": 1.165969,
+        "n_rows": 2593
+      }
+    },
+    "28": {
+      "gearbox": {
+        "mean_residual": -1.914543,
+        "max_residual": 8.836384,
+        "std_residual": 2.843265,
+        "n_rows": 3358
+      },
+      "generator_bearings": {
+        "mean_residual": -2.553205,
+        "max_residual": 8.107856,
+        "std_residual": 3.087797,
+        "n_rows": 3358
+      },
+      "transformer": {
+        "mean_residual": 1.954898,
+        "max_residual": 15.435243,
+        "std_residual": 5.503995,
+        "n_rows": 3358
+      },
+      "hydraulic": {
+        "mean_residual": -2.341086,
+        "max_residual": 25.821421,
+        "std_residual": 4.692157,
+        "n_rows": 3358
+      },
+      "cooling": {
+        "mean_residual": -0.486192,
+        "max_residual": 14.95785,
+        "std_residual": 3.158546,
+        "n_rows": 3358
+      }
+    },
+    "29": {
+      "gearbox": {
+        "mean_residual": -1.282432,
+        "max_residual": 5.636642,
+        "std_residual": 2.5298,
+        "n_rows": 2305
+      },
+      "generator_bearings": {
+        "mean_residual": -1.48876,
+        "max_residual": 6.120818,
+        "std_residual": 2.405677,
+        "n_rows": 2305
+      },
+      "transformer": {
+        "mean_residual": -3.35602,
+        "max_residual": 9.594688,
+        "std_residual": 3.059538,
+        "n_rows": 2305
+      },
+      "hydraulic": {
+        "mean_residual": -0.142331,
+        "max_residual": 7.243528,
+        "std_residual": 2.221484,
+        "n_rows": 2305
+      },
+      "cooling": {
+        "mean_residual": 0.262005,
+        "max_residual": 10.319283,
+        "std_residual": 2.509609,
+        "n_rows": 2305
+      }
+    },
+    "30": {
+      "gearbox": {
+        "mean_residual": -7.910176,
+        "max_residual": 7.642826,
+        "std_residual": 5.59646,
+        "n_rows": 3551
+      },
+      "generator_bearings": {
+        "mean_residual": -9.806997,
+        "max_residual": 7.040202,
+        "std_residual": 5.794137,
+        "n_rows": 3551
+      },
+      "transformer": {
+        "mean_residual": -15.704306,
+        "max_residual": 13.759873,
+        "std_residual": 10.27068,
+        "n_rows": 3551
+      },
+      "hydraulic": {
+        "mean_residual": -1.892046,
+        "max_residual": 5.000651,
+        "std_residual": 2.098581,
+        "n_rows": 3551
+      },
+      "cooling": {
+        "mean_residual": -3.459871,
+        "max_residual": 14.617066,
+        "std_residual": 3.799317,
+        "n_rows": 3551
+      }
+    },
+    "31": {
+      "gearbox": {
+        "mean_residual": -5.981398,
+        "max_residual": 9.432342,
+        "std_residual": 9.776167,
+        "n_rows": 2029
+      },
+      "generator_bearings": {
+        "mean_residual": -5.251185,
+        "max_residual": 7.522841,
+        "std_residual": 6.053613,
+        "n_rows": 2029
+      },
+      "transformer": {
+        "mean_residual": -3.771596,
+        "max_residual": 18.704798,
+        "std_residual": 9.968522,
+        "n_rows": 2029
+      },
+      "hydraulic": {
+        "mean_residual": 4.529485,
+        "max_residual": 40.196212,
+        "std_residual": 12.277271,
+        "n_rows": 2029
+      },
+      "cooling": {
+        "mean_residual": -5.910782,
+        "max_residual": 17.876566,
+        "std_residual": 7.162813,
+        "n_rows": 2029
+      }
+    },
+    "32": {
+      "gearbox": {
+        "mean_residual": -0.673827,
+        "max_residual": 6.778523,
+        "std_residual": 1.431558,
+        "n_rows": 2449
+      },
+      "generator_bearings": {
+        "mean_residual": 1.149649,
+        "max_residual": 9.132392,
+        "std_residual": 1.57216,
+        "n_rows": 2449
+      },
+      "transformer": {
+        "mean_residual": -2.254721,
+        "max_residual": 5.513909,
+        "std_residual": 2.899455,
+        "n_rows": 2449
+      },
+      "hydraulic": {
+        "mean_residual": 1.988624,
+        "max_residual": 10.053363,
+        "std_residual": 2.553734,
+        "n_rows": 2449
+      },
+      "cooling": {
+        "mean_residual": 0.779173,
+        "max_residual": 9.648087,
+        "std_residual": 0.884258,
+        "n_rows": 2449
+      }
+    },
+    "33": {
+      "gearbox": {
+        "mean_residual": 764.027106,
+        "max_residual": 810.948463,
+        "std_residual": 170.932303,
+        "n_rows": 3313
+      },
+      "generator_bearings": {
+        "mean_residual": -2.857741,
+        "max_residual": 10.324855,
+        "std_residual": 5.17756,
+        "n_rows": 3313
+      },
+      "transformer": {
+        "mean_residual": -0.955482,
+        "max_residual": 17.148763,
+        "std_residual": 5.586818,
+        "n_rows": 3313
+      },
+      "hydraulic": {
+        "mean_residual": -1.073988,
+        "max_residual": 4.293066,
+        "std_residual": 1.767419,
+        "n_rows": 3313
+      },
+      "cooling": {
+        "mean_residual": -0.979985,
+        "max_residual": 16.560953,
+        "std_residual": 4.760519,
+        "n_rows": 3313
+      }
+    },
+    "35": {
+      "gearbox": {
+        "mean_residual": -2.953757,
+        "max_residual": 7.861511,
+        "std_residual": 4.93646,
+        "n_rows": 1207
+      },
+      "generator_bearings": {
+        "mean_residual": -3.51344,
+        "max_residual": 6.76405,
+        "std_residual": 5.18003,
+        "n_rows": 1207
+      },
+      "transformer": {
+        "mean_residual": -1.506018,
+        "max_residual": 13.876652,
+        "std_residual": 5.867456,
+        "n_rows": 1207
+      },
+      "hydraulic": {
+        "mean_residual": -3.755069,
+        "max_residual": 2.332773,
+        "std_residual": 2.308322,
+        "n_rows": 1207
+      },
+      "cooling": {
+        "mean_residual": -4.322271,
+        "max_residual": 8.361075,
+        "std_residual": 5.47405,
+        "n_rows": 1207
+      }
+    },
+    "36": {
+      "gearbox": {
+        "mean_residual": 0.107187,
+        "max_residual": 28.728929,
+        "std_residual": 3.626175,
+        "n_rows": 2888
+      },
+      "generator_bearings": {
+        "mean_residual": 0.636892,
+        "max_residual": 27.789217,
+        "std_residual": 4.89543,
+        "n_rows": 2888
+      },
+      "transformer": {
+        "mean_residual": 4.046577,
+        "max_residual": 27.730986,
+        "std_residual": 5.800967,
+        "n_rows": 2888
+      },
+      "hydraulic": {
+        "mean_residual": 0.676454,
+        "max_residual": 6.784874,
+        "std_residual": 1.925708,
+        "n_rows": 2744
+      },
+      "cooling": {
+        "mean_residual": 1.805796,
+        "max_residual": 37.786,
+        "std_residual": 7.976807,
+        "n_rows": 2888
+      }
+    },
+    "37": {
+      "gearbox": {
+        "mean_residual": 0.094427,
+        "max_residual": 10.614613,
+        "std_residual": 3.114818,
+        "n_rows": 2449
+      },
+      "generator_bearings": {
+        "mean_residual": 1.224424,
+        "max_residual": 10.921032,
+        "std_residual": 3.075116,
+        "n_rows": 2449
+      },
+      "transformer": {
+        "mean_residual": -1.306744,
+        "max_residual": 10.04923,
+        "std_residual": 2.870176,
+        "n_rows": 2449
+      },
+      "hydraulic": {
+        "mean_residual": 0.736532,
+        "max_residual": 6.083713,
+        "std_residual": 2.198224,
+        "n_rows": 2449
+      },
+      "cooling": {
+        "mean_residual": 1.306396,
+        "max_residual": 12.684164,
+        "std_residual": 3.524657,
+        "n_rows": 2449
+      }
+    },
+    "39": {
+      "gearbox": {
+        "mean_residual": -1.823001,
+        "max_residual": 8.549077,
+        "std_residual": 3.355712,
+        "n_rows": 1167
+      },
+      "generator_bearings": {
+        "mean_residual": -4.10055,
+        "max_residual": 4.973261,
+        "std_residual": 4.195009,
+        "n_rows": 1167
+      },
+      "transformer": {
+        "mean_residual": -1.858268,
+        "max_residual": 14.596691,
+        "std_residual": 9.098643,
+        "n_rows": 1167
+      },
+      "hydraulic": {
+        "mean_residual": -2.313227,
+        "max_residual": 2.645992,
+        "std_residual": 1.349282,
+        "n_rows": 1167
+      },
+      "cooling": {
+        "mean_residual": 1.704113,
+        "max_residual": 12.867878,
+        "std_residual": 3.117974,
+        "n_rows": 1167
+      }
+    },
+    "41": {
+      "gearbox": {
+        "mean_residual": -1.371669,
+        "max_residual": 7.633813,
+        "std_residual": 2.069744,
+        "n_rows": 4258
+      },
+      "generator_bearings": {
+        "mean_residual": -1.038129,
+        "max_residual": 7.818509,
+        "std_residual": 2.003964,
+        "n_rows": 4258
+      },
+      "transformer": {
+        "mean_residual": -5.851688,
+        "max_residual": 6.238696,
+        "std_residual": 3.543042,
+        "n_rows": 4258
+      },
+      "hydraulic": {
+        "mean_residual": 2.698025,
+        "max_residual": 18.269171,
+        "std_residual": 3.010286,
+        "n_rows": 4258
+      },
+      "cooling": {
+        "mean_residual": 0.750263,
+        "max_residual": 12.851262,
+        "std_residual": 2.71959,
+        "n_rows": 4258
+      }
+    },
+    "43": {
+      "gearbox": {
+        "mean_residual": -0.955709,
+        "max_residual": 6.792038,
+        "std_residual": 1.469067,
+        "n_rows": 2593
+      },
+      "generator_bearings": {
+        "mean_residual": -0.806768,
+        "max_residual": 6.788563,
+        "std_residual": 1.730007,
+        "n_rows": 2593
+      },
+      "transformer": {
+        "mean_residual": 2.750743,
+        "max_residual": 11.85694,
+        "std_residual": 2.36628,
+        "n_rows": 2593
+      },
+      "hydraulic": {
+        "mean_residual": 2.238777,
+        "max_residual": 10.822092,
+        "std_residual": 2.774479,
+        "n_rows": 2593
+      },
+      "cooling": {
+        "mean_residual": 0.23933,
+        "max_residual": 9.626791,
+        "std_residual": 0.887433,
+        "n_rows": 2593
+      }
+    },
+    "44": {
+      "gearbox": {
+        "mean_residual": 0.18426,
+        "max_residual": 10.589846,
+        "std_residual": 2.262372,
+        "n_rows": 10443
+      },
+      "generator_bearings": {
+        "mean_residual": 0.349904,
+        "max_residual": 8.184152,
+        "std_residual": 2.268389,
+        "n_rows": 10443
+      },
+      "transformer": {
+        "mean_residual": -1.172426,
+        "max_residual": 11.461644,
+        "std_residual": 2.921627,
+        "n_rows": 10443
+      },
+      "hydraulic": {
+        "mean_residual": -1.005237,
+        "max_residual": 17.34201,
+        "std_residual": 2.262074,
+        "n_rows": 10443
+      },
+      "cooling": {
+        "mean_residual": 0.033703,
+        "max_residual": 13.014933,
+        "std_residual": 2.085326,
+        "n_rows": 10443
+      }
+    },
+    "46": {
+      "gearbox": {
+        "mean_residual": -0.254347,
+        "max_residual": 8.599602,
+        "std_residual": 2.40443,
+        "n_rows": 2573
+      },
+      "generator_bearings": {
+        "mean_residual": -0.703933,
+        "max_residual": 6.018244,
+        "std_residual": 2.471066,
+        "n_rows": 2573
+      },
+      "transformer": {
+        "mean_residual": -3.24608,
+        "max_residual": 5.281281,
+        "std_residual": 3.236133,
+        "n_rows": 2573
+      },
+      "hydraulic": {
+        "mean_residual": -0.842283,
+        "max_residual": 5.02323,
+        "std_residual": 1.895801,
+        "n_rows": 2573
+      },
+      "cooling": {
+        "mean_residual": -0.715904,
+        "max_residual": 10.91203,
+        "std_residual": 2.619795,
+        "n_rows": 2573
+      }
+    },
+    "47": {
+      "gearbox": {
+        "mean_residual": 0.497836,
+        "max_residual": 11.136559,
+        "std_residual": 2.340323,
+        "n_rows": 1577
+      },
+      "generator_bearings": {
+        "mean_residual": 0.573594,
+        "max_residual": 13.071905,
+        "std_residual": 2.047497,
+        "n_rows": 1577
+      },
+      "transformer": {
+        "mean_residual": -5.21816,
+        "max_residual": 12.934499,
+        "std_residual": 3.667131,
+        "n_rows": 1577
+      },
+      "hydraulic": {
+        "mean_residual": 38.305943,
+        "max_residual": 45.792126,
+        "std_residual": 6.207379,
+        "n_rows": 1577
+      },
+      "cooling": {
+        "mean_residual": -0.278949,
+        "max_residual": 10.720018,
+        "std_residual": 2.786294,
+        "n_rows": 1577
+      }
+    },
+    "48": {
+      "gearbox": {
+        "mean_residual": -0.252832,
+        "max_residual": 8.849939,
+        "std_residual": 2.723778,
+        "n_rows": 2737
+      },
+      "generator_bearings": {
+        "mean_residual": -0.871071,
+        "max_residual": 5.066539,
+        "std_residual": 2.462881,
+        "n_rows": 2737
+      },
+      "transformer": {
+        "mean_residual": -1.206658,
+        "max_residual": 6.872793,
+        "std_residual": 3.412853,
+        "n_rows": 2737
+      },
+      "hydraulic": {
+        "mean_residual": -0.921199,
+        "max_residual": 5.097229,
+        "std_residual": 1.832837,
+        "n_rows": 2737
+      },
+      "cooling": {
+        "mean_residual": -0.429361,
+        "max_residual": 11.244876,
+        "std_residual": 3.421982,
+        "n_rows": 2737
+      }
+    },
+    "49": {
+      "gearbox": {
+        "mean_residual": -0.543264,
+        "max_residual": 5.864899,
+        "std_residual": 3.023115,
+        "n_rows": 1606
+      },
+      "generator_bearings": {
+        "mean_residual": -1.547085,
+        "max_residual": 3.598433,
+        "std_residual": 2.182089,
+        "n_rows": 1606
+      },
+      "transformer": {
+        "mean_residual": -7.221611,
+        "max_residual": 8.587479,
+        "std_residual": 5.554567,
+        "n_rows": 1606
+      },
+      "hydraulic": {
+        "mean_residual": -0.923316,
+        "max_residual": 14.40579,
+        "std_residual": 3.761942,
+        "n_rows": 1606
+      },
+      "cooling": {
+        "mean_residual": 0.119825,
+        "max_residual": 8.243185,
+        "std_residual": 2.519614,
+        "n_rows": 1606
+      }
+    },
+    "50": {
+      "gearbox": {
+        "mean_residual": 0.575898,
+        "max_residual": 6.230499,
+        "std_residual": 1.186696,
+        "n_rows": 3457
+      },
+      "generator_bearings": {
+        "mean_residual": -0.331641,
+        "max_residual": 5.451413,
+        "std_residual": 1.345757,
+        "n_rows": 3457
+      },
+      "transformer": {
+        "mean_residual": -0.998621,
+        "max_residual": 16.627613,
+        "std_residual": 3.552305,
+        "n_rows": 3457
+      },
+      "hydraulic": {
+        "mean_residual": -2.060285,
+        "max_residual": 5.072812,
+        "std_residual": 2.953505,
+        "n_rows": 3457
+      },
+      "cooling": {
+        "mean_residual": -0.728597,
+        "max_residual": 8.022077,
+        "std_residual": 2.384918,
+        "n_rows": 3457
+      }
+    },
+    "54": {
+      "gearbox": {
+        "mean_residual": -1.19464,
+        "max_residual": 7.547032,
+        "std_residual": 3.049325,
+        "n_rows": 3025
+      },
+      "generator_bearings": {
+        "mean_residual": -1.753924,
+        "max_residual": 6.516156,
+        "std_residual": 2.756604,
+        "n_rows": 3025
+      },
+      "transformer": {
+        "mean_residual": -1.946973,
+        "max_residual": 6.765823,
+        "std_residual": 2.315201,
+        "n_rows": 3025
+      },
+      "hydraulic": {
+        "mean_residual": 0.854896,
+        "max_residual": 6.723863,
+        "std_residual": 2.451645,
+        "n_rows": 3025
+      },
+      "cooling": {
+        "mean_residual": -0.002687,
+        "max_residual": 16.460363,
+        "std_residual": 2.876115,
+        "n_rows": 3025
+      }
+    },
+    "55": {
+      "gearbox": {
+        "mean_residual": 1.297373,
+        "max_residual": 16.222577,
+        "std_residual": 2.098637,
+        "n_rows": 3193
+      },
+      "generator_bearings": {
+        "mean_residual": 0.897836,
+        "max_residual": 13.817923,
+        "std_residual": 1.604622,
+        "n_rows": 3193
+      },
+      "transformer": {
+        "mean_residual": 1.462204,
+        "max_residual": 14.932335,
+        "std_residual": 3.539745,
+        "n_rows": 3193
+      },
+      "hydraulic": {
+        "mean_residual": 3.837512,
+        "max_residual": 11.610584,
+        "std_residual": 2.627236,
+        "n_rows": 3193
+      },
+      "cooling": {
+        "mean_residual": 0.720826,
+        "max_residual": 17.092156,
+        "std_residual": 1.760456,
+        "n_rows": 3193
+      }
+    },
+    "56": {
+      "gearbox": {
+        "mean_residual": 0.434278,
+        "max_residual": 13.957034,
+        "std_residual": 2.157003,
+        "n_rows": 2296
+      },
+      "generator_bearings": {
+        "mean_residual": 0.42075,
+        "max_residual": 11.708865,
+        "std_residual": 1.989686,
+        "n_rows": 2296
+      },
+      "transformer": {
+        "mean_residual": -0.391922,
+        "max_residual": 13.500439,
+        "std_residual": 2.133626,
+        "n_rows": 2296
+      },
+      "hydraulic": {
+        "mean_residual": 2.521448,
+        "max_residual": 12.054862,
+        "std_residual": 2.997156,
+        "n_rows": 2296
+      },
+      "cooling": {
+        "mean_residual": 0.487656,
+        "max_residual": 12.936386,
+        "std_residual": 1.831553,
+        "n_rows": 2296
+      }
+    },
+    "57": {
+      "gearbox": {
+        "mean_residual": 0.208533,
+        "max_residual": 6.099756,
+        "std_residual": 2.1108,
+        "n_rows": 2449
+      },
+      "generator_bearings": {
+        "mean_residual": 0.444963,
+        "max_residual": 9.84887,
+        "std_residual": 2.50652,
+        "n_rows": 2449
+      },
+      "transformer": {
+        "mean_residual": -0.344698,
+        "max_residual": 8.856241,
+        "std_residual": 2.59549,
+        "n_rows": 2449
+      },
+      "hydraulic": {
+        "mean_residual": -0.3111,
+        "max_residual": 8.085019,
+        "std_residual": 2.851341,
+        "n_rows": 2449
+      },
+      "cooling": {
+        "mean_residual": 0.450728,
+        "max_residual": 14.60689,
+        "std_residual": 2.513499,
+        "n_rows": 2449
+      }
+    },
+    "58": {
+      "gearbox": {
+        "mean_residual": 1.297218,
+        "max_residual": 8.586187,
+        "std_residual": 1.631627,
+        "n_rows": 1873
+      },
+      "generator_bearings": {
+        "mean_residual": 0.900057,
+        "max_residual": 6.071833,
+        "std_residual": 1.801266,
+        "n_rows": 1873
+      },
+      "transformer": {
+        "mean_residual": 2.166329,
+        "max_residual": 11.997289,
+        "std_residual": 2.548991,
+        "n_rows": 1873
+      },
+      "hydraulic": {
+        "mean_residual": -1.155991,
+        "max_residual": 1.951792,
+        "std_residual": 0.995755,
+        "n_rows": 1873
+      },
+      "cooling": {
+        "mean_residual": 0.497526,
+        "max_residual": 11.024619,
+        "std_residual": 1.553016,
+        "n_rows": 1873
+      }
+    },
+    "59": {
+      "gearbox": {
+        "mean_residual": 0.621029,
+        "max_residual": 9.581271,
+        "std_residual": 2.59539,
+        "n_rows": 2737
+      },
+      "generator_bearings": {
+        "mean_residual": 0.427114,
+        "max_residual": 9.090844,
+        "std_residual": 2.55836,
+        "n_rows": 2737
+      },
+      "transformer": {
+        "mean_residual": 3.53685,
+        "max_residual": 25.185602,
+        "std_residual": 4.721593,
+        "n_rows": 2737
+      },
+      "hydraulic": {
+        "mean_residual": 0.024976,
+        "max_residual": 4.75761,
+        "std_residual": 1.811243,
+        "n_rows": 2737
+      },
+      "cooling": {
+        "mean_residual": 1.092633,
+        "max_residual": 10.344627,
+        "std_residual": 2.291041,
+        "n_rows": 2737
+      }
+    },
+    "60": {
+      "gearbox": {
+        "mean_residual": 0.589089,
+        "max_residual": 14.055946,
+        "std_residual": 2.329565,
+        "n_rows": 2449
+      },
+      "generator_bearings": {
+        "mean_residual": 0.130347,
+        "max_residual": 13.425259,
+        "std_residual": 2.364754,
+        "n_rows": 2449
+      },
+      "transformer": {
+        "mean_residual": 3.802915,
+        "max_residual": 13.168099,
+        "std_residual": 3.874557,
+        "n_rows": 2449
+      },
+      "hydraulic": {
+        "mean_residual": -1.820885,
+        "max_residual": 4.464699,
+        "std_residual": 2.369067,
+        "n_rows": 2449
+      },
+      "cooling": {
+        "mean_residual": -1.006076,
+        "max_residual": 13.769153,
+        "std_residual": 3.467257,
+        "n_rows": 2449
+      }
+    },
+    "61": {
+      "gearbox": {
+        "mean_residual": -0.793565,
+        "max_residual": 13.216131,
+        "std_residual": 2.93074,
+        "n_rows": 3025
+      },
+      "generator_bearings": {
+        "mean_residual": -0.975298,
+        "max_residual": 12.860588,
+        "std_residual": 2.841372,
+        "n_rows": 3025
+      },
+      "transformer": {
+        "mean_residual": 1.55762,
+        "max_residual": 15.724397,
+        "std_residual": 3.377261,
+        "n_rows": 3025
+      },
+      "hydraulic": {
+        "mean_residual": -0.955592,
+        "max_residual": 4.041846,
+        "std_residual": 1.590404,
+        "n_rows": 3025
+      },
+      "cooling": {
+        "mean_residual": -0.135157,
+        "max_residual": 22.299709,
+        "std_residual": 3.349416,
+        "n_rows": 3025
+      }
+    },
+    "62": {
+      "gearbox": {
+        "mean_residual": 0.02964,
+        "max_residual": 5.523224,
+        "std_residual": 1.114762,
+        "n_rows": 1032
+      },
+      "generator_bearings": {
+        "mean_residual": 0.239207,
+        "max_residual": 5.994874,
+        "std_residual": 1.114807,
+        "n_rows": 1032
+      },
+      "transformer": {
+        "mean_residual": -2.060844,
+        "max_residual": 5.078683,
+        "std_residual": 2.324093,
+        "n_rows": 1032
+      },
+      "hydraulic": {
+        "mean_residual": -2.665472,
+        "max_residual": 2.496637,
+        "std_residual": 1.764355,
+        "n_rows": 1032
+      },
+      "cooling": {
+        "mean_residual": 0.312341,
+        "max_residual": 3.202738,
+        "std_residual": 0.924063,
+        "n_rows": 1032
+      }
+    },
+    "63": {
+      "gearbox": {
+        "mean_residual": -0.331473,
+        "max_residual": 4.494227,
+        "std_residual": 1.620447,
+        "n_rows": 2305
+      },
+      "generator_bearings": {
+        "mean_residual": -0.739338,
+        "max_residual": 3.797989,
+        "std_residual": 2.005766,
+        "n_rows": 2305
+      },
+      "transformer": {
+        "mean_residual": 3.677631,
+        "max_residual": 9.826437,
+        "std_residual": 2.721104,
+        "n_rows": 2305
+      },
+      "hydraulic": {
+        "mean_residual": 2.592532,
+        "max_residual": 11.319313,
+        "std_residual": 2.537061,
+        "n_rows": 2305
+      },
+      "cooling": {
+        "mean_residual": -0.902875,
+        "max_residual": 7.17627,
+        "std_residual": 2.735975,
+        "n_rows": 2305
+      }
+    },
+    "64": {
+      "gearbox": {
+        "mean_residual": 0.546817,
+        "max_residual": 7.894247,
+        "std_residual": 1.857484,
+        "n_rows": 1873
+      },
+      "generator_bearings": {
+        "mean_residual": 0.231718,
+        "max_residual": 10.79315,
+        "std_residual": 2.210255,
+        "n_rows": 1873
+      },
+      "transformer": {
+        "mean_residual": -0.06844,
+        "max_residual": 6.488564,
+        "std_residual": 2.174864,
+        "n_rows": 1873
+      },
+      "hydraulic": {
+        "mean_residual": 2.372814,
+        "max_residual": 19.889064,
+        "std_residual": 3.150855,
+        "n_rows": 1873
+      },
+      "cooling": {
+        "mean_residual": 0.237516,
+        "max_residual": 14.463231,
+        "std_residual": 2.257736,
+        "n_rows": 1873
+      }
+    },
+    "65": {
+      "gearbox": {
+        "mean_residual": -0.23281,
+        "max_residual": 5.73221,
+        "std_residual": 1.518651,
+        "n_rows": 3358
+      },
+      "generator_bearings": {
+        "mean_residual": -0.003894,
+        "max_residual": 6.410956,
+        "std_residual": 1.373443,
+        "n_rows": 3358
+      },
+      "transformer": {
+        "mean_residual": 2.290238,
+        "max_residual": 14.254438,
+        "std_residual": 2.784325,
+        "n_rows": 3358
+      },
+      "hydraulic": {
+        "mean_residual": 0.385793,
+        "max_residual": 7.824336,
+        "std_residual": 2.622476,
+        "n_rows": 3358
+      },
+      "cooling": {
+        "mean_residual": 0.292879,
+        "max_residual": 13.806835,
+        "std_residual": 1.958242,
+        "n_rows": 3358
+      }
+    },
+    "66": {
+      "gearbox": {
+        "mean_residual": -3.186422,
+        "max_residual": 6.937367,
+        "std_residual": 4.89689,
+        "n_rows": 1807
+      },
+      "generator_bearings": {
+        "mean_residual": -7.573478,
+        "max_residual": 6.345393,
+        "std_residual": 6.840671,
+        "n_rows": 1807
+      },
+      "transformer": {
+        "mean_residual": -11.360927,
+        "max_residual": 4.344595,
+        "std_residual": 8.934343,
+        "n_rows": 1807
+      },
+      "hydraulic": {
+        "mean_residual": -5.096793,
+        "max_residual": 2.449273,
+        "std_residual": 2.815381,
+        "n_rows": 1807
+      },
+      "cooling": {
+        "mean_residual": -6.639838,
+        "max_residual": 12.987627,
+        "std_residual": 6.430924,
+        "n_rows": 1807
+      }
+    },
+    "67": {
+      "gearbox": {
+        "mean_residual": -0.030957,
+        "max_residual": 11.368721,
+        "std_residual": 2.706064,
+        "n_rows": 8929
+      },
+      "generator_bearings": {
+        "mean_residual": -0.91449,
+        "max_residual": 9.178189,
+        "std_residual": 2.788968,
+        "n_rows": 8929
+      },
+      "transformer": {
+        "mean_residual": 4.902715,
+        "max_residual": 22.529896,
+        "std_residual": 4.785032,
+        "n_rows": 8929
+      },
+      "hydraulic": {
+        "mean_residual": -0.380057,
+        "max_residual": 4.668944,
+        "std_residual": 2.000829,
+        "n_rows": 8929
+      },
+      "cooling": {
+        "mean_residual": -0.746185,
+        "max_residual": 15.320184,
+        "std_residual": 3.548779,
+        "n_rows": 8929
+      }
+    },
+    "70": {
+      "gearbox": {
+        "mean_residual": 0.137644,
+        "max_residual": 11.258538,
+        "std_residual": 2.409462,
+        "n_rows": 3478
+      },
+      "generator_bearings": {
+        "mean_residual": -0.245975,
+        "max_residual": 12.816445,
+        "std_residual": 2.667441,
+        "n_rows": 3478
+      },
+      "transformer": {
+        "mean_residual": -1.926145,
+        "max_residual": 9.466433,
+        "std_residual": 4.439489,
+        "n_rows": 3478
+      },
+      "hydraulic": {
+        "mean_residual": 1.635756,
+        "max_residual": 14.698477,
+        "std_residual": 3.370241,
+        "n_rows": 3478
+      },
+      "cooling": {
+        "mean_residual": -0.555292,
+        "max_residual": 18.877213,
+        "std_residual": 2.725334,
+        "n_rows": 3478
+      }
+    },
+    "75": {
+      "gearbox": {
+        "mean_residual": 0.074815,
+        "max_residual": 12.280054,
+        "std_residual": 3.206131,
+        "n_rows": 3601
+      },
+      "generator_bearings": {
+        "mean_residual": 0.129325,
+        "max_residual": 11.041529,
+        "std_residual": 3.283586,
+        "n_rows": 3601
+      },
+      "transformer": {
+        "mean_residual": -0.764266,
+        "max_residual": 13.782731,
+        "std_residual": 3.245216,
+        "n_rows": 3601
+      },
+      "hydraulic": {
+        "mean_residual": -1.710773,
+        "max_residual": 5.233694,
+        "std_residual": 1.926148,
+        "n_rows": 3601
+      },
+      "cooling": {
+        "mean_residual": -0.999463,
+        "max_residual": 17.59514,
+        "std_residual": 3.753388,
+        "n_rows": 3601
+      }
+    },
+    "76": {
+      "gearbox": {
+        "mean_residual": 0.927974,
+        "max_residual": 9.876175,
+        "std_residual": 2.287605,
+        "n_rows": 822
+      },
+      "generator_bearings": {
+        "mean_residual": 0.521976,
+        "max_residual": 7.91325,
+        "std_residual": 2.462071,
+        "n_rows": 822
+      },
+      "transformer": {
+        "mean_residual": 2.787938,
+        "max_residual": 12.413285,
+        "std_residual": 5.378249,
+        "n_rows": 822
+      },
+      "hydraulic": {
+        "mean_residual": -3.497008,
+        "max_residual": 6.182465,
+        "std_residual": 2.064567,
+        "n_rows": 822
+      },
+      "cooling": {
+        "mean_residual": 1.832593,
+        "max_residual": 14.582775,
+        "std_residual": 3.284159,
+        "n_rows": 822
+      }
+    },
+    "78": {
+      "gearbox": {
+        "mean_residual": 0.920487,
+        "max_residual": 12.609927,
+        "std_residual": 3.45921,
+        "n_rows": 586
+      },
+      "generator_bearings": {
+        "mean_residual": 1.127694,
+        "max_residual": 13.209699,
+        "std_residual": 3.698455,
+        "n_rows": 586
+      },
+      "transformer": {
+        "mean_residual": 0.263725,
+        "max_residual": 10.934212,
+        "std_residual": 3.203486,
+        "n_rows": 586
+      },
+      "hydraulic": {
+        "mean_residual": 2.066747,
+        "max_residual": 13.700547,
+        "std_residual": 3.53946,
+        "n_rows": 586
+      },
+      "cooling": {
+        "mean_residual": 0.916123,
+        "max_residual": 12.238249,
+        "std_residual": 2.715789,
+        "n_rows": 586
+      }
+    },
+    "79": {
+      "gearbox": {
+        "mean_residual": -1.067972,
+        "max_residual": 7.081535,
+        "std_residual": 3.408235,
+        "n_rows": 721
+      },
+      "generator_bearings": {
+        "mean_residual": -5.849233,
+        "max_residual": 4.679159,
+        "std_residual": 14.023948,
+        "n_rows": 721
+      },
+      "transformer": {
+        "mean_residual": -4.523124,
+        "max_residual": 3.875717,
+        "std_residual": 3.516542,
+        "n_rows": 721
+      },
+      "hydraulic": {
+        "mean_residual": 0.371736,
+        "max_residual": 5.727902,
+        "std_residual": 2.260687,
+        "n_rows": 721
+      },
+      "cooling": {
+        "mean_residual": 0.743273,
+        "max_residual": 13.891781,
+        "std_residual": 2.347696,
+        "n_rows": 721
+      }
+    },
+    "80": {
+      "gearbox": {
+        "mean_residual": 0.223305,
+        "max_residual": 8.423487,
+        "std_residual": 2.211387,
+        "n_rows": 2353
+      },
+      "generator_bearings": {
+        "mean_residual": -0.093486,
+        "max_residual": 9.218934,
+        "std_residual": 2.569552,
+        "n_rows": 2353
+      },
+      "transformer": {
+        "mean_residual": 0.735988,
+        "max_residual": 12.164445,
+        "std_residual": 2.93836,
+        "n_rows": 2353
+      },
+      "hydraulic": {
+        "mean_residual": -1.157863,
+        "max_residual": 2.801449,
+        "std_residual": 1.278482,
+        "n_rows": 2353
+      },
+      "cooling": {
+        "mean_residual": -0.217796,
+        "max_residual": 11.083333,
+        "std_residual": 2.194956,
+        "n_rows": 2353
+      }
+    },
+    "81": {
+      "gearbox": {
+        "mean_residual": -0.193084,
+        "max_residual": 6.140588,
+        "std_residual": 2.018787,
+        "n_rows": 1372
+      },
+      "generator_bearings": {
+        "mean_residual": -0.240162,
+        "max_residual": 10.525015,
+        "std_residual": 2.675776,
+        "n_rows": 1372
+      },
+      "transformer": {
+        "mean_residual": -4.0038,
+        "max_residual": 8.041196,
+        "std_residual": 4.680549,
+        "n_rows": 1372
+      },
+      "hydraulic": {
+        "mean_residual": 0.742811,
+        "max_residual": 8.942165,
+        "std_residual": 3.035459,
+        "n_rows": 1372
+      },
+      "cooling": {
+        "mean_residual": 0.949031,
+        "max_residual": 10.926009,
+        "std_residual": 2.205686,
+        "n_rows": 1372
+      }
+    },
+    "85": {
+      "gearbox": {
+        "mean_residual": 0.724515,
+        "max_residual": 9.897731,
+        "std_residual": 2.772885,
+        "n_rows": 1585
+      },
+      "generator_bearings": {
+        "mean_residual": 0.57138,
+        "max_residual": 8.640759,
+        "std_residual": 2.777776,
+        "n_rows": 1585
+      },
+      "transformer": {
+        "mean_residual": 5.307032,
+        "max_residual": 14.521983,
+        "std_residual": 3.617358,
+        "n_rows": 1585
+      },
+      "hydraulic": {
+        "mean_residual": 2.957304,
+        "max_residual": 12.511794,
+        "std_residual": 2.539002,
+        "n_rows": 1585
+      },
+      "cooling": {
+        "mean_residual": -6.242018,
+        "max_residual": 11.971477,
+        "std_residual": 5.464394,
+        "n_rows": 1585
+      }
+    },
+    "88": {
+      "gearbox": {
+        "mean_residual": 1.603249,
+        "max_residual": 13.908009,
+        "std_residual": 3.685245,
+        "n_rows": 2881
+      },
+      "generator_bearings": {
+        "mean_residual": 1.893787,
+        "max_residual": 10.905419,
+        "std_residual": 3.055286,
+        "n_rows": 2881
+      },
+      "transformer": {
+        "mean_residual": 3.503558,
+        "max_residual": 23.150917,
+        "std_residual": 5.725091,
+        "n_rows": 2881
+      },
+      "hydraulic": {
+        "mean_residual": -0.371887,
+        "max_residual": 3.491918,
+        "std_residual": 1.731901,
+        "n_rows": 2881
+      },
+      "cooling": {
+        "mean_residual": 1.095376,
+        "max_residual": 22.29239,
+        "std_residual": 3.249945,
+        "n_rows": 2881
+      }
+    },
+    "89": {
+      "gearbox": {
+        "mean_residual": -0.120415,
+        "max_residual": 9.045069,
+        "std_residual": 2.002662,
+        "n_rows": 2737
+      },
+      "generator_bearings": {
+        "mean_residual": 0.650463,
+        "max_residual": 7.587152,
+        "std_residual": 1.993554,
+        "n_rows": 2737
+      },
+      "transformer": {
+        "mean_residual": -3.5311,
+        "max_residual": 5.001824,
+        "std_residual": 3.844622,
+        "n_rows": 2737
+      },
+      "hydraulic": {
+        "mean_residual": -0.86751,
+        "max_residual": 5.090033,
+        "std_residual": 2.20348,
+        "n_rows": 2737
+      },
+      "cooling": {
+        "mean_residual": 0.331492,
+        "max_residual": 10.373719,
+        "std_residual": 2.473971,
+        "n_rows": 2737
+      }
+    },
+    "90": {
+      "gearbox": {
+        "mean_residual": 0.024405,
+        "max_residual": 11.856215,
+        "std_residual": 1.770546,
+        "n_rows": 2320
+      },
+      "generator_bearings": {
+        "mean_residual": -0.051297,
+        "max_residual": 8.218608,
+        "std_residual": 2.000311,
+        "n_rows": 2320
+      },
+      "transformer": {
+        "mean_residual": 2.251053,
+        "max_residual": 11.209908,
+        "std_residual": 3.691082,
+        "n_rows": 2320
+      },
+      "hydraulic": {
+        "mean_residual": 3.899181,
+        "max_residual": 16.51669,
+        "std_residual": 2.740537,
+        "n_rows": 2320
+      },
+      "cooling": {
+        "mean_residual": 0.151946,
+        "max_residual": 17.269815,
+        "std_residual": 2.141854,
+        "n_rows": 2320
+      }
+    },
+    "91": {
+      "gearbox": {
+        "mean_residual": -0.161767,
+        "max_residual": 13.175094,
+        "std_residual": 2.752468,
+        "n_rows": 4048
+      },
+      "generator_bearings": {
+        "mean_residual": 1.353522,
+        "max_residual": 13.100671,
+        "std_residual": 2.847874,
+        "n_rows": 4048
+      },
+      "transformer": {
+        "mean_residual": -1.396865,
+        "max_residual": 12.655339,
+        "std_residual": 4.144402,
+        "n_rows": 4048
+      },
+      "hydraulic": {
+        "mean_residual": 0.833849,
+        "max_residual": 7.229239,
+        "std_residual": 2.1041,
+        "n_rows": 4048
+      },
+      "cooling": {
+        "mean_residual": 1.359785,
+        "max_residual": 20.125058,
+        "std_residual": 2.730509,
+        "n_rows": 4048
+      }
+    },
+    "93": {
+      "gearbox": {
+        "mean_residual": -0.958953,
+        "max_residual": 7.255165,
+        "std_residual": 1.598741,
+        "n_rows": 3313
+      },
+      "generator_bearings": {
+        "mean_residual": -0.793201,
+        "max_residual": 5.889613,
+        "std_residual": 1.781151,
+        "n_rows": 3313
+      },
+      "transformer": {
+        "mean_residual": 0.926151,
+        "max_residual": 15.633509,
+        "std_residual": 2.103462,
+        "n_rows": 3313
+      },
+      "hydraulic": {
+        "mean_residual": -1.129041,
+        "max_residual": 3.952183,
+        "std_residual": 2.111901,
+        "n_rows": 3313
+      },
+      "cooling": {
+        "mean_residual": 0.458579,
+        "max_residual": 16.976787,
+        "std_residual": 1.808366,
+        "n_rows": 3313
+      }
+    },
+    "94": {
+      "gearbox": {
+        "mean_residual": 0.765736,
+        "max_residual": 17.083193,
+        "std_residual": 3.306518,
+        "n_rows": 2737
+      },
+      "generator_bearings": {
+        "mean_residual": 0.981137,
+        "max_residual": 16.969029,
+        "std_residual": 3.443497,
+        "n_rows": 2737
+      },
+      "transformer": {
+        "mean_residual": 0.452501,
+        "max_residual": 9.79772,
+        "std_residual": 2.86648,
+        "n_rows": 2737
+      },
+      "hydraulic": {
+        "mean_residual": 1.862646,
+        "max_residual": 26.092207,
+        "std_residual": 4.13696,
+        "n_rows": 2737
+      },
+      "cooling": {
+        "mean_residual": 1.618522,
+        "max_residual": 23.083724,
+        "std_residual": 2.973264,
+        "n_rows": 2737
+      }
+    }
+  }
+}
