@@ -1,0 +1,192 @@
+[
+  {
+    "farm": "Wind Farm A",
+    "farm_letter": "A",
+    "n_normal_events": 10,
+    "models": [
+      {
+        "subsystem": "gearbox",
+        "target_sensor": "sensor_12_avg",
+        "target_description": "Temperature oil in gearbox",
+        "events_used": 10,
+        "events_skipped": 0,
+        "avg_mae": 2.021886,
+        "avg_rmse": 2.574626,
+        "avg_r2": 0.804473,
+        "min_r2": 0.630738,
+        "max_mae": 2.502435,
+        "flag": "AVG_MAE>2.0 | AVG_R2<0.85"
+      },
+      {
+        "subsystem": "generator_bearings",
+        "target_sensor": "sensor_13_avg",
+        "target_description": "Temperature in generator bearing 2 (Drive End)",
+        "events_used": 10,
+        "events_skipped": 0,
+        "avg_mae": 4.121645,
+        "avg_rmse": 5.382444,
+        "avg_r2": 0.766948,
+        "min_r2": 0.60907,
+        "max_mae": 4.922819,
+        "flag": "AVG_MAE>2.0 | AVG_R2<0.85"
+      },
+      {
+        "subsystem": "transformer",
+        "target_sensor": "sensor_38_avg",
+        "target_description": "Temperature in HV transformer phase L1",
+        "events_used": 10,
+        "events_skipped": 0,
+        "avg_mae": 7.673027,
+        "avg_rmse": 9.035099,
+        "avg_r2": -0.095207,
+        "min_r2": -2.038104,
+        "max_mae": 9.248273,
+        "flag": "AVG_MAE>2.0 | AVG_R2<0.85"
+      },
+      {
+        "subsystem": "hydraulic",
+        "target_sensor": "sensor_41_avg",
+        "target_description": "Temperature oil in hydraulic group",
+        "events_used": 10,
+        "events_skipped": 0,
+        "avg_mae": 4.242072,
+        "avg_rmse": 5.251107,
+        "avg_r2": -0.489585,
+        "min_r2": -4.765687,
+        "max_mae": 7.511863,
+        "flag": "AVG_MAE>2.0 | AVG_R2<0.85"
+      },
+      {
+        "subsystem": "cooling",
+        "target_sensor": "sensor_10_avg",
+        "target_description": "Temperature in the VCS cooling water",
+        "events_used": 10,
+        "events_skipped": 0,
+        "avg_mae": 1.074083,
+        "avg_rmse": 1.491659,
+        "avg_r2": 0.849264,
+        "min_r2": 0.732493,
+        "max_mae": 1.440346,
+        "flag": "AVG_R2<0.85"
+      }
+    ]
+  },
+  {
+    "farm": "Wind Farm B",
+    "farm_letter": "B",
+    "n_normal_events": 9,
+    "models": [
+      {
+        "subsystem": "gearbox",
+        "target_sensor": "sensor_39_avg",
+        "target_description": "Gearbox oil tank temperature",
+        "events_used": 9,
+        "events_skipped": 0,
+        "avg_mae": 1.655191,
+        "avg_rmse": 2.596933,
+        "avg_r2": 0.767909,
+        "min_r2": 0.57629,
+        "max_mae": 2.12736,
+        "flag": "AVG_R2<0.85"
+      },
+      {
+        "subsystem": "generator_bearings",
+        "target_sensor": "sensor_32_avg",
+        "target_description": "Generator bearing temperature 1",
+        "events_used": 9,
+        "events_skipped": 0,
+        "avg_mae": 6.505815,
+        "avg_rmse": 9.949986,
+        "avg_r2": -0.049659,
+        "min_r2": -1.215737,
+        "max_mae": 9.151018,
+        "flag": "AVG_MAE>2.0 | AVG_R2<0.85"
+      },
+      {
+        "subsystem": "transformer",
+        "target_sensor": "sensor_40_avg",
+        "target_description": "Transformator core temperature",
+        "events_used": 9,
+        "events_skipped": 0,
+        "avg_mae": 3.828415,
+        "avg_rmse": 4.610675,
+        "avg_r2": 0.070983,
+        "min_r2": -1.302987,
+        "max_mae": 7.478498,
+        "flag": "AVG_MAE>2.0 | AVG_R2<0.85"
+      }
+    ]
+  },
+  {
+    "farm": "Wind Farm C",
+    "farm_letter": "C",
+    "n_normal_events": 31,
+    "models": [
+      {
+        "subsystem": "gearbox",
+        "target_sensor": "sensor_186_avg",
+        "target_description": "Gearbox oil temperature 1",
+        "events_used": 31,
+        "events_skipped": 0,
+        "avg_mae": 1.596156,
+        "avg_rmse": 2.148944,
+        "avg_r2": 0.711599,
+        "min_r2": 0.371451,
+        "max_mae": 2.624611,
+        "flag": "AVG_R2<0.85"
+      },
+      {
+        "subsystem": "generator_bearings",
+        "target_sensor": "sensor_196_avg",
+        "target_description": "Rotor bearing temperature 1",
+        "events_used": 31,
+        "events_skipped": 0,
+        "avg_mae": 1.715835,
+        "avg_rmse": 2.2652,
+        "avg_r2": 0.586358,
+        "min_r2": 0.115327,
+        "max_mae": 2.898167,
+        "flag": "AVG_R2<0.85"
+      },
+      {
+        "subsystem": "transformer",
+        "target_sensor": "sensor_191_avg",
+        "target_description": "Oil temperature 1 main transformer",
+        "events_used": 31,
+        "events_skipped": 0,
+        "avg_mae": 3.121194,
+        "avg_rmse": 3.950764,
+        "avg_r2": -0.284771,
+        "min_r2": -2.219728,
+        "max_mae": 6.019612,
+        "flag": "AVG_MAE>2.0 | AVG_R2<0.85"
+      },
+      {
+        "subsystem": "hydraulic",
+        "target_sensor": "sensor_178_avg",
+        "target_description": "Hydraulic oil tank temperature 1",
+        "events_used": 31,
+        "events_skipped": 0,
+        "avg_mae": 2.355004,
+        "avg_rmse": 2.856806,
+        "avg_r2": -1.429355,
+        "min_r2": -17.361838,
+        "max_mae": 6.286425,
+        "flag": "AVG_MAE>2.0 | AVG_R2<0.85"
+      },
+      {
+        "subsystem": "cooling",
+        "target_sensor": "sensor_228_avg",
+        "target_description": "Cooling water temp. generator inlet 1",
+        "events_used": 31,
+        "events_skipped": 0,
+        "avg_mae": 1.614483,
+        "avg_rmse": 2.372525,
+        "avg_r2": 0.545866,
+        "min_r2": -0.869828,
+        "max_mae": 6.481546,
+        "flag": "AVG_R2<0.85"
+      }
+    ]
+  }
+]
