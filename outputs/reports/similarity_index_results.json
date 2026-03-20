@@ -1,0 +1,120 @@
+{
+  "total_events_indexed": 95,
+  "embedding_dimensions": 32,
+  "events_per_farm": {
+    "A": 22,
+    "B": 15,
+    "C": 58
+  },
+  "label_distribution": {
+    "anomaly": 45,
+    "normal": 50
+  },
+  "demo_query_results": [
+    {
+      "query_farm": "A",
+      "query_event_id": 0,
+      "query_description": "Generator bearing failure",
+      "query_label": "anomaly",
+      "similar_events": [
+        {
+          "farm": "A",
+          "event_id": 68,
+          "event_label": "anomaly",
+          "event_description": "Transformer failure",
+          "similarity_score": 0.9849,
+          "distance": 0.0151
+        },
+        {
+          "farm": "A",
+          "event_id": 73,
+          "event_label": "anomaly",
+          "event_description": "Hydraulic group",
+          "similarity_score": 0.9765,
+          "distance": 0.0235
+        },
+        {
+          "farm": "A",
+          "event_id": 10,
+          "event_label": "anomaly",
+          "event_description": "Gearbox failure",
+          "similarity_score": 0.9592,
+          "distance": 0.0408
+        }
+      ]
+    },
+    {
+      "query_farm": "B",
+      "query_event_id": 7,
+      "query_description": "high temperature in transformer cell",
+      "query_label": "anomaly",
+      "similar_events": [
+        {
+          "farm": "B",
+          "event_id": 83,
+          "event_label": "normal",
+          "event_description": NaN,
+          "similarity_score": 0.9727,
+          "distance": 0.0273
+        },
+        {
+          "farm": "B",
+          "event_id": 34,
+          "event_label": "anomaly",
+          "event_description": "high temperature in transformer cell",
+          "similarity_score": 0.9707,
+          "distance": 0.0293
+        },
+        {
+          "farm": "B",
+          "event_id": 52,
+          "event_label": "normal",
+          "event_description": NaN,
+          "similarity_score": 0.9705,
+          "distance": 0.0295
+        }
+      ]
+    },
+    {
+      "query_farm": "C",
+      "query_event_id": 4,
+      "query_description": "23020 : Axis 3 not ready-to-operate",
+      "query_label": "anomaly",
+      "similar_events": [
+        {
+          "farm": "C",
+          "event_id": 44,
+          "event_label": "anomaly",
+          "event_description": "Valve in water cooling system was left in wrong position after maintenance actions on 05-08-2020",
+          "similarity_score": 0.9846,
+          "distance": 0.0154
+        },
+        {
+          "farm": "C",
+          "event_id": 93,
+          "event_label": "normal",
+          "event_description": NaN,
+          "similarity_score": 0.9811,
+          "distance": 0.0189
+        },
+        {
+          "farm": "C",
+          "event_id": 9,
+          "event_label": "anomaly",
+          "event_description": "PENDING19_PREV_YAW_Grease pump defective",
+          "similarity_score": 0.9807,
+          "distance": 0.0193
+        }
+      ]
+    }
+  ],
+  "class_similarity_analysis": {
+    "anomaly_to_anomaly_avg_similarity": 0.786,
+    "anomaly_to_normal_avg_similarity": 0.811,
+    "normal_to_normal_avg_similarity": 0.8419,
+    "n_anomaly_pairs": 990,
+    "n_inter_pairs": 2250,
+    "n_normal_pairs": 1225,
+    "separation_ratio": 0.9691
+  }
+}
