@@ -1,0 +1,3812 @@
+[
+  {
+    "event_id": 68,
+    "farm": "A",
+    "label": "anomaly",
+    "event_start": "2023-07-28 13:20:00",
+    "n_prediction_rows": 2295,
+    "any_alarm": false,
+    "first_alarm_pred_idx": null,
+    "first_alarm_timestamp": null,
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1218,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1019,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2295,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1953,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 856,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 22,
+    "farm": "A",
+    "label": "anomaly",
+    "event_start": "2023-08-12 09:50:00",
+    "n_prediction_rows": 1148,
+    "any_alarm": false,
+    "first_alarm_pred_idx": null,
+    "first_alarm_timestamp": null,
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 942,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1147,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1148,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 904,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 535,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 72,
+    "farm": "A",
+    "label": "anomaly",
+    "event_start": "2023-10-10 08:40:00",
+    "n_prediction_rows": 2017,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 1460,
+    "first_alarm_timestamp": "2023-10-17 12:00:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 13,
+        "first_alarm_pred_idx": 1460,
+        "cusum_alarm_count": 1226,
+        "ewma_alarm_count": 13
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 966,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2017,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1713,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 608,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 73,
+    "farm": "A",
+    "label": "anomaly",
+    "event_start": "2023-06-10 11:40:00",
+    "n_prediction_rows": 1729,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 1409,
+    "first_alarm_timestamp": "2023-06-17 06:30:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1076,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 53,
+        "first_alarm_pred_idx": 1409,
+        "cusum_alarm_count": 1722,
+        "ewma_alarm_count": 53
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1729,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1657,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1727,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 0,
+    "farm": "A",
+    "label": "anomaly",
+    "event_start": "2023-08-06 06:10:00",
+    "n_prediction_rows": 2838,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 1096,
+    "first_alarm_timestamp": "2023-08-11 21:00:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 150,
+        "first_alarm_pred_idx": 2662,
+        "cusum_alarm_count": 1544,
+        "ewma_alarm_count": 150
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 114,
+        "first_alarm_pred_idx": 1096,
+        "cusum_alarm_count": 2598,
+        "ewma_alarm_count": 114
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2838,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2386,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1855,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 26,
+    "farm": "A",
+    "label": "anomaly",
+    "event_start": "2023-10-12 10:20:00",
+    "n_prediction_rows": 1441,
+    "any_alarm": false,
+    "first_alarm_pred_idx": null,
+    "first_alarm_timestamp": null,
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 564,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1441,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1441,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1316,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 562,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 40,
+    "farm": "A",
+    "label": "anomaly",
+    "event_start": "2022-12-26 00:00:00",
+    "n_prediction_rows": 4939,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 466,
+    "first_alarm_timestamp": "2022-12-28 05:40:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 1011,
+        "first_alarm_pred_idx": 2477,
+        "cusum_alarm_count": 4068,
+        "ewma_alarm_count": 1011
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 6,
+        "first_alarm_pred_idx": 4933,
+        "cusum_alarm_count": 2743,
+        "ewma_alarm_count": 6
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 3299,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 68,
+        "first_alarm_pred_idx": 466,
+        "cusum_alarm_count": 4726,
+        "ewma_alarm_count": 68
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 4525,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 42,
+    "farm": "A",
+    "label": "anomaly",
+    "event_start": "2023-09-09 15:50:00",
+    "n_prediction_rows": 1583,
+    "any_alarm": false,
+    "first_alarm_pred_idx": null,
+    "first_alarm_timestamp": null,
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1231,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 200,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1583,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 638,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 733,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 10,
+    "farm": "A",
+    "label": "anomaly",
+    "event_start": "2023-10-11 08:40:00",
+    "n_prediction_rows": 1269,
+    "any_alarm": false,
+    "first_alarm_pred_idx": null,
+    "first_alarm_timestamp": null,
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1047,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 92,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1197,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 381,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 386,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 45,
+    "farm": "A",
+    "label": "anomaly",
+    "event_start": "2023-04-19 18:10:00",
+    "n_prediction_rows": 1440,
+    "any_alarm": false,
+    "first_alarm_pred_idx": null,
+    "first_alarm_timestamp": null,
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 753,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1274,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1359,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1440,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 870,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 84,
+    "farm": "A",
+    "label": "anomaly",
+    "event_start": "2023-09-05 15:30:00",
+    "n_prediction_rows": 1437,
+    "any_alarm": false,
+    "first_alarm_pred_idx": null,
+    "first_alarm_timestamp": null,
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 721,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1437,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1113,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 956,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1334,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 25,
+    "farm": "A",
+    "label": "normal",
+    "event_start": "2023-05-23 06:50:00",
+    "n_prediction_rows": 2423,
+    "any_alarm": false,
+    "first_alarm_pred_idx": null,
+    "first_alarm_timestamp": null,
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1238,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1642,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2267,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1938,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 288,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 69,
+    "farm": "A",
+    "label": "normal",
+    "event_start": "2023-09-04 00:50:00",
+    "n_prediction_rows": 2593,
+    "any_alarm": false,
+    "first_alarm_pred_idx": null,
+    "first_alarm_timestamp": null,
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1692,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2183,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2570,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2080,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1024,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 13,
+    "farm": "A",
+    "label": "normal",
+    "event_start": "2023-05-03 13:20:00",
+    "n_prediction_rows": 3583,
+    "any_alarm": false,
+    "first_alarm_pred_idx": null,
+    "first_alarm_timestamp": null,
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1373,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1919,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 3541,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2713,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1000,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 24,
+    "farm": "A",
+    "label": "normal",
+    "event_start": "2023-04-27 15:00:00",
+    "n_prediction_rows": 2714,
+    "any_alarm": false,
+    "first_alarm_pred_idx": null,
+    "first_alarm_timestamp": null,
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1338,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2714,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2714,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2031,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1170,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 3,
+    "farm": "A",
+    "label": "normal",
+    "event_start": "2023-04-27 03:00:00",
+    "n_prediction_rows": 3302,
+    "any_alarm": false,
+    "first_alarm_pred_idx": null,
+    "first_alarm_timestamp": null,
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1683,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2742,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2862,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2422,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1866,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 17,
+    "farm": "A",
+    "label": "normal",
+    "event_start": "2023-11-02 15:20:00",
+    "n_prediction_rows": 2781,
+    "any_alarm": false,
+    "first_alarm_pred_idx": null,
+    "first_alarm_timestamp": null,
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1473,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 695,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1384,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2123,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1624,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 38,
+    "farm": "A",
+    "label": "normal",
+    "event_start": "2023-07-01 15:40:00",
+    "n_prediction_rows": 2544,
+    "any_alarm": false,
+    "first_alarm_pred_idx": null,
+    "first_alarm_timestamp": null,
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1589,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2274,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1895,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1596,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1480,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 71,
+    "farm": "A",
+    "label": "normal",
+    "event_start": "2023-01-02 00:00:00",
+    "n_prediction_rows": 2449,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 1523,
+    "first_alarm_timestamp": "2023-01-11 13:50:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 14,
+        "first_alarm_pred_idx": 1523,
+        "cusum_alarm_count": 2034,
+        "ewma_alarm_count": 14
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2010,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2449,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2298,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2046,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 14,
+    "farm": "A",
+    "label": "normal",
+    "event_start": "2023-03-05 14:00:00",
+    "n_prediction_rows": 1901,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 1827,
+    "first_alarm_timestamp": "2023-03-16 06:30:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1291,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1901,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1898,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 23,
+        "first_alarm_pred_idx": 1827,
+        "cusum_alarm_count": 1380,
+        "ewma_alarm_count": 23
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1085,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 92,
+    "farm": "A",
+    "label": "normal",
+    "event_start": "2023-04-05 02:30:00",
+    "n_prediction_rows": 1774,
+    "any_alarm": false,
+    "first_alarm_pred_idx": null,
+    "first_alarm_timestamp": null,
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 593,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1645,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1749,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1768,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 886,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 51,
+    "farm": "A",
+    "label": "anomaly",
+    "event_start": "2023-10-06 01:30:00",
+    "n_prediction_rows": 2393,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 1935,
+    "first_alarm_timestamp": "2023-10-17 12:00:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 13,
+        "first_alarm_pred_idx": 1935,
+        "cusum_alarm_count": 1352,
+        "ewma_alarm_count": 13
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1261,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2393,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2232,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 718,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 34,
+    "farm": "B",
+    "label": "anomaly",
+    "event_start": "2023-08-24 00:00:00",
+    "n_prediction_rows": 4033,
+    "any_alarm": false,
+    "first_alarm_pred_idx": null,
+    "first_alarm_timestamp": null,
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 831,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 342,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2247,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 7,
+    "farm": "B",
+    "label": "anomaly",
+    "event_start": "2023-07-01 00:00:00",
+    "n_prediction_rows": 5329,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 2572,
+    "first_alarm_timestamp": "2023-07-17 20:40:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1412,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1393,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 66,
+        "first_alarm_pred_idx": 2572,
+        "cusum_alarm_count": 3957,
+        "ewma_alarm_count": 66
+      }
+    }
+  },
+  {
+    "event_id": 53,
+    "farm": "B",
+    "label": "anomaly",
+    "event_start": "2023-12-26 16:40:00",
+    "n_prediction_rows": 6048,
+    "any_alarm": false,
+    "first_alarm_pred_idx": null,
+    "first_alarm_timestamp": null,
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2157,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 3165,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 5513,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 27,
+    "farm": "B",
+    "label": "anomaly",
+    "event_start": "2023-09-01 00:00:00",
+    "n_prediction_rows": 9937,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 3957,
+    "first_alarm_timestamp": "2023-09-26 11:30:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 638,
+        "first_alarm_pred_idx": 9299,
+        "cusum_alarm_count": 3245,
+        "ewma_alarm_count": 638
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 202,
+        "first_alarm_pred_idx": 3957,
+        "cusum_alarm_count": 7235,
+        "ewma_alarm_count": 202
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 5542,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 19,
+    "farm": "B",
+    "label": "anomaly",
+    "event_start": "2023-02-03 00:00:00",
+    "n_prediction_rows": 3745,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 1711,
+    "first_alarm_timestamp": "2023-02-13 21:10:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 12,
+        "first_alarm_pred_idx": 1711,
+        "cusum_alarm_count": 1049,
+        "ewma_alarm_count": 12
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 41,
+        "first_alarm_pred_idx": 1772,
+        "cusum_alarm_count": 2253,
+        "ewma_alarm_count": 41
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2136,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 77,
+    "farm": "B",
+    "label": "anomaly",
+    "event_start": "2023-06-01 00:00:00",
+    "n_prediction_rows": 9217,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 57,
+    "first_alarm_timestamp": "2023-05-29 09:30:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 190,
+        "first_alarm_pred_idx": 57,
+        "cusum_alarm_count": 4811,
+        "ewma_alarm_count": 190
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 8878,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 6263,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 83,
+    "farm": "B",
+    "label": "normal",
+    "event_start": "2023-07-01 00:00:00",
+    "n_prediction_rows": 14113,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 120,
+    "first_alarm_timestamp": "2023-06-29 20:00:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 266,
+        "first_alarm_pred_idx": 1325,
+        "cusum_alarm_count": 5365,
+        "ewma_alarm_count": 266
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 82,
+        "first_alarm_pred_idx": 120,
+        "cusum_alarm_count": 6010,
+        "ewma_alarm_count": 82
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 5183,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 52,
+    "farm": "B",
+    "label": "normal",
+    "event_start": "2023-07-14 00:00:00",
+    "n_prediction_rows": 2737,
+    "any_alarm": false,
+    "first_alarm_pred_idx": null,
+    "first_alarm_timestamp": null,
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 127,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 40,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1289,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 21,
+    "farm": "B",
+    "label": "normal",
+    "event_start": "2023-09-22 20:10:00",
+    "n_prediction_rows": 1297,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 288,
+    "first_alarm_timestamp": "2023-09-24 20:10:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 721,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 12,
+        "first_alarm_pred_idx": 288,
+        "cusum_alarm_count": 999,
+        "ewma_alarm_count": 12
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 400,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 2,
+    "farm": "B",
+    "label": "normal",
+    "event_start": "2023-08-09 19:20:00",
+    "n_prediction_rows": 2215,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 306,
+    "first_alarm_timestamp": "2023-08-10 22:20:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1048,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 260,
+        "first_alarm_pred_idx": 306,
+        "cusum_alarm_count": 1955,
+        "ewma_alarm_count": 260
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 367,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 23,
+    "farm": "B",
+    "label": "normal",
+    "event_start": "2023-09-17 17:30:00",
+    "n_prediction_rows": 1983,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 899,
+    "first_alarm_timestamp": "2023-09-23 23:20:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 687,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 47,
+        "first_alarm_pred_idx": 899,
+        "cusum_alarm_count": 1503,
+        "ewma_alarm_count": 47
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 226,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 87,
+    "farm": "B",
+    "label": "normal",
+    "event_start": "2023-09-14 23:00:00",
+    "n_prediction_rows": 3025,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 1800,
+    "first_alarm_timestamp": "2023-09-26 11:00:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 939,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 209,
+        "first_alarm_pred_idx": 1800,
+        "cusum_alarm_count": 2310,
+        "ewma_alarm_count": 209
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1893,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 74,
+    "farm": "B",
+    "label": "normal",
+    "event_start": "2023-01-03 23:00:00",
+    "n_prediction_rows": 3073,
+    "any_alarm": false,
+    "first_alarm_pred_idx": null,
+    "first_alarm_timestamp": null,
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 625,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2156,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2527,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 86,
+    "farm": "B",
+    "label": "normal",
+    "event_start": "2023-04-28 17:30:00",
+    "n_prediction_rows": 2927,
+    "any_alarm": false,
+    "first_alarm_pred_idx": null,
+    "first_alarm_timestamp": null,
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1472,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2927,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2927,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 82,
+    "farm": "B",
+    "label": "normal",
+    "event_start": "2023-09-26 23:00:00",
+    "n_prediction_rows": 2449,
+    "any_alarm": false,
+    "first_alarm_pred_idx": null,
+    "first_alarm_timestamp": null,
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 673,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 248,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1221,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 55,
+    "farm": "C",
+    "label": "anomaly",
+    "event_start": "2023-10-29 11:30:00",
+    "n_prediction_rows": 3193,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 2744,
+    "first_alarm_timestamp": "2023-11-15 12:50:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 13,
+        "first_alarm_pred_idx": 2744,
+        "cusum_alarm_count": 1341,
+        "ewma_alarm_count": 13
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 993,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 3193,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 3193,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 703,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 81,
+    "farm": "C",
+    "label": "anomaly",
+    "event_start": "2023-11-16 01:30:00",
+    "n_prediction_rows": 1372,
+    "any_alarm": false,
+    "first_alarm_pred_idx": null,
+    "first_alarm_timestamp": null,
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 388,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 505,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 798,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1372,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 712,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 47,
+    "farm": "C",
+    "label": "anomaly",
+    "event_start": "2023-12-22 15:00:00",
+    "n_prediction_rows": 1577,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 56,
+    "first_alarm_timestamp": "2023-12-23 00:20:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 324,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 266,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1577,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 1521,
+        "first_alarm_pred_idx": 56,
+        "cusum_alarm_count": 1577,
+        "ewma_alarm_count": 1521
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 449,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 12,
+    "farm": "C",
+    "label": "anomaly",
+    "event_start": "2023-06-27 00:00:00",
+    "n_prediction_rows": 3547,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 23,
+    "first_alarm_timestamp": "2023-06-27 03:50:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 46,
+        "first_alarm_pred_idx": 25,
+        "cusum_alarm_count": 3547,
+        "ewma_alarm_count": 46
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 12,
+        "first_alarm_pred_idx": 33,
+        "cusum_alarm_count": 3547,
+        "ewma_alarm_count": 12
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 3547,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 348,
+        "first_alarm_pred_idx": 23,
+        "cusum_alarm_count": 2625,
+        "ewma_alarm_count": 348
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2232,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 4,
+    "farm": "C",
+    "label": "anomaly",
+    "event_start": "2023-07-31 10:00:00",
+    "n_prediction_rows": 3889,
+    "any_alarm": false,
+    "first_alarm_pred_idx": null,
+    "first_alarm_timestamp": null,
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2143,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2867,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 3889,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2506,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 938,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 18,
+    "farm": "C",
+    "label": "anomaly",
+    "event_start": "2023-09-13 00:00:00",
+    "n_prediction_rows": 1728,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 706,
+    "first_alarm_timestamp": "2023-09-15 21:40:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 93,
+        "first_alarm_pred_idx": 1346,
+        "cusum_alarm_count": 1084,
+        "ewma_alarm_count": 93
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 483,
+        "first_alarm_pred_idx": 1137,
+        "cusum_alarm_count": 1094,
+        "ewma_alarm_count": 483
+      },
+      "transformer": {
+        "combined_alarm_count": 583,
+        "first_alarm_pred_idx": 1048,
+        "cusum_alarm_count": 1477,
+        "ewma_alarm_count": 583
+      },
+      "hydraulic": {
+        "combined_alarm_count": 150,
+        "first_alarm_pred_idx": 706,
+        "cusum_alarm_count": 1728,
+        "ewma_alarm_count": 150
+      },
+      "cooling": {
+        "combined_alarm_count": 140,
+        "first_alarm_pred_idx": 900,
+        "cusum_alarm_count": 1230,
+        "ewma_alarm_count": 140
+      }
+    }
+  },
+  {
+    "event_id": 28,
+    "farm": "C",
+    "label": "anomaly",
+    "event_start": "2023-05-28 13:00:00",
+    "n_prediction_rows": 3358,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 0,
+    "first_alarm_timestamp": "2023-05-27 13:00:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 139,
+        "first_alarm_pred_idx": 66,
+        "cusum_alarm_count": 2407,
+        "ewma_alarm_count": 139
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 87,
+        "first_alarm_pred_idx": 118,
+        "cusum_alarm_count": 2900,
+        "ewma_alarm_count": 87
+      },
+      "transformer": {
+        "combined_alarm_count": 79,
+        "first_alarm_pred_idx": 125,
+        "cusum_alarm_count": 3358,
+        "ewma_alarm_count": 79
+      },
+      "hydraulic": {
+        "combined_alarm_count": 199,
+        "first_alarm_pred_idx": 0,
+        "cusum_alarm_count": 3358,
+        "ewma_alarm_count": 199
+      },
+      "cooling": {
+        "combined_alarm_count": 117,
+        "first_alarm_pred_idx": 114,
+        "cusum_alarm_count": 2331,
+        "ewma_alarm_count": 117
+      }
+    }
+  },
+  {
+    "event_id": 39,
+    "farm": "C",
+    "label": "anomaly",
+    "event_start": "2023-10-19 13:00:00",
+    "n_prediction_rows": 1167,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 774,
+    "first_alarm_timestamp": "2023-10-22 22:00:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 36,
+        "first_alarm_pred_idx": 1004,
+        "cusum_alarm_count": 769,
+        "ewma_alarm_count": 36
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 253,
+        "first_alarm_pred_idx": 823,
+        "cusum_alarm_count": 877,
+        "ewma_alarm_count": 253
+      },
+      "transformer": {
+        "combined_alarm_count": 270,
+        "first_alarm_pred_idx": 774,
+        "cusum_alarm_count": 1167,
+        "ewma_alarm_count": 270
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1167,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 802,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 66,
+    "farm": "C",
+    "label": "anomaly",
+    "event_start": "2023-01-17 00:00:00",
+    "n_prediction_rows": 1807,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 318,
+    "first_alarm_timestamp": "2023-01-19 05:00:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 88,
+        "first_alarm_pred_idx": 1104,
+        "cusum_alarm_count": 1807,
+        "ewma_alarm_count": 88
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 845,
+        "first_alarm_pred_idx": 367,
+        "cusum_alarm_count": 1807,
+        "ewma_alarm_count": 845
+      },
+      "transformer": {
+        "combined_alarm_count": 761,
+        "first_alarm_pred_idx": 318,
+        "cusum_alarm_count": 1807,
+        "ewma_alarm_count": 761
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1807,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 807,
+        "first_alarm_pred_idx": 429,
+        "cusum_alarm_count": 1807,
+        "ewma_alarm_count": 807
+      }
+    }
+  },
+  {
+    "event_id": 15,
+    "farm": "C",
+    "label": "anomaly",
+    "event_start": "2023-02-06 00:00:00",
+    "n_prediction_rows": 2737,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 842,
+    "first_alarm_timestamp": "2023-02-09 20:20:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2737,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2737,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2737,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 218,
+        "first_alarm_pred_idx": 842,
+        "cusum_alarm_count": 2737,
+        "ewma_alarm_count": 218
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2737,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 78,
+    "farm": "C",
+    "label": "anomaly",
+    "event_start": "2023-07-30 13:00:00",
+    "n_prediction_rows": 586,
+    "any_alarm": false,
+    "first_alarm_pred_idx": null,
+    "first_alarm_timestamp": null,
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 0,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 538,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 275,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 0,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 49,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 79,
+    "farm": "C",
+    "label": "anomaly",
+    "event_start": "2023-07-26 09:00:00",
+    "n_prediction_rows": 721,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 335,
+    "first_alarm_timestamp": "2023-07-27 16:50:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 62,
+        "first_alarm_pred_idx": 400,
+        "cusum_alarm_count": 721,
+        "ewma_alarm_count": 62
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 228,
+        "first_alarm_pred_idx": 335,
+        "cusum_alarm_count": 721,
+        "ewma_alarm_count": 228
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 497,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 721,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 631,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 30,
+    "farm": "C",
+    "label": "anomaly",
+    "event_start": "2023-12-15 00:00:00",
+    "n_prediction_rows": 3551,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 356,
+    "first_alarm_timestamp": "2023-12-17 11:20:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 2431,
+        "first_alarm_pred_idx": 597,
+        "cusum_alarm_count": 3551,
+        "ewma_alarm_count": 2431
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 2763,
+        "first_alarm_pred_idx": 388,
+        "cusum_alarm_count": 3551,
+        "ewma_alarm_count": 2763
+      },
+      "transformer": {
+        "combined_alarm_count": 2890,
+        "first_alarm_pred_idx": 356,
+        "cusum_alarm_count": 3551,
+        "ewma_alarm_count": 2890
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 3551,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 1059,
+        "first_alarm_pred_idx": 517,
+        "cusum_alarm_count": 3551,
+        "ewma_alarm_count": 1059
+      }
+    }
+  },
+  {
+    "event_id": 33,
+    "farm": "C",
+    "label": "anomaly",
+    "event_start": "2023-08-26 13:00:00",
+    "n_prediction_rows": 3313,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 158,
+    "first_alarm_timestamp": "2023-08-25 15:20:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 3155,
+        "first_alarm_pred_idx": 158,
+        "cusum_alarm_count": 3275,
+        "ewma_alarm_count": 3155
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 723,
+        "first_alarm_pred_idx": 2153,
+        "cusum_alarm_count": 2254,
+        "ewma_alarm_count": 723
+      },
+      "transformer": {
+        "combined_alarm_count": 717,
+        "first_alarm_pred_idx": 356,
+        "cusum_alarm_count": 3313,
+        "ewma_alarm_count": 717
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2567,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 688,
+        "first_alarm_pred_idx": 2061,
+        "cusum_alarm_count": 2492,
+        "ewma_alarm_count": 688
+      }
+    }
+  },
+  {
+    "event_id": 11,
+    "farm": "C",
+    "label": "anomaly",
+    "event_start": "2023-10-17 12:30:00",
+    "n_prediction_rows": 4021,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 0,
+    "first_alarm_timestamp": "2023-10-17 12:30:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 4021,
+        "first_alarm_pred_idx": 0,
+        "cusum_alarm_count": 4021,
+        "ewma_alarm_count": 4021
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 700,
+        "first_alarm_pred_idx": 0,
+        "cusum_alarm_count": 4021,
+        "ewma_alarm_count": 700
+      },
+      "transformer": {
+        "combined_alarm_count": 791,
+        "first_alarm_pred_idx": 0,
+        "cusum_alarm_count": 4021,
+        "ewma_alarm_count": 791
+      },
+      "hydraulic": {
+        "combined_alarm_count": 371,
+        "first_alarm_pred_idx": 19,
+        "cusum_alarm_count": 4021,
+        "ewma_alarm_count": 371
+      },
+      "cooling": {
+        "combined_alarm_count": 918,
+        "first_alarm_pred_idx": 0,
+        "cusum_alarm_count": 4021,
+        "ewma_alarm_count": 918
+      }
+    }
+  },
+  {
+    "event_id": 44,
+    "farm": "C",
+    "label": "anomaly",
+    "event_start": "2023-08-03 14:00:00",
+    "n_prediction_rows": 10443,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 152,
+    "first_alarm_timestamp": "2023-08-03 15:20:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 88,
+        "first_alarm_pred_idx": 152,
+        "cusum_alarm_count": 4768,
+        "ewma_alarm_count": 88
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 122,
+        "first_alarm_pred_idx": 162,
+        "cusum_alarm_count": 6063,
+        "ewma_alarm_count": 122
+      },
+      "transformer": {
+        "combined_alarm_count": 53,
+        "first_alarm_pred_idx": 9797,
+        "cusum_alarm_count": 5291,
+        "ewma_alarm_count": 53
+      },
+      "hydraulic": {
+        "combined_alarm_count": 55,
+        "first_alarm_pred_idx": 153,
+        "cusum_alarm_count": 9399,
+        "ewma_alarm_count": 55
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 3314,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 49,
+    "farm": "C",
+    "label": "anomaly",
+    "event_start": "2023-04-01 00:00:00",
+    "n_prediction_rows": 1606,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 1261,
+    "first_alarm_timestamp": "2023-04-06 18:10:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 257,
+        "first_alarm_pred_idx": 1261,
+        "cusum_alarm_count": 868,
+        "ewma_alarm_count": 257
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 580,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 273,
+        "first_alarm_pred_idx": 1333,
+        "cusum_alarm_count": 1581,
+        "ewma_alarm_count": 273
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1606,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 551,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 31,
+    "farm": "C",
+    "label": "anomaly",
+    "event_start": "2023-01-18 00:00:00",
+    "n_prediction_rows": 2029,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 0,
+    "first_alarm_timestamp": "2023-01-16 00:00:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 769,
+        "first_alarm_pred_idx": 551,
+        "cusum_alarm_count": 1669,
+        "ewma_alarm_count": 769
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 822,
+        "first_alarm_pred_idx": 537,
+        "cusum_alarm_count": 1873,
+        "ewma_alarm_count": 822
+      },
+      "transformer": {
+        "combined_alarm_count": 1068,
+        "first_alarm_pred_idx": 0,
+        "cusum_alarm_count": 2029,
+        "ewma_alarm_count": 1068
+      },
+      "hydraulic": {
+        "combined_alarm_count": 398,
+        "first_alarm_pred_idx": 470,
+        "cusum_alarm_count": 1643,
+        "ewma_alarm_count": 398
+      },
+      "cooling": {
+        "combined_alarm_count": 773,
+        "first_alarm_pred_idx": 583,
+        "cusum_alarm_count": 1901,
+        "ewma_alarm_count": 773
+      }
+    }
+  },
+  {
+    "event_id": 67,
+    "farm": "C",
+    "label": "anomaly",
+    "event_start": "2023-02-02 00:00:00",
+    "n_prediction_rows": 8929,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 15,
+    "first_alarm_timestamp": "2023-02-01 02:30:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 38,
+        "first_alarm_pred_idx": 4137,
+        "cusum_alarm_count": 7293,
+        "ewma_alarm_count": 38
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 39,
+        "first_alarm_pred_idx": 4140,
+        "cusum_alarm_count": 8626,
+        "ewma_alarm_count": 39
+      },
+      "transformer": {
+        "combined_alarm_count": 2166,
+        "first_alarm_pred_idx": 15,
+        "cusum_alarm_count": 8929,
+        "ewma_alarm_count": 2166
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2101,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 36,
+        "first_alarm_pred_idx": 4142,
+        "cusum_alarm_count": 8000,
+        "ewma_alarm_count": 36
+      }
+    }
+  },
+  {
+    "event_id": 9,
+    "farm": "C",
+    "label": "anomaly",
+    "event_start": "2023-08-05 07:30:00",
+    "n_prediction_rows": 3469,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 328,
+    "first_alarm_timestamp": "2023-08-04 14:10:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1962,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2652,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 252,
+        "first_alarm_pred_idx": 633,
+        "cusum_alarm_count": 2124,
+        "ewma_alarm_count": 252
+      },
+      "hydraulic": {
+        "combined_alarm_count": 113,
+        "first_alarm_pred_idx": 328,
+        "cusum_alarm_count": 3469,
+        "ewma_alarm_count": 113
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1158,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 91,
+    "farm": "C",
+    "label": "anomaly",
+    "event_start": "2023-10-12 09:30:00",
+    "n_prediction_rows": 4048,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 2659,
+    "first_alarm_timestamp": "2023-10-29 20:40:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 105,
+        "first_alarm_pred_idx": 2669,
+        "cusum_alarm_count": 1635,
+        "ewma_alarm_count": 105
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 96,
+        "first_alarm_pred_idx": 2659,
+        "cusum_alarm_count": 3751,
+        "ewma_alarm_count": 96
+      },
+      "transformer": {
+        "combined_alarm_count": 119,
+        "first_alarm_pred_idx": 2835,
+        "cusum_alarm_count": 3798,
+        "ewma_alarm_count": 119
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 4048,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 75,
+        "first_alarm_pred_idx": 3383,
+        "cusum_alarm_count": 1628,
+        "ewma_alarm_count": 75
+      }
+    }
+  },
+  {
+    "event_id": 5,
+    "farm": "C",
+    "label": "anomaly",
+    "event_start": "2023-02-02 00:00:00",
+    "n_prediction_rows": 667,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 646,
+    "first_alarm_timestamp": "2023-02-05 11:40:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 521,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 518,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 21,
+        "first_alarm_pred_idx": 646,
+        "cusum_alarm_count": 649,
+        "ewma_alarm_count": 21
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 326,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 667,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 90,
+    "farm": "C",
+    "label": "anomaly",
+    "event_start": "2023-08-10 15:00:00",
+    "n_prediction_rows": 2320,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 2005,
+    "first_alarm_timestamp": "2023-08-22 13:10:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1431,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1482,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1180,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 131,
+        "first_alarm_pred_idx": 2005,
+        "cusum_alarm_count": 2320,
+        "ewma_alarm_count": 131
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 970,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 70,
+    "farm": "C",
+    "label": "anomaly",
+    "event_start": "2023-11-10 14:00:00",
+    "n_prediction_rows": 3478,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 0,
+    "first_alarm_timestamp": "2023-11-10 14:00:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1933,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2354,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 298,
+        "first_alarm_pred_idx": 0,
+        "cusum_alarm_count": 3107,
+        "ewma_alarm_count": 298
+      },
+      "hydraulic": {
+        "combined_alarm_count": 524,
+        "first_alarm_pred_idx": 1412,
+        "cusum_alarm_count": 3478,
+        "ewma_alarm_count": 524
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1875,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 35,
+    "farm": "C",
+    "label": "anomaly",
+    "event_start": "2023-09-24 00:00:00",
+    "n_prediction_rows": 1207,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 65,
+    "first_alarm_timestamp": "2023-09-22 10:50:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 270,
+        "first_alarm_pred_idx": 109,
+        "cusum_alarm_count": 1180,
+        "ewma_alarm_count": 270
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 275,
+        "first_alarm_pred_idx": 99,
+        "cusum_alarm_count": 1207,
+        "ewma_alarm_count": 275
+      },
+      "transformer": {
+        "combined_alarm_count": 193,
+        "first_alarm_pred_idx": 117,
+        "cusum_alarm_count": 1207,
+        "ewma_alarm_count": 193
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1207,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 447,
+        "first_alarm_pred_idx": 65,
+        "cusum_alarm_count": 1207,
+        "ewma_alarm_count": 447
+      }
+    }
+  },
+  {
+    "event_id": 16,
+    "farm": "C",
+    "label": "anomaly",
+    "event_start": "2023-12-23 00:00:00",
+    "n_prediction_rows": 2304,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 159,
+    "first_alarm_timestamp": "2023-12-24 02:30:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 1246,
+        "first_alarm_pred_idx": 335,
+        "cusum_alarm_count": 2304,
+        "ewma_alarm_count": 1246
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 1778,
+        "first_alarm_pred_idx": 301,
+        "cusum_alarm_count": 2304,
+        "ewma_alarm_count": 1778
+      },
+      "transformer": {
+        "combined_alarm_count": 1819,
+        "first_alarm_pred_idx": 240,
+        "cusum_alarm_count": 2304,
+        "ewma_alarm_count": 1819
+      },
+      "hydraulic": {
+        "combined_alarm_count": 122,
+        "first_alarm_pred_idx": 159,
+        "cusum_alarm_count": 2304,
+        "ewma_alarm_count": 122
+      },
+      "cooling": {
+        "combined_alarm_count": 64,
+        "first_alarm_pred_idx": 414,
+        "cusum_alarm_count": 2304,
+        "ewma_alarm_count": 64
+      }
+    }
+  },
+  {
+    "event_id": 76,
+    "farm": "C",
+    "label": "anomaly",
+    "event_start": "2023-01-08 00:00:00",
+    "n_prediction_rows": 822,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 0,
+    "first_alarm_timestamp": "2023-01-06 00:00:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 32,
+        "first_alarm_pred_idx": 0,
+        "cusum_alarm_count": 822,
+        "ewma_alarm_count": 32
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 47,
+        "first_alarm_pred_idx": 0,
+        "cusum_alarm_count": 822,
+        "ewma_alarm_count": 47
+      },
+      "transformer": {
+        "combined_alarm_count": 29,
+        "first_alarm_pred_idx": 0,
+        "cusum_alarm_count": 822,
+        "ewma_alarm_count": 29
+      },
+      "hydraulic": {
+        "combined_alarm_count": 42,
+        "first_alarm_pred_idx": 0,
+        "cusum_alarm_count": 822,
+        "ewma_alarm_count": 42
+      },
+      "cooling": {
+        "combined_alarm_count": 7,
+        "first_alarm_pred_idx": 0,
+        "cusum_alarm_count": 822,
+        "ewma_alarm_count": 7
+      }
+    }
+  },
+  {
+    "event_id": 8,
+    "farm": "C",
+    "label": "normal",
+    "event_start": "2023-08-23 17:00:00",
+    "n_prediction_rows": 2242,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 25,
+    "first_alarm_timestamp": "2023-08-23 21:10:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 697,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 826,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 58,
+        "first_alarm_pred_idx": 25,
+        "cusum_alarm_count": 2242,
+        "ewma_alarm_count": 58
+      },
+      "hydraulic": {
+        "combined_alarm_count": 1886,
+        "first_alarm_pred_idx": 56,
+        "cusum_alarm_count": 2242,
+        "ewma_alarm_count": 1886
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 187,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 85,
+    "farm": "C",
+    "label": "normal",
+    "event_start": "2023-01-12 13:10:00",
+    "n_prediction_rows": 1585,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 1287,
+    "first_alarm_timestamp": "2023-01-21 11:40:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1585,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1585,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1585,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1302,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 17,
+        "first_alarm_pred_idx": 1287,
+        "cusum_alarm_count": 1309,
+        "ewma_alarm_count": 17
+      }
+    }
+  },
+  {
+    "event_id": 6,
+    "farm": "C",
+    "label": "normal",
+    "event_start": "2023-12-01 22:50:00",
+    "n_prediction_rows": 2305,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 2215,
+    "first_alarm_timestamp": "2023-12-17 08:00:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 586,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 704,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1051,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2305,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 80,
+        "first_alarm_pred_idx": 2215,
+        "cusum_alarm_count": 435,
+        "ewma_alarm_count": 80
+      }
+    }
+  },
+  {
+    "event_id": 62,
+    "farm": "C",
+    "label": "normal",
+    "event_start": "2023-11-06 11:00:00",
+    "n_prediction_rows": 1032,
+    "any_alarm": false,
+    "first_alarm_pred_idx": null,
+    "first_alarm_timestamp": null,
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 0,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 46,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 401,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1032,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 167,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 36,
+    "farm": "C",
+    "label": "normal",
+    "event_start": "2023-08-16 19:50:00",
+    "n_prediction_rows": 2888,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 1005,
+    "first_alarm_timestamp": "2023-08-23 19:20:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 174,
+        "first_alarm_pred_idx": 1927,
+        "cusum_alarm_count": 1470,
+        "ewma_alarm_count": 174
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 213,
+        "first_alarm_pred_idx": 1916,
+        "cusum_alarm_count": 1964,
+        "ewma_alarm_count": 213
+      },
+      "transformer": {
+        "combined_alarm_count": 301,
+        "first_alarm_pred_idx": 1005,
+        "cusum_alarm_count": 2400,
+        "ewma_alarm_count": 301
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1116,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 230,
+        "first_alarm_pred_idx": 1914,
+        "cusum_alarm_count": 1495,
+        "ewma_alarm_count": 230
+      }
+    }
+  },
+  {
+    "event_id": 56,
+    "farm": "C",
+    "label": "normal",
+    "event_start": "2023-07-28 05:50:00",
+    "n_prediction_rows": 2296,
+    "any_alarm": false,
+    "first_alarm_pred_idx": null,
+    "first_alarm_timestamp": null,
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 908,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 930,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 372,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2296,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 535,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 94,
+    "farm": "C",
+    "label": "normal",
+    "event_start": "2023-06-12 10:40:00",
+    "n_prediction_rows": 2737,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 4,
+    "first_alarm_timestamp": "2023-06-10 11:20:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 79,
+        "first_alarm_pred_idx": 4,
+        "cusum_alarm_count": 2058,
+        "ewma_alarm_count": 79
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 27,
+        "first_alarm_pred_idx": 19,
+        "cusum_alarm_count": 2227,
+        "ewma_alarm_count": 27
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2524,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 27,
+        "first_alarm_pred_idx": 107,
+        "cusum_alarm_count": 2737,
+        "ewma_alarm_count": 27
+      },
+      "cooling": {
+        "combined_alarm_count": 16,
+        "first_alarm_pred_idx": 22,
+        "cusum_alarm_count": 1918,
+        "ewma_alarm_count": 16
+      }
+    }
+  },
+  {
+    "event_id": 54,
+    "farm": "C",
+    "label": "normal",
+    "event_start": "2023-02-03 09:20:00",
+    "n_prediction_rows": 3025,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 1344,
+    "first_alarm_timestamp": "2023-02-09 17:20:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 116,
+        "first_alarm_pred_idx": 1344,
+        "cusum_alarm_count": 2131,
+        "ewma_alarm_count": 116
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 84,
+        "first_alarm_pred_idx": 1364,
+        "cusum_alarm_count": 2357,
+        "ewma_alarm_count": 84
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1331,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2784,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 37,
+        "first_alarm_pred_idx": 1366,
+        "cusum_alarm_count": 1440,
+        "ewma_alarm_count": 37
+      }
+    }
+  },
+  {
+    "event_id": 43,
+    "farm": "C",
+    "label": "normal",
+    "event_start": "2023-08-17 03:10:00",
+    "n_prediction_rows": 2593,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 1429,
+    "first_alarm_timestamp": "2023-08-24 01:20:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 473,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1070,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2593,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 104,
+        "first_alarm_pred_idx": 1429,
+        "cusum_alarm_count": 1967,
+        "ewma_alarm_count": 104
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 33,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 50,
+    "farm": "C",
+    "label": "normal",
+    "event_start": "2023-11-05 00:00:00",
+    "n_prediction_rows": 3457,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 2605,
+    "first_alarm_timestamp": "2023-11-20 02:10:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 344,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 331,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1813,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 87,
+        "first_alarm_pred_idx": 2605,
+        "cusum_alarm_count": 3332,
+        "ewma_alarm_count": 87
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1436,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 64,
+    "farm": "C",
+    "label": "normal",
+    "event_start": "2023-09-23 00:30:00",
+    "n_prediction_rows": 1873,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 327,
+    "first_alarm_timestamp": "2023-09-25 07:00:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 941,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1730,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1287,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 174,
+        "first_alarm_pred_idx": 327,
+        "cusum_alarm_count": 1873,
+        "ewma_alarm_count": 174
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 704,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 46,
+    "farm": "C",
+    "label": "normal",
+    "event_start": "2023-05-11 06:50:00",
+    "n_prediction_rows": 2573,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 10,
+    "first_alarm_timestamp": "2023-05-11 08:30:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 96,
+        "first_alarm_pred_idx": 12,
+        "cusum_alarm_count": 2300,
+        "ewma_alarm_count": 96
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 151,
+        "first_alarm_pred_idx": 14,
+        "cusum_alarm_count": 2471,
+        "ewma_alarm_count": 151
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2481,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2061,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 195,
+        "first_alarm_pred_idx": 10,
+        "cusum_alarm_count": 1818,
+        "ewma_alarm_count": 195
+      }
+    }
+  },
+  {
+    "event_id": 65,
+    "farm": "C",
+    "label": "normal",
+    "event_start": "2023-11-05 04:20:00",
+    "n_prediction_rows": 3358,
+    "any_alarm": false,
+    "first_alarm_pred_idx": null,
+    "first_alarm_timestamp": null,
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 7,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1027,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2160,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1092,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1827,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 61,
+    "farm": "C",
+    "label": "normal",
+    "event_start": "2023-05-08 00:00:00",
+    "n_prediction_rows": 3025,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 624,
+    "first_alarm_timestamp": "2023-05-09 08:00:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 176,
+        "first_alarm_pred_idx": 624,
+        "cusum_alarm_count": 2320,
+        "ewma_alarm_count": 176
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 51,
+        "first_alarm_pred_idx": 2452,
+        "cusum_alarm_count": 2335,
+        "ewma_alarm_count": 51
+      },
+      "transformer": {
+        "combined_alarm_count": 149,
+        "first_alarm_pred_idx": 1092,
+        "cusum_alarm_count": 2730,
+        "ewma_alarm_count": 149
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1426,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 128,
+        "first_alarm_pred_idx": 901,
+        "cusum_alarm_count": 2462,
+        "ewma_alarm_count": 128
+      }
+    }
+  },
+  {
+    "event_id": 93,
+    "farm": "C",
+    "label": "normal",
+    "event_start": "2023-08-02 15:50:00",
+    "n_prediction_rows": 3313,
+    "any_alarm": false,
+    "first_alarm_pred_idx": null,
+    "first_alarm_timestamp": null,
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2169,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1783,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1051,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2933,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 782,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 75,
+    "farm": "C",
+    "label": "normal",
+    "event_start": "2023-05-04 11:10:00",
+    "n_prediction_rows": 3601,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 1126,
+    "first_alarm_timestamp": "2023-05-09 06:50:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 297,
+        "first_alarm_pred_idx": 1126,
+        "cusum_alarm_count": 3407,
+        "ewma_alarm_count": 297
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 369,
+        "first_alarm_pred_idx": 1133,
+        "cusum_alarm_count": 3456,
+        "ewma_alarm_count": 369
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 3601,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 3372,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 524,
+        "first_alarm_pred_idx": 1139,
+        "cusum_alarm_count": 3601,
+        "ewma_alarm_count": 524
+      }
+    }
+  },
+  {
+    "event_id": 41,
+    "farm": "C",
+    "label": "normal",
+    "event_start": "2023-01-16 05:00:00",
+    "n_prediction_rows": 4258,
+    "any_alarm": false,
+    "first_alarm_pred_idx": null,
+    "first_alarm_timestamp": null,
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 3580,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2665,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 4258,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 4042,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 3109,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 58,
+    "farm": "C",
+    "label": "normal",
+    "event_start": "2023-10-15 08:40:00",
+    "n_prediction_rows": 1873,
+    "any_alarm": false,
+    "first_alarm_pred_idx": null,
+    "first_alarm_timestamp": null,
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 651,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 915,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 586,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 202,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 283,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 48,
+    "farm": "C",
+    "label": "normal",
+    "event_start": "2023-04-25 12:00:00",
+    "n_prediction_rows": 2737,
+    "any_alarm": false,
+    "first_alarm_pred_idx": null,
+    "first_alarm_timestamp": null,
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1773,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2003,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2685,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 958,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1717,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 88,
+    "farm": "C",
+    "label": "normal",
+    "event_start": "2023-10-03 00:00:00",
+    "n_prediction_rows": 2881,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 551,
+    "first_alarm_timestamp": "2023-10-05 19:50:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 97,
+        "first_alarm_pred_idx": 1042,
+        "cusum_alarm_count": 2881,
+        "ewma_alarm_count": 97
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 27,
+        "first_alarm_pred_idx": 1100,
+        "cusum_alarm_count": 2747,
+        "ewma_alarm_count": 27
+      },
+      "transformer": {
+        "combined_alarm_count": 345,
+        "first_alarm_pred_idx": 551,
+        "cusum_alarm_count": 2881,
+        "ewma_alarm_count": 345
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2529,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1650,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 57,
+    "farm": "C",
+    "label": "normal",
+    "event_start": "2023-04-29 05:40:00",
+    "n_prediction_rows": 2449,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 736,
+    "first_alarm_timestamp": "2023-05-01 08:20:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2449,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2449,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2449,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 78,
+        "first_alarm_pred_idx": 736,
+        "cusum_alarm_count": 2441,
+        "ewma_alarm_count": 78
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2449,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 32,
+    "farm": "C",
+    "label": "normal",
+    "event_start": "2023-09-29 05:20:00",
+    "n_prediction_rows": 2449,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 1039,
+    "first_alarm_timestamp": "2023-10-06 10:30:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 218,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1795,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1871,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 178,
+        "first_alarm_pred_idx": 1039,
+        "cusum_alarm_count": 2449,
+        "ewma_alarm_count": 178
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 11,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 89,
+    "farm": "C",
+    "label": "normal",
+    "event_start": "2023-03-06 01:10:00",
+    "n_prediction_rows": 2737,
+    "any_alarm": false,
+    "first_alarm_pred_idx": null,
+    "first_alarm_timestamp": null,
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2737,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1898,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2737,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2156,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1663,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 59,
+    "farm": "C",
+    "label": "normal",
+    "event_start": "2023-02-16 00:00:00",
+    "n_prediction_rows": 2737,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 1407,
+    "first_alarm_timestamp": "2023-02-25 18:30:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 60,
+        "first_alarm_pred_idx": 1966,
+        "cusum_alarm_count": 2458,
+        "ewma_alarm_count": 60
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1865,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 105,
+        "first_alarm_pred_idx": 1407,
+        "cusum_alarm_count": 2250,
+        "ewma_alarm_count": 105
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 404,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 34,
+        "first_alarm_pred_idx": 1982,
+        "cusum_alarm_count": 1852,
+        "ewma_alarm_count": 34
+      }
+    }
+  },
+  {
+    "event_id": 63,
+    "farm": "C",
+    "label": "normal",
+    "event_start": "2023-07-06 23:10:00",
+    "n_prediction_rows": 2305,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 1659,
+    "first_alarm_timestamp": "2023-07-17 11:40:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2094,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1713,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2233,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2305,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 257,
+        "first_alarm_pred_idx": 1659,
+        "cusum_alarm_count": 1716,
+        "ewma_alarm_count": 257
+      }
+    }
+  },
+  {
+    "event_id": 80,
+    "farm": "C",
+    "label": "normal",
+    "event_start": "2023-10-07 02:10:00",
+    "n_prediction_rows": 2353,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 0,
+    "first_alarm_timestamp": "2023-10-07 02:10:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1551,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 32,
+        "first_alarm_pred_idx": 0,
+        "cusum_alarm_count": 2215,
+        "ewma_alarm_count": 32
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1981,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2353,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 7,
+        "first_alarm_pred_idx": 1723,
+        "cusum_alarm_count": 1156,
+        "ewma_alarm_count": 7
+      }
+    }
+  },
+  {
+    "event_id": 37,
+    "farm": "C",
+    "label": "normal",
+    "event_start": "2023-02-28 18:00:00",
+    "n_prediction_rows": 2449,
+    "any_alarm": false,
+    "first_alarm_pred_idx": null,
+    "first_alarm_timestamp": null,
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2449,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2449,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2449,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2001,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2449,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 29,
+    "farm": "C",
+    "label": "normal",
+    "event_start": "2023-03-09 02:00:00",
+    "n_prediction_rows": 2305,
+    "any_alarm": true,
+    "first_alarm_pred_idx": 825,
+    "first_alarm_timestamp": "2023-03-13 19:30:00",
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 47,
+        "first_alarm_pred_idx": 825,
+        "cusum_alarm_count": 999,
+        "ewma_alarm_count": 47
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1562,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1472,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1563,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1083,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 1,
+    "farm": "C",
+    "label": "normal",
+    "event_start": "2023-10-02 00:00:00",
+    "n_prediction_rows": 2161,
+    "any_alarm": false,
+    "first_alarm_pred_idx": null,
+    "first_alarm_timestamp": null,
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1611,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1285,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1969,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2161,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1412,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 20,
+    "farm": "C",
+    "label": "normal",
+    "event_start": "2023-07-14 01:10:00",
+    "n_prediction_rows": 2593,
+    "any_alarm": false,
+    "first_alarm_pred_idx": null,
+    "first_alarm_timestamp": null,
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 487,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 376,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 922,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 1450,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 186,
+        "ewma_alarm_count": 0
+      }
+    }
+  },
+  {
+    "event_id": 60,
+    "farm": "C",
+    "label": "normal",
+    "event_start": "2023-02-17 05:30:00",
+    "n_prediction_rows": 2449,
+    "any_alarm": false,
+    "first_alarm_pred_idx": null,
+    "first_alarm_timestamp": null,
+    "subsystems": {
+      "gearbox": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 831,
+        "ewma_alarm_count": 0
+      },
+      "generator_bearings": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 739,
+        "ewma_alarm_count": 0
+      },
+      "transformer": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2449,
+        "ewma_alarm_count": 0
+      },
+      "hydraulic": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2310,
+        "ewma_alarm_count": 0
+      },
+      "cooling": {
+        "combined_alarm_count": 0,
+        "first_alarm_pred_idx": null,
+        "cusum_alarm_count": 2398,
+        "ewma_alarm_count": 0
+      }
+    }
+  }
+]
