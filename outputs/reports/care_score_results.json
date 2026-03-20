@@ -1,0 +1,1932 @@
+{
+  "timestamp": "2026-03-20T02:13:52.019038",
+  "care_score": 0.573274,
+  "sub_scores": {
+    "F_bar": 0.261106,
+    "Acc_bar": 0.954187,
+    "EF_beta": 0.529101,
+    "WS_bar": 0.167787
+  },
+  "weights": {
+    "w1_coverage": 1,
+    "w2_earliness": 1,
+    "w3_reliability": 1,
+    "w4_accuracy": 2
+  },
+  "special_case": null,
+  "baseline_comparison": {
+    "baseline_care": 0.66,
+    "our_care": 0.573274,
+    "difference": -0.086726,
+    "pct_change": -13.14
+  },
+  "coverage_detail": {
+    "F_bar": 0.261106,
+    "n_anomaly_events": 45,
+    "per_event": [
+      {
+        "farm": "A",
+        "event_id": 68,
+        "f05": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "n_normal_rows": 0,
+        "note": "no_normal_rows"
+      },
+      {
+        "farm": "A",
+        "event_id": 22,
+        "f05": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "n_normal_rows": 0,
+        "note": "no_normal_rows"
+      },
+      {
+        "farm": "A",
+        "event_id": 72,
+        "f05": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 145,
+        "n_normal_rows": 145
+      },
+      {
+        "farm": "A",
+        "event_id": 73,
+        "f05": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "n_normal_rows": 0,
+        "note": "no_normal_rows"
+      },
+      {
+        "farm": "A",
+        "event_id": 0,
+        "f05": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 288,
+        "n_normal_rows": 288
+      },
+      {
+        "farm": "A",
+        "event_id": 26,
+        "f05": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "n_normal_rows": 1
+      },
+      {
+        "farm": "A",
+        "event_id": 40,
+        "f05": 0.229639,
+        "tp": 150,
+        "fp": 0,
+        "fn": 2516,
+        "n_normal_rows": 2666
+      },
+      {
+        "farm": "A",
+        "event_id": 42,
+        "f05": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 145,
+        "n_normal_rows": 145
+      },
+      {
+        "farm": "A",
+        "event_id": 10,
+        "f05": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "n_normal_rows": 0,
+        "note": "no_normal_rows"
+      },
+      {
+        "farm": "A",
+        "event_id": 45,
+        "f05": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "n_normal_rows": 0,
+        "note": "no_normal_rows"
+      },
+      {
+        "farm": "A",
+        "event_id": 84,
+        "f05": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "n_normal_rows": 0,
+        "note": "no_normal_rows"
+      },
+      {
+        "farm": "A",
+        "event_id": 51,
+        "f05": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 46,
+        "n_normal_rows": 46
+      },
+      {
+        "farm": "B",
+        "event_id": 34,
+        "f05": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 3889,
+        "n_normal_rows": 3889
+      },
+      {
+        "farm": "B",
+        "event_id": 7,
+        "f05": 0.063768,
+        "tp": 66,
+        "fp": 0,
+        "fn": 4845,
+        "n_normal_rows": 4911
+      },
+      {
+        "farm": "B",
+        "event_id": 53,
+        "f05": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 5711,
+        "n_normal_rows": 5711
+      },
+      {
+        "farm": "B",
+        "event_id": 27,
+        "f05": 0.105834,
+        "tp": 201,
+        "fp": 0,
+        "fn": 8491,
+        "n_normal_rows": 8692
+      },
+      {
+        "farm": "B",
+        "event_id": 19,
+        "f05": 0.06781,
+        "tp": 53,
+        "fp": 0,
+        "fn": 3643,
+        "n_normal_rows": 3696
+      },
+      {
+        "farm": "B",
+        "event_id": 77,
+        "f05": 0.029681,
+        "tp": 50,
+        "fp": 0,
+        "fn": 8173,
+        "n_normal_rows": 8223
+      },
+      {
+        "farm": "C",
+        "event_id": 55,
+        "f05": 0.004842,
+        "tp": 3,
+        "fp": 0,
+        "fn": 3083,
+        "n_normal_rows": 3086
+      },
+      {
+        "farm": "C",
+        "event_id": 81,
+        "f05": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 1188,
+        "n_normal_rows": 1188
+      },
+      {
+        "farm": "C",
+        "event_id": 47,
+        "f05": 0.994207,
+        "tp": 1476,
+        "fp": 0,
+        "fn": 43,
+        "n_normal_rows": 1519
+      },
+      {
+        "farm": "C",
+        "event_id": 12,
+        "f05": 0.283425,
+        "tp": 237,
+        "fp": 0,
+        "fn": 2996,
+        "n_normal_rows": 3233
+      },
+      {
+        "farm": "C",
+        "event_id": 4,
+        "f05": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 3531,
+        "n_normal_rows": 3531
+      },
+      {
+        "farm": "C",
+        "event_id": 18,
+        "f05": 0.572451,
+        "tp": 192,
+        "fp": 0,
+        "fn": 717,
+        "n_normal_rows": 909
+      },
+      {
+        "farm": "C",
+        "event_id": 28,
+        "f05": 0.355905,
+        "tp": 267,
+        "fp": 0,
+        "fn": 2416,
+        "n_normal_rows": 2683
+      },
+      {
+        "farm": "C",
+        "event_id": 39,
+        "f05": 0.365591,
+        "tp": 68,
+        "fp": 0,
+        "fn": 590,
+        "n_normal_rows": 658
+      },
+      {
+        "farm": "C",
+        "event_id": 66,
+        "f05": 0.647793,
+        "tp": 270,
+        "fp": 0,
+        "fn": 734,
+        "n_normal_rows": 1004
+      },
+      {
+        "farm": "C",
+        "event_id": 15,
+        "f05": 0.304384,
+        "tp": 218,
+        "fp": 0,
+        "fn": 2491,
+        "n_normal_rows": 2709
+      },
+      {
+        "farm": "C",
+        "event_id": 78,
+        "f05": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 491,
+        "n_normal_rows": 491
+      },
+      {
+        "farm": "C",
+        "event_id": 79,
+        "f05": 0.576225,
+        "tp": 127,
+        "fp": 0,
+        "fn": 467,
+        "n_normal_rows": 594
+      },
+      {
+        "farm": "C",
+        "event_id": 30,
+        "f05": 0.761047,
+        "tp": 279,
+        "fp": 0,
+        "fn": 438,
+        "n_normal_rows": 717
+      },
+      {
+        "farm": "C",
+        "event_id": 33,
+        "f05": 0.984689,
+        "tp": 1968,
+        "fp": 0,
+        "fn": 153,
+        "n_normal_rows": 2121
+      },
+      {
+        "farm": "C",
+        "event_id": 11,
+        "f05": 1.0,
+        "tp": 2101,
+        "fp": 0,
+        "fn": 0,
+        "n_normal_rows": 2101
+      },
+      {
+        "farm": "C",
+        "event_id": 44,
+        "f05": 0.077831,
+        "tp": 157,
+        "fp": 0,
+        "fn": 9301,
+        "n_normal_rows": 9458
+      },
+      {
+        "farm": "C",
+        "event_id": 49,
+        "f05": 0.2894,
+        "tp": 83,
+        "fp": 0,
+        "fn": 1019,
+        "n_normal_rows": 1102
+      },
+      {
+        "farm": "C",
+        "event_id": 31,
+        "f05": 0.742278,
+        "tp": 447,
+        "fp": 0,
+        "fn": 776,
+        "n_normal_rows": 1223
+      },
+      {
+        "farm": "C",
+        "event_id": 67,
+        "f05": 0.622778,
+        "tp": 2137,
+        "fp": 0,
+        "fn": 6472,
+        "n_normal_rows": 8609
+      },
+      {
+        "farm": "C",
+        "event_id": 9,
+        "f05": 0.370733,
+        "tp": 341,
+        "fp": 0,
+        "fn": 2894,
+        "n_normal_rows": 3235
+      },
+      {
+        "farm": "C",
+        "event_id": 91,
+        "f05": 0.097504,
+        "tp": 75,
+        "fp": 0,
+        "fn": 3471,
+        "n_normal_rows": 3546
+      },
+      {
+        "farm": "C",
+        "event_id": 5,
+        "f05": 0.03096,
+        "tp": 2,
+        "fp": 0,
+        "fn": 313,
+        "n_normal_rows": 315
+      },
+      {
+        "farm": "C",
+        "event_id": 90,
+        "f05": 0.054402,
+        "tp": 22,
+        "fp": 0,
+        "fn": 1912,
+        "n_normal_rows": 1934
+      },
+      {
+        "farm": "C",
+        "event_id": 70,
+        "f05": 0.566746,
+        "tp": 664,
+        "fp": 0,
+        "fn": 2538,
+        "n_normal_rows": 3202
+      },
+      {
+        "farm": "C",
+        "event_id": 35,
+        "f05": 0.680502,
+        "tp": 282,
+        "fp": 0,
+        "fn": 662,
+        "n_normal_rows": 944
+      },
+      {
+        "farm": "C",
+        "event_id": 16,
+        "f05": 0.594817,
+        "tp": 101,
+        "fp": 0,
+        "fn": 344,
+        "n_normal_rows": 445
+      },
+      {
+        "farm": "C",
+        "event_id": 76,
+        "f05": 0.274533,
+        "tp": 47,
+        "fp": 0,
+        "fn": 621,
+        "n_normal_rows": 668
+      }
+    ]
+  },
+  "accuracy_detail": {
+    "Acc_bar": 0.954187,
+    "n_normal_events": 50,
+    "per_event": [
+      {
+        "farm": "A",
+        "event_id": 25,
+        "accuracy": 1.0,
+        "tn": 2423,
+        "fp": 0,
+        "n_normal_rows": 2423
+      },
+      {
+        "farm": "A",
+        "event_id": 69,
+        "accuracy": 1.0,
+        "tn": 2593,
+        "fp": 0,
+        "n_normal_rows": 2593
+      },
+      {
+        "farm": "A",
+        "event_id": 13,
+        "accuracy": 1.0,
+        "tn": 3583,
+        "fp": 0,
+        "n_normal_rows": 3583
+      },
+      {
+        "farm": "A",
+        "event_id": 24,
+        "accuracy": 1.0,
+        "tn": 2714,
+        "fp": 0,
+        "n_normal_rows": 2714
+      },
+      {
+        "farm": "A",
+        "event_id": 3,
+        "accuracy": 1.0,
+        "tn": 3302,
+        "fp": 0,
+        "n_normal_rows": 3302
+      },
+      {
+        "farm": "A",
+        "event_id": 17,
+        "accuracy": 1.0,
+        "tn": 2781,
+        "fp": 0,
+        "n_normal_rows": 2781
+      },
+      {
+        "farm": "A",
+        "event_id": 38,
+        "accuracy": 1.0,
+        "tn": 2544,
+        "fp": 0,
+        "n_normal_rows": 2544
+      },
+      {
+        "farm": "A",
+        "event_id": 71,
+        "accuracy": 0.994283,
+        "tn": 2435,
+        "fp": 14,
+        "n_normal_rows": 2449
+      },
+      {
+        "farm": "A",
+        "event_id": 14,
+        "accuracy": 0.987901,
+        "tn": 1878,
+        "fp": 23,
+        "n_normal_rows": 1901
+      },
+      {
+        "farm": "A",
+        "event_id": 92,
+        "accuracy": 1.0,
+        "tn": 1774,
+        "fp": 0,
+        "n_normal_rows": 1774
+      },
+      {
+        "farm": "B",
+        "event_id": 83,
+        "accuracy": 0.977759,
+        "tn": 12573,
+        "fp": 286,
+        "n_normal_rows": 12859
+      },
+      {
+        "farm": "B",
+        "event_id": 52,
+        "accuracy": 1.0,
+        "tn": 2730,
+        "fp": 0,
+        "n_normal_rows": 2730
+      },
+      {
+        "farm": "B",
+        "event_id": 21,
+        "accuracy": 0.990544,
+        "tn": 1257,
+        "fp": 12,
+        "n_normal_rows": 1269
+      },
+      {
+        "farm": "B",
+        "event_id": 2,
+        "accuracy": 0.882407,
+        "tn": 1906,
+        "fp": 254,
+        "n_normal_rows": 2160
+      },
+      {
+        "farm": "B",
+        "event_id": 23,
+        "accuracy": 0.973035,
+        "tn": 1696,
+        "fp": 47,
+        "n_normal_rows": 1743
+      },
+      {
+        "farm": "B",
+        "event_id": 87,
+        "accuracy": 0.929107,
+        "tn": 2726,
+        "fp": 208,
+        "n_normal_rows": 2934
+      },
+      {
+        "farm": "B",
+        "event_id": 74,
+        "accuracy": 1.0,
+        "tn": 3019,
+        "fp": 0,
+        "n_normal_rows": 3019
+      },
+      {
+        "farm": "B",
+        "event_id": 86,
+        "accuracy": 1.0,
+        "tn": 2856,
+        "fp": 0,
+        "n_normal_rows": 2856
+      },
+      {
+        "farm": "B",
+        "event_id": 82,
+        "accuracy": 1.0,
+        "tn": 2387,
+        "fp": 0,
+        "n_normal_rows": 2387
+      },
+      {
+        "farm": "C",
+        "event_id": 8,
+        "accuracy": 0.144856,
+        "tn": 321,
+        "fp": 1895,
+        "n_normal_rows": 2216
+      },
+      {
+        "farm": "C",
+        "event_id": 85,
+        "accuracy": 0.98911,
+        "tn": 1544,
+        "fp": 17,
+        "n_normal_rows": 1561
+      },
+      {
+        "farm": "C",
+        "event_id": 6,
+        "accuracy": 0.990085,
+        "tn": 2097,
+        "fp": 21,
+        "n_normal_rows": 2118
+      },
+      {
+        "farm": "C",
+        "event_id": 62,
+        "accuracy": 1.0,
+        "tn": 1026,
+        "fp": 0,
+        "n_normal_rows": 1026
+      },
+      {
+        "farm": "C",
+        "event_id": 36,
+        "accuracy": 0.890762,
+        "tn": 2536,
+        "fp": 311,
+        "n_normal_rows": 2847
+      },
+      {
+        "farm": "C",
+        "event_id": 56,
+        "accuracy": 1.0,
+        "tn": 2142,
+        "fp": 0,
+        "n_normal_rows": 2142
+      },
+      {
+        "farm": "C",
+        "event_id": 94,
+        "accuracy": 0.990456,
+        "tn": 2387,
+        "fp": 23,
+        "n_normal_rows": 2410
+      },
+      {
+        "farm": "C",
+        "event_id": 54,
+        "accuracy": 0.958756,
+        "tn": 2836,
+        "fp": 122,
+        "n_normal_rows": 2958
+      },
+      {
+        "farm": "C",
+        "event_id": 43,
+        "accuracy": 0.959168,
+        "tn": 2443,
+        "fp": 104,
+        "n_normal_rows": 2547
+      },
+      {
+        "farm": "C",
+        "event_id": 50,
+        "accuracy": 0.97654,
+        "tn": 3330,
+        "fp": 80,
+        "n_normal_rows": 3410
+      },
+      {
+        "farm": "C",
+        "event_id": 64,
+        "accuracy": 0.906826,
+        "tn": 1674,
+        "fp": 172,
+        "n_normal_rows": 1846
+      },
+      {
+        "farm": "C",
+        "event_id": 46,
+        "accuracy": 0.902506,
+        "tn": 2305,
+        "fp": 249,
+        "n_normal_rows": 2554
+      },
+      {
+        "farm": "C",
+        "event_id": 65,
+        "accuracy": 1.0,
+        "tn": 3320,
+        "fp": 0,
+        "n_normal_rows": 3320
+      },
+      {
+        "farm": "C",
+        "event_id": 61,
+        "accuracy": 0.877355,
+        "tn": 2561,
+        "fp": 358,
+        "n_normal_rows": 2919
+      },
+      {
+        "farm": "C",
+        "event_id": 93,
+        "accuracy": 1.0,
+        "tn": 3237,
+        "fp": 0,
+        "n_normal_rows": 3237
+      },
+      {
+        "farm": "C",
+        "event_id": 75,
+        "accuracy": 0.835443,
+        "tn": 2904,
+        "fp": 572,
+        "n_normal_rows": 3476
+      },
+      {
+        "farm": "C",
+        "event_id": 41,
+        "accuracy": 1.0,
+        "tn": 4190,
+        "fp": 0,
+        "n_normal_rows": 4190
+      },
+      {
+        "farm": "C",
+        "event_id": 58,
+        "accuracy": 1.0,
+        "tn": 1857,
+        "fp": 0,
+        "n_normal_rows": 1857
+      },
+      {
+        "farm": "C",
+        "event_id": 48,
+        "accuracy": 1.0,
+        "tn": 2701,
+        "fp": 0,
+        "n_normal_rows": 2701
+      },
+      {
+        "farm": "C",
+        "event_id": 88,
+        "accuracy": 0.866061,
+        "tn": 2192,
+        "fp": 339,
+        "n_normal_rows": 2531
+      },
+      {
+        "farm": "C",
+        "event_id": 57,
+        "accuracy": 0.967943,
+        "tn": 2325,
+        "fp": 77,
+        "n_normal_rows": 2402
+      },
+      {
+        "farm": "C",
+        "event_id": 32,
+        "accuracy": 0.927805,
+        "tn": 2249,
+        "fp": 175,
+        "n_normal_rows": 2424
+      },
+      {
+        "farm": "C",
+        "event_id": 89,
+        "accuracy": 1.0,
+        "tn": 2708,
+        "fp": 0,
+        "n_normal_rows": 2708
+      },
+      {
+        "farm": "C",
+        "event_id": 59,
+        "accuracy": 0.939985,
+        "tn": 2553,
+        "fp": 163,
+        "n_normal_rows": 2716
+      },
+      {
+        "farm": "C",
+        "event_id": 63,
+        "accuracy": 0.888014,
+        "tn": 2030,
+        "fp": 256,
+        "n_normal_rows": 2286
+      },
+      {
+        "farm": "C",
+        "event_id": 80,
+        "accuracy": 0.983247,
+        "tn": 2289,
+        "fp": 39,
+        "n_normal_rows": 2328
+      },
+      {
+        "farm": "C",
+        "event_id": 37,
+        "accuracy": 1.0,
+        "tn": 2421,
+        "fp": 0,
+        "n_normal_rows": 2421
+      },
+      {
+        "farm": "C",
+        "event_id": 29,
+        "accuracy": 0.979404,
+        "tn": 2235,
+        "fp": 47,
+        "n_normal_rows": 2282
+      },
+      {
+        "farm": "C",
+        "event_id": 1,
+        "accuracy": 1.0,
+        "tn": 2121,
+        "fp": 0,
+        "n_normal_rows": 2121
+      },
+      {
+        "farm": "C",
+        "event_id": 20,
+        "accuracy": 1.0,
+        "tn": 2492,
+        "fp": 0,
+        "n_normal_rows": 2492
+      },
+      {
+        "farm": "C",
+        "event_id": 60,
+        "accuracy": 1.0,
+        "tn": 2376,
+        "fp": 0,
+        "n_normal_rows": 2376
+      }
+    ]
+  },
+  "reliability_detail": {
+    "EF_beta": 0.529101,
+    "event_level_tp": 20,
+    "event_level_fp": 16,
+    "event_level_fn": 25,
+    "event_level_tn": 34,
+    "crit_threshold": 72,
+    "per_event": [
+      {
+        "farm": "A",
+        "event_id": 68,
+        "true_label": "anomaly",
+        "crit_predicted": "normal",
+        "max_crit": 0
+      },
+      {
+        "farm": "A",
+        "event_id": 22,
+        "true_label": "anomaly",
+        "crit_predicted": "normal",
+        "max_crit": 0
+      },
+      {
+        "farm": "A",
+        "event_id": 72,
+        "true_label": "anomaly",
+        "crit_predicted": "normal",
+        "max_crit": 0
+      },
+      {
+        "farm": "A",
+        "event_id": 73,
+        "true_label": "anomaly",
+        "crit_predicted": "normal",
+        "max_crit": 0
+      },
+      {
+        "farm": "A",
+        "event_id": 0,
+        "true_label": "anomaly",
+        "crit_predicted": "normal",
+        "max_crit": 0
+      },
+      {
+        "farm": "A",
+        "event_id": 26,
+        "true_label": "anomaly",
+        "crit_predicted": "normal",
+        "max_crit": 0
+      },
+      {
+        "farm": "A",
+        "event_id": 40,
+        "true_label": "anomaly",
+        "crit_predicted": "anomaly",
+        "max_crit": 82
+      },
+      {
+        "farm": "A",
+        "event_id": 42,
+        "true_label": "anomaly",
+        "crit_predicted": "normal",
+        "max_crit": 0
+      },
+      {
+        "farm": "A",
+        "event_id": 10,
+        "true_label": "anomaly",
+        "crit_predicted": "normal",
+        "max_crit": 0
+      },
+      {
+        "farm": "A",
+        "event_id": 45,
+        "true_label": "anomaly",
+        "crit_predicted": "normal",
+        "max_crit": 0
+      },
+      {
+        "farm": "A",
+        "event_id": 84,
+        "true_label": "anomaly",
+        "crit_predicted": "normal",
+        "max_crit": 0
+      },
+      {
+        "farm": "A",
+        "event_id": 25,
+        "true_label": "normal",
+        "crit_predicted": "normal",
+        "max_crit": 0
+      },
+      {
+        "farm": "A",
+        "event_id": 69,
+        "true_label": "normal",
+        "crit_predicted": "normal",
+        "max_crit": 0
+      },
+      {
+        "farm": "A",
+        "event_id": 13,
+        "true_label": "normal",
+        "crit_predicted": "normal",
+        "max_crit": 0
+      },
+      {
+        "farm": "A",
+        "event_id": 24,
+        "true_label": "normal",
+        "crit_predicted": "normal",
+        "max_crit": 0
+      },
+      {
+        "farm": "A",
+        "event_id": 3,
+        "true_label": "normal",
+        "crit_predicted": "normal",
+        "max_crit": 0
+      },
+      {
+        "farm": "A",
+        "event_id": 17,
+        "true_label": "normal",
+        "crit_predicted": "normal",
+        "max_crit": 0
+      },
+      {
+        "farm": "A",
+        "event_id": 38,
+        "true_label": "normal",
+        "crit_predicted": "normal",
+        "max_crit": 0
+      },
+      {
+        "farm": "A",
+        "event_id": 71,
+        "true_label": "normal",
+        "crit_predicted": "normal",
+        "max_crit": 14
+      },
+      {
+        "farm": "A",
+        "event_id": 14,
+        "true_label": "normal",
+        "crit_predicted": "normal",
+        "max_crit": 23
+      },
+      {
+        "farm": "A",
+        "event_id": 92,
+        "true_label": "normal",
+        "crit_predicted": "normal",
+        "max_crit": 0
+      },
+      {
+        "farm": "A",
+        "event_id": 51,
+        "true_label": "anomaly",
+        "crit_predicted": "normal",
+        "max_crit": 0
+      },
+      {
+        "farm": "B",
+        "event_id": 34,
+        "true_label": "anomaly",
+        "crit_predicted": "normal",
+        "max_crit": 0
+      },
+      {
+        "farm": "B",
+        "event_id": 7,
+        "true_label": "anomaly",
+        "crit_predicted": "normal",
+        "max_crit": 66
+      },
+      {
+        "farm": "B",
+        "event_id": 53,
+        "true_label": "anomaly",
+        "crit_predicted": "normal",
+        "max_crit": 0
+      },
+      {
+        "farm": "B",
+        "event_id": 27,
+        "true_label": "anomaly",
+        "crit_predicted": "anomaly",
+        "max_crit": 201
+      },
+      {
+        "farm": "B",
+        "event_id": 19,
+        "true_label": "anomaly",
+        "crit_predicted": "normal",
+        "max_crit": 41
+      },
+      {
+        "farm": "B",
+        "event_id": 77,
+        "true_label": "anomaly",
+        "crit_predicted": "normal",
+        "max_crit": 43
+      },
+      {
+        "farm": "B",
+        "event_id": 83,
+        "true_label": "normal",
+        "crit_predicted": "anomaly",
+        "max_crit": 204
+      },
+      {
+        "farm": "B",
+        "event_id": 52,
+        "true_label": "normal",
+        "crit_predicted": "normal",
+        "max_crit": 0
+      },
+      {
+        "farm": "B",
+        "event_id": 21,
+        "true_label": "normal",
+        "crit_predicted": "normal",
+        "max_crit": 12
+      },
+      {
+        "farm": "B",
+        "event_id": 2,
+        "true_label": "normal",
+        "crit_predicted": "anomaly",
+        "max_crit": 170
+      },
+      {
+        "farm": "B",
+        "event_id": 23,
+        "true_label": "normal",
+        "crit_predicted": "normal",
+        "max_crit": 47
+      },
+      {
+        "farm": "B",
+        "event_id": 87,
+        "true_label": "normal",
+        "crit_predicted": "anomaly",
+        "max_crit": 208
+      },
+      {
+        "farm": "B",
+        "event_id": 74,
+        "true_label": "normal",
+        "crit_predicted": "normal",
+        "max_crit": 0
+      },
+      {
+        "farm": "B",
+        "event_id": 86,
+        "true_label": "normal",
+        "crit_predicted": "normal",
+        "max_crit": 0
+      },
+      {
+        "farm": "B",
+        "event_id": 82,
+        "true_label": "normal",
+        "crit_predicted": "normal",
+        "max_crit": 0
+      },
+      {
+        "farm": "C",
+        "event_id": 55,
+        "true_label": "anomaly",
+        "crit_predicted": "normal",
+        "max_crit": 3
+      },
+      {
+        "farm": "C",
+        "event_id": 81,
+        "true_label": "anomaly",
+        "crit_predicted": "normal",
+        "max_crit": 0
+      },
+      {
+        "farm": "C",
+        "event_id": 47,
+        "true_label": "anomaly",
+        "crit_predicted": "anomaly",
+        "max_crit": 1476
+      },
+      {
+        "farm": "C",
+        "event_id": 12,
+        "true_label": "anomaly",
+        "crit_predicted": "anomaly",
+        "max_crit": 178
+      },
+      {
+        "farm": "C",
+        "event_id": 4,
+        "true_label": "anomaly",
+        "crit_predicted": "normal",
+        "max_crit": 0
+      },
+      {
+        "farm": "C",
+        "event_id": 18,
+        "true_label": "anomaly",
+        "crit_predicted": "anomaly",
+        "max_crit": 175
+      },
+      {
+        "farm": "C",
+        "event_id": 28,
+        "true_label": "anomaly",
+        "crit_predicted": "anomaly",
+        "max_crit": 101
+      },
+      {
+        "farm": "C",
+        "event_id": 39,
+        "true_label": "anomaly",
+        "crit_predicted": "normal",
+        "max_crit": 68
+      },
+      {
+        "farm": "C",
+        "event_id": 66,
+        "true_label": "anomaly",
+        "crit_predicted": "anomaly",
+        "max_crit": 270
+      },
+      {
+        "farm": "C",
+        "event_id": 15,
+        "true_label": "anomaly",
+        "crit_predicted": "anomaly",
+        "max_crit": 95
+      },
+      {
+        "farm": "C",
+        "event_id": 78,
+        "true_label": "anomaly",
+        "crit_predicted": "normal",
+        "max_crit": 0
+      },
+      {
+        "farm": "C",
+        "event_id": 79,
+        "true_label": "anomaly",
+        "crit_predicted": "anomaly",
+        "max_crit": 127
+      },
+      {
+        "farm": "C",
+        "event_id": 30,
+        "true_label": "anomaly",
+        "crit_predicted": "anomaly",
+        "max_crit": 267
+      },
+      {
+        "farm": "C",
+        "event_id": 33,
+        "true_label": "anomaly",
+        "crit_predicted": "anomaly",
+        "max_crit": 1968
+      },
+      {
+        "farm": "C",
+        "event_id": 11,
+        "true_label": "anomaly",
+        "crit_predicted": "anomaly",
+        "max_crit": 2101
+      },
+      {
+        "farm": "C",
+        "event_id": 44,
+        "true_label": "anomaly",
+        "crit_predicted": "normal",
+        "max_crit": 57
+      },
+      {
+        "farm": "C",
+        "event_id": 49,
+        "true_label": "anomaly",
+        "crit_predicted": "anomaly",
+        "max_crit": 83
+      },
+      {
+        "farm": "C",
+        "event_id": 31,
+        "true_label": "anomaly",
+        "crit_predicted": "anomaly",
+        "max_crit": 337
+      },
+      {
+        "farm": "C",
+        "event_id": 67,
+        "true_label": "anomaly",
+        "crit_predicted": "anomaly",
+        "max_crit": 461
+      },
+      {
+        "farm": "C",
+        "event_id": 9,
+        "true_label": "anomaly",
+        "crit_predicted": "anomaly",
+        "max_crit": 223
+      },
+      {
+        "farm": "C",
+        "event_id": 91,
+        "true_label": "anomaly",
+        "crit_predicted": "anomaly",
+        "max_crit": 75
+      },
+      {
+        "farm": "C",
+        "event_id": 5,
+        "true_label": "anomaly",
+        "crit_predicted": "normal",
+        "max_crit": 2
+      },
+      {
+        "farm": "C",
+        "event_id": 90,
+        "true_label": "anomaly",
+        "crit_predicted": "normal",
+        "max_crit": 22
+      },
+      {
+        "farm": "C",
+        "event_id": 70,
+        "true_label": "anomaly",
+        "crit_predicted": "anomaly",
+        "max_crit": 287
+      },
+      {
+        "farm": "C",
+        "event_id": 35,
+        "true_label": "anomaly",
+        "crit_predicted": "anomaly",
+        "max_crit": 205
+      },
+      {
+        "farm": "C",
+        "event_id": 16,
+        "true_label": "anomaly",
+        "crit_predicted": "anomaly",
+        "max_crit": 101
+      },
+      {
+        "farm": "C",
+        "event_id": 76,
+        "true_label": "anomaly",
+        "crit_predicted": "normal",
+        "max_crit": 47
+      },
+      {
+        "farm": "C",
+        "event_id": 8,
+        "true_label": "normal",
+        "crit_predicted": "anomaly",
+        "max_crit": 1599
+      },
+      {
+        "farm": "C",
+        "event_id": 85,
+        "true_label": "normal",
+        "crit_predicted": "normal",
+        "max_crit": 17
+      },
+      {
+        "farm": "C",
+        "event_id": 6,
+        "true_label": "normal",
+        "crit_predicted": "normal",
+        "max_crit": 21
+      },
+      {
+        "farm": "C",
+        "event_id": 62,
+        "true_label": "normal",
+        "crit_predicted": "normal",
+        "max_crit": 0
+      },
+      {
+        "farm": "C",
+        "event_id": 36,
+        "true_label": "normal",
+        "crit_predicted": "anomaly",
+        "max_crit": 243
+      },
+      {
+        "farm": "C",
+        "event_id": 56,
+        "true_label": "normal",
+        "crit_predicted": "normal",
+        "max_crit": 0
+      },
+      {
+        "farm": "C",
+        "event_id": 94,
+        "true_label": "normal",
+        "crit_predicted": "normal",
+        "max_crit": 23
+      },
+      {
+        "farm": "C",
+        "event_id": 54,
+        "true_label": "normal",
+        "crit_predicted": "normal",
+        "max_crit": 69
+      },
+      {
+        "farm": "C",
+        "event_id": 43,
+        "true_label": "normal",
+        "crit_predicted": "anomaly",
+        "max_crit": 104
+      },
+      {
+        "farm": "C",
+        "event_id": 50,
+        "true_label": "normal",
+        "crit_predicted": "anomaly",
+        "max_crit": 80
+      },
+      {
+        "farm": "C",
+        "event_id": 64,
+        "true_label": "normal",
+        "crit_predicted": "anomaly",
+        "max_crit": 124
+      },
+      {
+        "farm": "C",
+        "event_id": 46,
+        "true_label": "normal",
+        "crit_predicted": "anomaly",
+        "max_crit": 141
+      },
+      {
+        "farm": "C",
+        "event_id": 65,
+        "true_label": "normal",
+        "crit_predicted": "normal",
+        "max_crit": 0
+      },
+      {
+        "farm": "C",
+        "event_id": 61,
+        "true_label": "normal",
+        "crit_predicted": "anomaly",
+        "max_crit": 127
+      },
+      {
+        "farm": "C",
+        "event_id": 93,
+        "true_label": "normal",
+        "crit_predicted": "normal",
+        "max_crit": 0
+      },
+      {
+        "farm": "C",
+        "event_id": 75,
+        "true_label": "normal",
+        "crit_predicted": "anomaly",
+        "max_crit": 256
+      },
+      {
+        "farm": "C",
+        "event_id": 41,
+        "true_label": "normal",
+        "crit_predicted": "normal",
+        "max_crit": 0
+      },
+      {
+        "farm": "C",
+        "event_id": 58,
+        "true_label": "normal",
+        "crit_predicted": "normal",
+        "max_crit": 0
+      },
+      {
+        "farm": "C",
+        "event_id": 48,
+        "true_label": "normal",
+        "crit_predicted": "normal",
+        "max_crit": 0
+      },
+      {
+        "farm": "C",
+        "event_id": 88,
+        "true_label": "normal",
+        "crit_predicted": "anomaly",
+        "max_crit": 305
+      },
+      {
+        "farm": "C",
+        "event_id": 57,
+        "true_label": "normal",
+        "crit_predicted": "anomaly",
+        "max_crit": 77
+      },
+      {
+        "farm": "C",
+        "event_id": 32,
+        "true_label": "normal",
+        "crit_predicted": "anomaly",
+        "max_crit": 175
+      },
+      {
+        "farm": "C",
+        "event_id": 89,
+        "true_label": "normal",
+        "crit_predicted": "normal",
+        "max_crit": 0
+      },
+      {
+        "farm": "C",
+        "event_id": 59,
+        "true_label": "normal",
+        "crit_predicted": "anomaly",
+        "max_crit": 103
+      },
+      {
+        "farm": "C",
+        "event_id": 63,
+        "true_label": "normal",
+        "crit_predicted": "anomaly",
+        "max_crit": 256
+      },
+      {
+        "farm": "C",
+        "event_id": 80,
+        "true_label": "normal",
+        "crit_predicted": "normal",
+        "max_crit": 32
+      },
+      {
+        "farm": "C",
+        "event_id": 37,
+        "true_label": "normal",
+        "crit_predicted": "normal",
+        "max_crit": 0
+      },
+      {
+        "farm": "C",
+        "event_id": 29,
+        "true_label": "normal",
+        "crit_predicted": "normal",
+        "max_crit": 47
+      },
+      {
+        "farm": "C",
+        "event_id": 1,
+        "true_label": "normal",
+        "crit_predicted": "normal",
+        "max_crit": 0
+      },
+      {
+        "farm": "C",
+        "event_id": 20,
+        "true_label": "normal",
+        "crit_predicted": "normal",
+        "max_crit": 0
+      },
+      {
+        "farm": "C",
+        "event_id": 60,
+        "true_label": "normal",
+        "crit_predicted": "normal",
+        "max_crit": 0
+      }
+    ]
+  },
+  "earliness_detail": {
+    "WS_bar": 0.167787,
+    "n_anomaly_events": 45,
+    "per_event": [
+      {
+        "farm": "A",
+        "event_id": 68,
+        "ws": 0.0,
+        "event_window_len": 2014,
+        "n_detected": 0,
+        "weighted_detections": 0.0,
+        "total_weight": 1510.0
+      },
+      {
+        "farm": "A",
+        "event_id": 22,
+        "ws": 0.0,
+        "event_window_len": 1005,
+        "n_detected": 0,
+        "weighted_detections": 0.0,
+        "total_weight": 753.0
+      },
+      {
+        "farm": "A",
+        "event_id": 72,
+        "ws": 0.0,
+        "event_window_len": 1009,
+        "n_detected": 0,
+        "weighted_detections": 0.0,
+        "total_weight": 756.0
+      },
+      {
+        "farm": "A",
+        "event_id": 73,
+        "ws": 0.001299,
+        "event_window_len": 1009,
+        "n_detected": 32,
+        "weighted_detections": 0.9822,
+        "total_weight": 756.0
+      },
+      {
+        "farm": "A",
+        "event_id": 0,
+        "ws": 0.028002,
+        "event_window_len": 2012,
+        "n_detected": 62,
+        "weighted_detections": 42.2416,
+        "total_weight": 1508.5
+      },
+      {
+        "farm": "A",
+        "event_id": 26,
+        "ws": 0.0,
+        "event_window_len": 1009,
+        "n_detected": 0,
+        "weighted_detections": 0.0,
+        "total_weight": 756.0
+      },
+      {
+        "farm": "A",
+        "event_id": 40,
+        "ws": 0.101256,
+        "event_window_len": 4508,
+        "n_detected": 1038,
+        "weighted_detections": 342.2968,
+        "total_weight": 3380.5
+      },
+      {
+        "farm": "A",
+        "event_id": 42,
+        "ws": 0.0,
+        "event_window_len": 1007,
+        "n_detected": 0,
+        "weighted_detections": 0.0,
+        "total_weight": 754.5
+      },
+      {
+        "farm": "A",
+        "event_id": 10,
+        "ws": 0.0,
+        "event_window_len": 981,
+        "n_detected": 0,
+        "weighted_detections": 0.0,
+        "total_weight": 735.0
+      },
+      {
+        "farm": "A",
+        "event_id": 45,
+        "ws": 0.0,
+        "event_window_len": 1008,
+        "n_detected": 0,
+        "weighted_detections": 0.0,
+        "total_weight": 755.5
+      },
+      {
+        "farm": "A",
+        "event_id": 84,
+        "ws": 0.0,
+        "event_window_len": 1005,
+        "n_detected": 0,
+        "weighted_detections": 0.0,
+        "total_weight": 753.0
+      },
+      {
+        "farm": "A",
+        "event_id": 51,
+        "ws": 0.000235,
+        "event_window_len": 1673,
+        "n_detected": 13,
+        "weighted_detections": 0.2951,
+        "total_weight": 1254.0
+      },
+      {
+        "farm": "B",
+        "event_id": 34,
+        "ws": 0.0,
+        "event_window_len": 3169,
+        "n_detected": 0,
+        "weighted_detections": 0.0,
+        "total_weight": 2376.0
+      },
+      {
+        "farm": "B",
+        "event_id": 7,
+        "ws": 0.017687,
+        "event_window_len": 4465,
+        "n_detected": 66,
+        "weighted_detections": 59.2167,
+        "total_weight": 3348.0
+      },
+      {
+        "farm": "B",
+        "event_id": 53,
+        "ws": 0.0,
+        "event_window_len": 6048,
+        "n_detected": 0,
+        "weighted_detections": 0.0,
+        "total_weight": 4535.5
+      },
+      {
+        "farm": "B",
+        "event_id": 27,
+        "ws": 0.030662,
+        "event_window_len": 8785,
+        "n_detected": 202,
+        "weighted_detections": 202.0,
+        "total_weight": 6588.0
+      },
+      {
+        "farm": "B",
+        "event_id": 19,
+        "ws": 0.021269,
+        "event_window_len": 2881,
+        "n_detected": 53,
+        "weighted_detections": 45.9417,
+        "total_weight": 2160.0
+      },
+      {
+        "farm": "B",
+        "event_id": 77,
+        "ws": 3.7e-05,
+        "event_window_len": 8641,
+        "n_detected": 8,
+        "weighted_detections": 0.2379,
+        "total_weight": 6480.0
+      },
+      {
+        "farm": "C",
+        "event_id": 55,
+        "ws": 5.7e-05,
+        "event_window_len": 2473,
+        "n_detected": 13,
+        "weighted_detections": 0.1051,
+        "total_weight": 1854.0
+      },
+      {
+        "farm": "C",
+        "event_id": 81,
+        "ws": 0.0,
+        "event_window_len": 364,
+        "n_detected": 0,
+        "weighted_detections": 0.0,
+        "total_weight": 272.5
+      },
+      {
+        "farm": "C",
+        "event_id": 47,
+        "ws": 0.895131,
+        "event_window_len": 713,
+        "n_detected": 657,
+        "weighted_detections": 478.0,
+        "total_weight": 534.0
+      },
+      {
+        "farm": "C",
+        "event_id": 12,
+        "ws": 0.049618,
+        "event_window_len": 3259,
+        "n_detected": 264,
+        "weighted_detections": 121.2423,
+        "total_weight": 2443.5
+      },
+      {
+        "farm": "C",
+        "event_id": 4,
+        "ws": 0.0,
+        "event_window_len": 2737,
+        "n_detected": 0,
+        "weighted_detections": 0.0,
+        "total_weight": 2052.0
+      },
+      {
+        "farm": "C",
+        "event_id": 18,
+        "ws": 0.09958,
+        "event_window_len": 576,
+        "n_detected": 150,
+        "weighted_detections": 42.9688,
+        "total_weight": 431.5
+      },
+      {
+        "farm": "C",
+        "event_id": 28,
+        "ws": 0.096987,
+        "event_window_len": 2926,
+        "n_detected": 259,
+        "weighted_detections": 212.7888,
+        "total_weight": 2194.0
+      },
+      {
+        "farm": "C",
+        "event_id": 39,
+        "ws": 0.152411,
+        "event_window_len": 735,
+        "n_detected": 249,
+        "weighted_detections": 83.9022,
+        "total_weight": 550.5
+      },
+      {
+        "farm": "C",
+        "event_id": 66,
+        "ws": 0.549894,
+        "event_window_len": 943,
+        "n_detected": 625,
+        "weighted_detections": 388.5,
+        "total_weight": 706.5
+      },
+      {
+        "farm": "C",
+        "event_id": 15,
+        "ws": 0.075019,
+        "event_window_len": 2449,
+        "n_detected": 218,
+        "weighted_detections": 137.7347,
+        "total_weight": 1836.0
+      },
+      {
+        "farm": "C",
+        "event_id": 78,
+        "ws": 0.0,
+        "event_window_len": 298,
+        "n_detected": 0,
+        "weighted_detections": 0.0,
+        "total_weight": 223.0
+      },
+      {
+        "farm": "C",
+        "event_id": 79,
+        "ws": 0.151756,
+        "event_window_len": 289,
+        "n_detected": 98,
+        "weighted_detections": 32.7793,
+        "total_weight": 216.0
+      },
+      {
+        "farm": "C",
+        "event_id": 30,
+        "ws": 0.813611,
+        "event_window_len": 3263,
+        "n_detected": 2807,
+        "weighted_detections": 1990.5,
+        "total_weight": 2446.5
+      },
+      {
+        "farm": "C",
+        "event_id": 33,
+        "ws": 1.0,
+        "event_window_len": 2881,
+        "n_detected": 2881,
+        "weighted_detections": 2160.0,
+        "total_weight": 2160.0
+      },
+      {
+        "farm": "C",
+        "event_id": 11,
+        "ws": 1.0,
+        "event_window_len": 3157,
+        "n_detected": 3157,
+        "weighted_detections": 2367.0,
+        "total_weight": 2367.0
+      },
+      {
+        "farm": "C",
+        "event_id": 44,
+        "ws": 0.013614,
+        "event_window_len": 9435,
+        "n_detected": 121,
+        "weighted_detections": 96.3253,
+        "total_weight": 7075.5
+      },
+      {
+        "farm": "C",
+        "event_id": 49,
+        "ws": 0.0,
+        "event_window_len": 598,
+        "n_detected": 0,
+        "weighted_detections": 0.0,
+        "total_weight": 448.0
+      },
+      {
+        "farm": "C",
+        "event_id": 31,
+        "ws": 0.918954,
+        "event_window_len": 1021,
+        "n_detected": 959,
+        "weighted_detections": 703.0,
+        "total_weight": 765.0
+      },
+      {
+        "farm": "C",
+        "event_id": 67,
+        "ws": 0.217698,
+        "event_window_len": 8353,
+        "n_detected": 2174,
+        "weighted_detections": 1363.6574,
+        "total_weight": 6264.0
+      },
+      {
+        "farm": "C",
+        "event_id": 9,
+        "ws": 0.040075,
+        "event_window_len": 3037,
+        "n_detected": 261,
+        "weighted_detections": 91.2502,
+        "total_weight": 2277.0
+      },
+      {
+        "farm": "C",
+        "event_id": 91,
+        "ws": 0.017301,
+        "event_window_len": 2896,
+        "n_detected": 234,
+        "weighted_detections": 37.5691,
+        "total_weight": 2171.5
+      },
+      {
+        "farm": "C",
+        "event_id": 5,
+        "ws": 0.002047,
+        "event_window_len": 523,
+        "n_detected": 21,
+        "weighted_detections": 0.8015,
+        "total_weight": 391.5
+      },
+      {
+        "farm": "C",
+        "event_id": 90,
+        "ws": 0.000308,
+        "event_window_len": 1744,
+        "n_detected": 27,
+        "weighted_detections": 0.4025,
+        "total_weight": 1307.5
+      },
+      {
+        "farm": "C",
+        "event_id": 70,
+        "ws": 0.238394,
+        "event_window_len": 2902,
+        "n_detected": 740,
+        "weighted_detections": 518.7443,
+        "total_weight": 2176.0
+      },
+      {
+        "farm": "C",
+        "event_id": 35,
+        "ws": 0.147179,
+        "event_window_len": 919,
+        "n_detected": 239,
+        "weighted_detections": 101.3326,
+        "total_weight": 688.5
+      },
+      {
+        "farm": "C",
+        "event_id": 16,
+        "ws": 0.87033,
+        "event_window_len": 2160,
+        "n_detected": 1872,
+        "weighted_detections": 1409.5,
+        "total_weight": 1619.5
+      },
+      {
+        "farm": "C",
+        "event_id": 76,
+        "ws": 0.0,
+        "event_window_len": 246,
+        "n_detected": 0,
+        "weighted_detections": 0.0,
+        "total_weight": 184.0
+      }
+    ]
+  }
+}
