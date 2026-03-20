@@ -1,0 +1,65 @@
+{
+  "phase": "4.5",
+  "description": "Aggregated anomaly scoring via weighted voting",
+  "n_events": 95,
+  "n_normal": 50,
+  "n_anomaly": 45,
+  "normal_score_stats": {
+    "mean": 0.7270205976364518,
+    "std": 0.31901894905196837,
+    "median": 0.7325064667733431,
+    "min": 0.16091329397398793,
+    "max": 1.8258176019097316
+  },
+  "anomaly_score_stats": {
+    "mean": 1.8708004209103668,
+    "std": 1.6046866613104236,
+    "median": 1.1403318405998153,
+    "min": 0.2486934186133721,
+    "max": 6.251529667558863
+  },
+  "mean_separation": 1.1437798232739151,
+  "effect_size_cohens_d": 0.9886671085240032,
+  "optimal_threshold": {
+    "threshold": 1.1373648167932064,
+    "detection_rate": 0.5111111111111111,
+    "false_alarm_rate": 0.06,
+    "j_statistic": 0.4511111111111111
+  },
+  "accuracy_at_optimal": 0.7368421052631579,
+  "per_farm_scores": {
+    "A": {
+      "n_normal": 10,
+      "n_anomaly": 12,
+      "normal_mean": 0.755587579627963,
+      "anomaly_mean": 1.8883112827084874
+    },
+    "B": {
+      "n_normal": 9,
+      "n_anomaly": 6,
+      "normal_mean": 0.7713840449935512,
+      "anomaly_mean": 0.7258372088264307
+    },
+    "C": {
+      "n_normal": 31,
+      "n_anomaly": 27,
+      "normal_mean": 0.7049257316322902,
+      "anomaly_mean": 2.117454085018743
+    }
+  },
+  "weighting": {
+    "subsystem_weights": {
+      "gearbox": 0.25,
+      "generator_bearings": 0.2,
+      "transformer": 0.2,
+      "hydraulic": 0.15,
+      "cooling": 0.1
+    },
+    "method": "combined_weight = subsystem_tdi_weight * max(R2, 0.1)",
+    "key_features": [
+      "overall_max",
+      "overall_mean",
+      "trend_slope"
+    ]
+  }
+}
