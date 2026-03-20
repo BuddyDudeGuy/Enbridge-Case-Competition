@@ -1,0 +1,155 @@
+{
+  "Wind Farm A": {
+    "input_features": [
+      "wind_speed_3_avg",
+      "wind_speed_4_avg",
+      "power_29_avg",
+      "power_30_avg",
+      "sensor_0_avg",
+      "sensor_18_avg",
+      "sensor_52_avg",
+      "sensor_5_avg"
+    ],
+    "num_inputs": 8,
+    "targets": {
+      "gearbox": {
+        "column": "sensor_12_avg",
+        "description": "Temperature oil in gearbox",
+        "unit": "\u00b0C",
+        "rationale": "Oil integrates heat from all gearbox components"
+      },
+      "generator_bearings": {
+        "column": "sensor_13_avg",
+        "description": "Temperature in generator bearing 2 (Drive End)",
+        "unit": "\u00b0C",
+        "rationale": "Drive-end bearing is closest to failure point"
+      },
+      "transformer": {
+        "column": "sensor_38_avg",
+        "description": "Temperature in HV transformer phase L1",
+        "unit": "\u00b0C",
+        "rationale": "Phase winding temp most sensitive to overheating"
+      },
+      "hydraulic": {
+        "column": "sensor_41_avg",
+        "description": "Temperature oil in hydraulic group",
+        "unit": "\u00b0C",
+        "rationale": "Only hydraulic temp sensor \u2014 integrates system heat"
+      },
+      "cooling": {
+        "column": "sensor_10_avg",
+        "description": "Temperature in the VCS cooling water",
+        "unit": "\u00b0C",
+        "rationale": "Main cooling water reflects heat rejection capacity"
+      }
+    },
+    "num_models": 5,
+    "target_columns": [
+      "sensor_12_avg",
+      "sensor_13_avg",
+      "sensor_38_avg",
+      "sensor_41_avg",
+      "sensor_10_avg"
+    ]
+  },
+  "Wind Farm B": {
+    "input_features": [
+      "wind_speed_59_avg",
+      "wind_speed_60_avg",
+      "wind_speed_61_avg",
+      "power_62_avg",
+      "power_58_avg",
+      "sensor_8_avg",
+      "sensor_19_avg",
+      "sensor_20_avg",
+      "sensor_25_avg",
+      "sensor_10_avg"
+    ],
+    "num_inputs": 10,
+    "targets": {
+      "gearbox": {
+        "column": "sensor_39_avg",
+        "description": "Gearbox oil tank temperature",
+        "unit": "\u00b0C",
+        "rationale": "Oil tank temp integrates heat from all gearbox components"
+      },
+      "generator_bearings": {
+        "column": "sensor_32_avg",
+        "description": "Generator bearing temperature 1",
+        "unit": "\u00b0C",
+        "rationale": "Primary generator bearing \u2014 drive-end failure indicator"
+      },
+      "transformer": {
+        "column": "sensor_40_avg",
+        "description": "Transformator core temperature",
+        "unit": "\u00b0C",
+        "rationale": "Core temp is most sensitive to transformer overheating"
+      }
+    },
+    "num_models": 3,
+    "target_columns": [
+      "sensor_39_avg",
+      "sensor_32_avg",
+      "sensor_40_avg"
+    ]
+  },
+  "Wind Farm C": {
+    "input_features": [
+      "wind_speed_235_avg",
+      "wind_speed_236_avg",
+      "wind_speed_237_avg",
+      "power_6_avg",
+      "power_5_avg",
+      "sensor_7_avg",
+      "sensor_144_avg",
+      "sensor_145_avg",
+      "sensor_8_avg",
+      "sensor_76_avg",
+      "sensor_103_avg",
+      "sensor_104_avg",
+      "sensor_105_avg"
+    ],
+    "num_inputs": 13,
+    "targets": {
+      "gearbox": {
+        "column": "sensor_186_avg",
+        "description": "Gearbox oil temperature 1",
+        "unit": "\u00b0C",
+        "rationale": "Oil temp integrates heat from all gearbox components"
+      },
+      "generator_bearings": {
+        "column": "sensor_196_avg",
+        "description": "Rotor bearing temperature 1",
+        "unit": "\u00b0C",
+        "rationale": "Primary rotor bearing \u2014 drive-end degradation indicator"
+      },
+      "transformer": {
+        "column": "sensor_191_avg",
+        "description": "Oil temperature 1 main transformer",
+        "unit": "\u00b0C",
+        "rationale": "Main transformer oil temp \u2014 most sensitive to overheating"
+      },
+      "hydraulic": {
+        "column": "sensor_178_avg",
+        "description": "Hydraulic oil tank temperature 1",
+        "unit": "\u00b0C",
+        "rationale": "Oil tank integrates heat from pitch/yaw hydraulic system"
+      },
+      "cooling": {
+        "column": "sensor_228_avg",
+        "description": "Cooling water temp. generator inlet 1",
+        "unit": "\u00b0C",
+        "rationale": "Main cooling water inlet reflects cooling system performance"
+      }
+    },
+    "num_models": 5,
+    "target_columns": [
+      "sensor_186_avg",
+      "sensor_196_avg",
+      "sensor_191_avg",
+      "sensor_178_avg",
+      "sensor_228_avg"
+    ]
+  },
+  "total_models_across_farms": 13
+}
