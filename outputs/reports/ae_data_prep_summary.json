@@ -1,0 +1,107 @@
+{
+  "window_size": 36,
+  "step_size": 6,
+  "farms": {
+    "farm_a": {
+      "n_sensors": 19,
+      "sensors": [
+        "sensor_11_avg",
+        "sensor_12_avg",
+        "sensor_13_avg",
+        "sensor_14_avg",
+        "sensor_15_avg",
+        "sensor_16_avg",
+        "sensor_17_avg",
+        "sensor_38_avg",
+        "sensor_39_avg",
+        "sensor_40_avg",
+        "sensor_41_avg",
+        "sensor_8_avg",
+        "sensor_9_avg",
+        "sensor_10_avg",
+        "sensor_0_avg",
+        "sensor_6_avg",
+        "sensor_7_avg",
+        "sensor_43_avg",
+        "sensor_53_avg"
+      ],
+      "n_sequences": 21207,
+      "sequence_shape": [
+        21207,
+        36,
+        19
+      ],
+      "dtype": "float32",
+      "elapsed_sec": 0.5
+    },
+    "farm_b": {
+      "n_sensors": 22,
+      "sensors": [
+        "sensor_34_avg",
+        "sensor_35_avg",
+        "sensor_36_avg",
+        "sensor_37_avg",
+        "sensor_38_avg",
+        "sensor_39_avg",
+        "sensor_32_avg",
+        "sensor_33_avg",
+        "sensor_51_avg",
+        "sensor_52_avg",
+        "sensor_53_avg",
+        "sensor_31_avg",
+        "sensor_40_avg",
+        "sensor_41_avg",
+        "sensor_42_avg",
+        "sensor_43_avg",
+        "sensor_44_avg",
+        "sensor_45_avg",
+        "sensor_46_avg",
+        "sensor_47_avg",
+        "sensor_8_avg",
+        "sensor_22_avg"
+      ],
+      "n_sequences": 31058,
+      "sequence_shape": [
+        31058,
+        36,
+        22
+      ],
+      "dtype": "float32",
+      "elapsed_sec": 0.5
+    },
+    "farm_c": {
+      "n_sensors": 20,
+      "sensors": [
+        "sensor_151_avg",
+        "sensor_155_avg",
+        "sensor_160_avg",
+        "sensor_186_avg",
+        "sensor_189_avg",
+        "sensor_18_avg",
+        "sensor_168_avg",
+        "sensor_173_avg",
+        "sensor_196_avg",
+        "sensor_200_avg",
+        "sensor_167_avg",
+        "sensor_191_avg",
+        "sensor_192_avg",
+        "sensor_178_avg",
+        "sensor_179_avg",
+        "sensor_175_avg",
+        "sensor_228_avg",
+        "sensor_233_avg",
+        "sensor_7_avg",
+        "sensor_177_avg"
+      ],
+      "n_sequences": 30417,
+      "sequence_shape": [
+        30417,
+        36,
+        20
+      ],
+      "dtype": "float32",
+      "elapsed_sec": 1.2
+    }
+  },
+  "total_elapsed_sec": 2.2
+}
