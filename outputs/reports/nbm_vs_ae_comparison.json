@@ -1,0 +1,179 @@
+{
+  "phase": "5.8",
+  "description": "NBM vs LSTM-Autoencoder comparison for anomaly detection",
+  "n_events": 95,
+  "n_anomaly": 45,
+  "n_normal": 50,
+  "ae_threshold_p95": 0.5268563657999037,
+  "detection_overlap_anomalies": {
+    "both_detect": 18,
+    "nbm_only": 21,
+    "ae_only": 1,
+    "both_miss": 5
+  },
+  "overall_metrics": {
+    "nbm": {
+      "detection_rate": 0.8666666666666667,
+      "false_alarm_rate": 0.32,
+      "precision": 0.7090909090909091,
+      "f1": 0.7800000000000001
+    },
+    "ae": {
+      "detection_rate": 0.4222222222222222,
+      "false_alarm_rate": 0.06,
+      "precision": 0.8636363636363636,
+      "f1": 0.5671641791044777
+    },
+    "union_or": {
+      "detection_rate": 0.8888888888888888,
+      "false_alarm_rate": 0.32,
+      "precision": 0.7142857142857143,
+      "f1": 0.792079207920792
+    },
+    "intersection_and": {
+      "detection_rate": 0.4,
+      "false_alarm_rate": 0.06,
+      "precision": 0.8571428571428571,
+      "f1": 0.5454545454545455
+    }
+  },
+  "per_farm_metrics": {
+    "A": {
+      "nbm_detection_rate": 0.75,
+      "ae_detection_rate": 0.08333333333333333,
+      "union_detection_rate": 0.75,
+      "nbm_false_alarm_rate": 0.1,
+      "ae_false_alarm_rate": 0.0,
+      "union_false_alarm_rate": 0.1
+    },
+    "B": {
+      "nbm_detection_rate": 0.8333333333333334,
+      "ae_detection_rate": 0.3333333333333333,
+      "union_detection_rate": 0.8333333333333334,
+      "nbm_false_alarm_rate": 0.3333333333333333,
+      "ae_false_alarm_rate": 0.1111111111111111,
+      "union_false_alarm_rate": 0.3333333333333333
+    },
+    "C": {
+      "nbm_detection_rate": 0.9259259259259259,
+      "ae_detection_rate": 0.5925925925925926,
+      "union_detection_rate": 0.9629629629629629,
+      "nbm_false_alarm_rate": 0.3870967741935484,
+      "ae_false_alarm_rate": 0.06451612903225806,
+      "union_false_alarm_rate": 0.3870967741935484
+    }
+  },
+  "per_fault_type": [
+    {
+      "fault_type": "Pitch System",
+      "n_events": 11,
+      "nbm_detection_rate": 0.9090909090909091,
+      "ae_detection_rate": 0.45454545454545453,
+      "union_detection_rate": 0.9090909090909091
+    },
+    {
+      "fault_type": "Hydraulic",
+      "n_events": 8,
+      "nbm_detection_rate": 0.75,
+      "ae_detection_rate": 0.125,
+      "union_detection_rate": 0.75
+    },
+    {
+      "fault_type": "Gearbox",
+      "n_events": 6,
+      "nbm_detection_rate": 1.0,
+      "ae_detection_rate": 0.5,
+      "union_detection_rate": 1.0
+    },
+    {
+      "fault_type": "Transformer",
+      "n_events": 5,
+      "nbm_detection_rate": 0.6,
+      "ae_detection_rate": 0.0,
+      "union_detection_rate": 0.6
+    },
+    {
+      "fault_type": "Rotor Bearing",
+      "n_events": 3,
+      "nbm_detection_rate": 1.0,
+      "ae_detection_rate": 0.6666666666666666,
+      "union_detection_rate": 1.0
+    },
+    {
+      "fault_type": "Generator Bearing",
+      "n_events": 2,
+      "nbm_detection_rate": 1.0,
+      "ae_detection_rate": 0.5,
+      "union_detection_rate": 1.0
+    },
+    {
+      "fault_type": "Converter",
+      "n_events": 2,
+      "nbm_detection_rate": 1.0,
+      "ae_detection_rate": 1.0,
+      "union_detection_rate": 1.0
+    },
+    {
+      "fault_type": "General WEC Failure",
+      "n_events": 2,
+      "nbm_detection_rate": 1.0,
+      "ae_detection_rate": 1.0,
+      "union_detection_rate": 1.0
+    },
+    {
+      "fault_type": "Communication",
+      "n_events": 2,
+      "nbm_detection_rate": 1.0,
+      "ae_detection_rate": 0.5,
+      "union_detection_rate": 1.0
+    },
+    {
+      "fault_type": "Misc. Mechanical",
+      "n_events": 1,
+      "nbm_detection_rate": 0.0,
+      "ae_detection_rate": 1.0,
+      "union_detection_rate": 1.0
+    },
+    {
+      "fault_type": "Cooling System",
+      "n_events": 1,
+      "nbm_detection_rate": 1.0,
+      "ae_detection_rate": 0.0,
+      "union_detection_rate": 1.0
+    },
+    {
+      "fault_type": "Oil/Lubrication",
+      "n_events": 1,
+      "nbm_detection_rate": 1.0,
+      "ae_detection_rate": 0.0,
+      "union_detection_rate": 1.0
+    },
+    {
+      "fault_type": "Electrical/Battery",
+      "n_events": 1,
+      "nbm_detection_rate": 1.0,
+      "ae_detection_rate": 1.0,
+      "union_detection_rate": 1.0
+    }
+  ],
+  "ae_farm_separation_ratios": {
+    "A": 1.9462538721128342,
+    "B": 1.3912875849002797,
+    "C": 369.649048084329
+  },
+  "score_correlation_spearman": 0.4885638297872341,
+  "score_correlation_pvalue": 5.088105785617203e-07,
+  "recommended_tdi_weights": {
+    "nbm_weight": 0.7,
+    "ae_weight": 0.3,
+    "rationale": "NBM is primary (interpretable, subsystem-level); AE is complementary (cross-feature patterns, strong on high-dimensional Farm C)"
+  },
+  "figures_saved": [
+    "nbm_vs_ae_detection_overlap.png",
+    "nbm_vs_ae_per_fault_type.png",
+    "nbm_vs_ae_per_farm.png",
+    "nbm_vs_ae_score_distributions.png",
+    "nbm_vs_ae_combination_strategies.png",
+    "nbm_vs_ae_scatter.png"
+  ]
+}
