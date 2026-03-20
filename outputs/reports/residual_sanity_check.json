@@ -1,0 +1,357 @@
+{
+  "statistical_tests": {
+    "A": {
+      "gearbox": {
+        "normal_mean_abs": 2.0219,
+        "anomaly_mean_abs": 2.2807,
+        "p_value": 0.408742,
+        "rank_biserial": 0.0667,
+        "significant_05": false,
+        "significant_01": false
+      },
+      "generator_bearings": {
+        "normal_mean_abs": 4.1216,
+        "anomaly_mean_abs": 4.8619,
+        "p_value": 0.287578,
+        "rank_biserial": 0.15,
+        "significant_05": false,
+        "significant_01": false
+      },
+      "transformer": {
+        "normal_mean_abs": 7.673,
+        "anomaly_mean_abs": 8.0342,
+        "p_value": 0.38334,
+        "rank_biserial": 0.0833,
+        "significant_05": false,
+        "significant_01": false
+      },
+      "hydraulic": {
+        "normal_mean_abs": 4.2421,
+        "anomaly_mean_abs": 4.0612,
+        "p_value": 0.61666,
+        "rank_biserial": -0.0667,
+        "significant_05": false,
+        "significant_01": false
+      },
+      "cooling": {
+        "normal_mean_abs": 1.0741,
+        "anomaly_mean_abs": 1.1637,
+        "p_value": 0.186689,
+        "rank_biserial": 0.2333,
+        "significant_05": false,
+        "significant_01": false
+      }
+    },
+    "B": {
+      "gearbox": {
+        "normal_mean_abs": 1.8525,
+        "anomaly_mean_abs": 1.897,
+        "p_value": 0.477323,
+        "rank_biserial": 0.037,
+        "significant_05": false,
+        "significant_01": false
+      },
+      "generator_bearings": {
+        "normal_mean_abs": 6.565,
+        "anomaly_mean_abs": 6.8527,
+        "p_value": 0.477323,
+        "rank_biserial": 0.037,
+        "significant_05": false,
+        "significant_01": false
+      },
+      "transformer": {
+        "normal_mean_abs": 3.852,
+        "anomaly_mean_abs": 4.2986,
+        "p_value": 0.194206,
+        "rank_biserial": 0.2963,
+        "significant_05": false,
+        "significant_01": false
+      }
+    },
+    "C": {
+      "gearbox": {
+        "normal_mean_abs": 1.6898,
+        "anomaly_mean_abs": 60.6883,
+        "p_value": 0.000285,
+        "rank_biserial": 0.5293,
+        "significant_05": true,
+        "significant_01": true
+      },
+      "generator_bearings": {
+        "normal_mean_abs": 1.8002,
+        "anomaly_mean_abs": 3.5466,
+        "p_value": 0.000339,
+        "rank_biserial": 0.5221,
+        "significant_05": true,
+        "significant_01": true
+      },
+      "transformer": {
+        "normal_mean_abs": 3.2073,
+        "anomaly_mean_abs": 5.792,
+        "p_value": 0.000502,
+        "rank_biserial": 0.5054,
+        "significant_05": true,
+        "significant_01": true
+      },
+      "hydraulic": {
+        "normal_mean_abs": 2.4064,
+        "anomaly_mean_abs": 4.6416,
+        "p_value": 0.001778,
+        "rank_biserial": 0.448,
+        "significant_05": true,
+        "significant_01": true
+      },
+      "cooling": {
+        "normal_mean_abs": 1.7736,
+        "anomaly_mean_abs": 2.651,
+        "p_value": 0.006313,
+        "rank_biserial": 0.3835,
+        "significant_05": true,
+        "significant_01": true
+      }
+    }
+  },
+  "best_detections": [
+    {
+      "farm": "C",
+      "event_id": 11,
+      "description": "P20_DGUV-v3 RCD 28F1 NC310 defective + 0 : P20_Blades_Cabinet Caps missing",
+      "max_mean_abs_residual": 802.8354,
+      "avg_mean_abs_residual": 164.3908
+    },
+    {
+      "farm": "C",
+      "event_id": 33,
+      "description": "P20_Blade3_Grease Collector missing",
+      "max_mean_abs_residual": 764.098,
+      "avg_mean_abs_residual": 155.412
+    },
+    {
+      "farm": "C",
+      "event_id": 47,
+      "description": "Failure due to Rotorbrake and Hydraulic problemes - Hydraulic pump A disabeld, 2h later turbine back in production - Analysis indicates a longer anomaly in temp_hydraulic_oil_tank_1_average until 15.01.2024 which is neither confirmed nor refuted.",
+      "max_mean_abs_residual": 38.4635,
+      "avg_mean_abs_residual": 9.7839
+    },
+    {
+      "farm": "C",
+      "event_id": 30,
+      "description": "Pitch failure - defect fan on pitch motor",
+      "max_mean_abs_residual": 17.1636,
+      "avg_mean_abs_residual": 8.4243
+    },
+    {
+      "farm": "C",
+      "event_id": 16,
+      "description": "WEC in failure - hub battery charger defect",
+      "max_mean_abs_residual": 17.017,
+      "avg_mean_abs_residual": 8.4625
+    }
+  ],
+  "missed_detections": [
+    {
+      "farm": "C",
+      "event_id": 4,
+      "description": "23020 : Axis 3 not ready-to-operate",
+      "max_mean_abs_residual": 1.7487,
+      "avg_mean_abs_residual": 1.5852
+    },
+    {
+      "farm": "C",
+      "event_id": 44,
+      "description": "Valve in water cooling system was left in wrong position after maintenance actions on 05-08-2020",
+      "max_mean_abs_residual": 2.2405,
+      "avg_mean_abs_residual": 1.7237
+    },
+    {
+      "farm": "C",
+      "event_id": 78,
+      "description": "P20_Grounding role brake disc + P20_cover-lightning-main-cabinet-hub",
+      "max_mean_abs_residual": 3.0566,
+      "avg_mean_abs_residual": 2.5351
+    },
+    {
+      "farm": "C",
+      "event_id": 70,
+      "description": "21002 : Axis 1 DC-link voltage low, batt",
+      "max_mean_abs_residual": 3.1598,
+      "avg_mean_abs_residual": 2.2784
+    },
+    {
+      "farm": "C",
+      "event_id": 12,
+      "description": "10115 : Oil level error, two-pump mode + Oil Leakage Gear Oil Supply + 12019: Rotor brake B cannot be closed + P20_yaw carbon brush damaged",
+      "max_mean_abs_residual": 3.4344,
+      "avg_mean_abs_residual": 2.5591
+    },
+    {
+      "farm": "C",
+      "event_id": 91,
+      "description": "23020 : Axis 3 not ready-to-operate",
+      "max_mean_abs_residual": 3.4832,
+      "avg_mean_abs_residual": 2.2293
+    },
+    {
+      "farm": "C",
+      "event_id": 9,
+      "description": "PENDING19_PREV_YAW_Grease pump defective",
+      "max_mean_abs_residual": 3.8648,
+      "avg_mean_abs_residual": 2.6175
+    },
+    {
+      "farm": "B",
+      "event_id": 7,
+      "description": "high temperature in transformer cell",
+      "max_mean_abs_residual": 3.9876,
+      "avg_mean_abs_residual": 3.0537
+    },
+    {
+      "farm": "C",
+      "event_id": 55,
+      "description": "Harting plug Nacelle/HUB damaged + NCR20_HUB: Wiring blade control system",
+      "max_mean_abs_residual": 4.0051,
+      "avg_mean_abs_residual": 2.1683
+    },
+    {
+      "farm": "C",
+      "event_id": 90,
+      "description": "COMMUNICATION FAULT BK1120 IN NC300 A2",
+      "max_mean_abs_residual": 4.0599,
+      "avg_mean_abs_residual": 2.3256
+    }
+  ],
+  "false_alarm_candidates": [
+    {
+      "farm": "A",
+      "event_id": 71,
+      "max_mean_abs_residual": 9.2483,
+      "avg_mean_abs_residual": 4.149
+    },
+    {
+      "farm": "B",
+      "event_id": 86,
+      "max_mean_abs_residual": 9.0377,
+      "avg_mean_abs_residual": 6.1648
+    },
+    {
+      "farm": "A",
+      "event_id": 38,
+      "max_mean_abs_residual": 8.7819,
+      "avg_mean_abs_residual": 3.9474
+    },
+    {
+      "farm": "A",
+      "event_id": 14,
+      "max_mean_abs_residual": 8.6846,
+      "avg_mean_abs_residual": 3.8946
+    },
+    {
+      "farm": "B",
+      "event_id": 2,
+      "max_mean_abs_residual": 8.5458,
+      "avg_mean_abs_residual": 4.173
+    },
+    {
+      "farm": "A",
+      "event_id": 24,
+      "max_mean_abs_residual": 8.3708,
+      "avg_mean_abs_residual": 3.7075
+    },
+    {
+      "farm": "A",
+      "event_id": 69,
+      "max_mean_abs_residual": 8.1866,
+      "avg_mean_abs_residual": 3.8443
+    },
+    {
+      "farm": "B",
+      "event_id": 74,
+      "max_mean_abs_residual": 8.1738,
+      "avg_mean_abs_residual": 4.6108
+    },
+    {
+      "farm": "B",
+      "event_id": 87,
+      "max_mean_abs_residual": 7.8669,
+      "avg_mean_abs_residual": 4.3028
+    },
+    {
+      "farm": "A",
+      "event_id": 13,
+      "max_mean_abs_residual": 7.6908,
+      "avg_mean_abs_residual": 3.3739
+    },
+    {
+      "farm": "A",
+      "event_id": 17,
+      "max_mean_abs_residual": 7.5119,
+      "avg_mean_abs_residual": 4.2954
+    },
+    {
+      "farm": "A",
+      "event_id": 3,
+      "max_mean_abs_residual": 7.3624,
+      "avg_mean_abs_residual": 4.4609
+    },
+    {
+      "farm": "C",
+      "event_id": 85,
+      "max_mean_abs_residual": 6.4721,
+      "avg_mean_abs_residual": 3.9197
+    },
+    {
+      "farm": "C",
+      "event_id": 8,
+      "max_mean_abs_residual": 6.3027,
+      "avg_mean_abs_residual": 2.3546
+    },
+    {
+      "farm": "A",
+      "event_id": 25,
+      "max_mean_abs_residual": 6.2403,
+      "avg_mean_abs_residual": 3.4192
+    },
+    {
+      "farm": "C",
+      "event_id": 41,
+      "max_mean_abs_residual": 6.0126,
+      "avg_mean_abs_residual": 2.9825
+    },
+    {
+      "farm": "B",
+      "event_id": 21,
+      "max_mean_abs_residual": 5.7558,
+      "avg_mean_abs_residual": 3.7276
+    },
+    {
+      "farm": "B",
+      "event_id": 23,
+      "max_mean_abs_residual": 5.5731,
+      "avg_mean_abs_residual": 3.5387
+    },
+    {
+      "farm": "A",
+      "event_id": 92,
+      "max_mean_abs_residual": 5.403,
+      "avg_mean_abs_residual": 3.1731
+    },
+    {
+      "farm": "B",
+      "event_id": 52,
+      "max_mean_abs_residual": 5.3067,
+      "avg_mean_abs_residual": 3.3467
+    },
+    {
+      "farm": "B",
+      "event_id": 83,
+      "max_mean_abs_residual": 5.2159,
+      "avg_mean_abs_residual": 3.9981
+    },
+    {
+      "farm": "C",
+      "event_id": 88,
+      "max_mean_abs_residual": 4.9965,
+      "avg_mean_abs_residual": 2.9105
+    }
+  ]
+}
