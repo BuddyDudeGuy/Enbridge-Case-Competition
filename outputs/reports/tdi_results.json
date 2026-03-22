@@ -1,0 +1,200 @@
+{
+  "phase": "6.1-6.4",
+  "description": "Thermal Degradation Index (TDI) \u2014 combined NBM + AE health score",
+  "weights": {
+    "nbm": 0.7,
+    "ae": 0.3
+  },
+  "thresholds": {
+    "green": [
+      0,
+      30
+    ],
+    "yellow": [
+      30,
+      60
+    ],
+    "red": [
+      60,
+      100
+    ]
+  },
+  "sigmoid_params": {
+    "scale_factor": 0.95,
+    "shift": -1.735
+  },
+  "summary": {
+    "n_events": 95,
+    "n_normal": 50,
+    "n_anomaly": 45,
+    "mean_tdi_normal": 16.61353027998138,
+    "mean_tdi_anomaly": 50.79469402509489,
+    "median_tdi_normal": 13.423691408952678,
+    "median_tdi_anomaly": 38.635521421297824,
+    "std_tdi_normal": 14.954930012658464,
+    "std_tdi_anomaly": 37.76529830248411,
+    "anomalies_above_green_threshold_0": 45,
+    "normals_above_green_threshold_0": 50,
+    "anomalies_above_yellow_threshold_30": 24,
+    "normals_above_yellow_threshold_30": 3,
+    "anomalies_above_red_threshold_60": 18,
+    "normals_above_red_threshold_60": 2,
+    "detection_rate_yellow_plus": 0.5333333333333333,
+    "false_alarm_rate_yellow_plus": 0.06,
+    "detection_rate_red": 0.4,
+    "false_alarm_rate_red": 0.04,
+    "per_farm": {
+      "A": {
+        "n_normal": 10,
+        "n_anomaly": 12,
+        "mean_tdi_normal": 13.254990767409103,
+        "mean_tdi_anomaly": 41.24846930669599,
+        "detection_rate_yellow_plus": 0.4166666666666667,
+        "detection_rate_red": 0.25,
+        "false_alarm_rate_yellow_plus": 0.0,
+        "n_green": 17,
+        "n_yellow": 2,
+        "n_red": 3
+      },
+      "B": {
+        "n_normal": 9,
+        "n_anomaly": 6,
+        "mean_tdi_normal": 19.451833284017553,
+        "mean_tdi_anomaly": 24.224433574358404,
+        "detection_rate_yellow_plus": 0.3333333333333333,
+        "detection_rate_red": 0.0,
+        "false_alarm_rate_yellow_plus": 0.1111111111111111,
+        "n_green": 12,
+        "n_yellow": 3,
+        "n_red": 0
+      },
+      "C": {
+        "n_normal": 31,
+        "n_anomaly": 27,
+        "mean_tdi_normal": 16.872906669961935,
+        "mean_tdi_anomaly": 60.94196288899141,
+        "detection_rate_yellow_plus": 0.6296296296296297,
+        "detection_rate_red": 0.5555555555555556,
+        "false_alarm_rate_yellow_plus": 0.06451612903225806,
+        "n_green": 39,
+        "n_yellow": 2,
+        "n_red": 17
+      }
+    },
+    "n_green_total": 68,
+    "n_yellow_total": 7,
+    "n_red_total": 20
+  },
+  "top_10_events": [
+    {
+      "farm": "C",
+      "event_id": 33,
+      "event_label": "anomaly",
+      "event_description": "P20_Blade3_Grease Collector missing",
+      "nbm_score": 5.71796159517207,
+      "ae_score": 10.0,
+      "combined_raw": 7.002573116620448,
+      "tdi_score": 99.99917604051257,
+      "tdi_status": "Red"
+    },
+    {
+      "farm": "C",
+      "event_id": 11,
+      "event_label": "anomaly",
+      "event_description": "P20_DGUV-v3 RCD 28F1 NC310 defective + 0 : P20_Blades_Cabinet Caps missing",
+      "nbm_score": 5.356244692226422,
+      "ae_score": 10.0,
+      "combined_raw": 6.749371284558496,
+      "tdi_score": 99.99860837012811,
+      "tdi_status": "Red"
+    },
+    {
+      "farm": "C",
+      "event_id": 30,
+      "event_label": "anomaly",
+      "event_description": "Pitch failure - defect fan on pitch motor",
+      "nbm_score": 4.2542574593784055,
+      "ae_score": 10.0,
+      "combined_raw": 5.977980221564884,
+      "tdi_score": 99.99313001412355,
+      "tdi_status": "Red"
+    },
+    {
+      "farm": "C",
+      "event_id": 31,
+      "event_label": "anomaly",
+      "event_description": "Communication and Pitchfailure - slip ring and Beckhoff card",
+      "nbm_score": 4.013809866246607,
+      "ae_score": 10.0,
+      "combined_raw": 5.809666906372625,
+      "tdi_score": 99.99026688855449,
+      "tdi_status": "Red"
+    },
+    {
+      "farm": "C",
+      "event_id": 16,
+      "event_label": "anomaly",
+      "event_description": "WEC in failure - hub battery charger defect",
+      "nbm_score": 3.864299690565501,
+      "ae_score": 10.0,
+      "combined_raw": 5.705009783395851,
+      "tdi_score": 99.98791282310991,
+      "tdi_status": "Red"
+    },
+    {
+      "farm": "C",
+      "event_id": 66,
+      "event_label": "anomaly",
+      "event_description": "Pitchfailure - defect Beckhoffcard, Axis 2, rectified on 23/01 - Anomalie liegt aber l\u00e4nger an als der Fehler, Batterien waren ok",
+      "nbm_score": 3.639649760731532,
+      "ae_score": 9.40819964820537,
+      "combined_raw": 5.370214726973683,
+      "tdi_score": 99.97583190330562,
+      "tdi_status": "Red"
+    },
+    {
+      "farm": "A",
+      "event_id": 40,
+      "event_label": "anomaly",
+      "event_description": "Generator bearing failure",
+      "nbm_score": 6.251529667558863,
+      "ae_score": 2.4937058043977833,
+      "combined_raw": 5.124182508610538,
+      "tdi_score": 99.95978872456264,
+      "tdi_status": "Red"
+    },
+    {
+      "farm": "C",
+      "event_id": 35,
+      "event_label": "anomaly",
+      "event_description": "Turbine had several short standstills (max 8min) with failure \"Schwingungen Umrichter Drehmomenten Level 1\"",
+      "nbm_score": 2.997055472778026,
+      "ae_score": 10.0,
+      "combined_raw": 5.097938830944618,
+      "tdi_score": 99.95754485521351,
+      "tdi_status": "Red"
+    },
+    {
+      "farm": "C",
+      "event_id": 5,
+      "event_label": "anomaly",
+      "event_description": "WEC in failure - current measurement own consumption",
+      "nbm_score": 4.957857525178694,
+      "ae_score": 4.221406322487225,
+      "combined_raw": 4.736922164371253,
+      "tdi_score": 99.91040827127145,
+      "tdi_status": "Red"
+    },
+    {
+      "farm": "C",
+      "event_id": 79,
+      "event_label": "anomaly",
+      "event_description": "Communication fault BK1120 in NC300",
+      "nbm_score": 3.395841681498784,
+      "ae_score": 7.077176479090209,
+      "combined_raw": 4.50024212077621,
+      "tdi_score": 99.85385303523405,
+      "tdi_status": "Red"
+    }
+  ]
+}
