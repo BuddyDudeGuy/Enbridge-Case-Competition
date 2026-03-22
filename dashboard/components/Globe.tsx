@@ -151,9 +151,6 @@ export default function Globe() {
             <div className={styles.farmCardHeader}>
               <span className={`status-dot ${farm.health}`} />
               <span className={styles.farmName}>{farm.name}</span>
-              <span className={styles.farmType}>
-                {farm.location.includes('Offshore') ? '◇ Offshore' : '◆ Onshore'}
-              </span>
             </div>
             <div className={styles.farmCardBody}>
               <div className={styles.farmStat}>
