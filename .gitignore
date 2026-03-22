@@ -1,12 +1,11 @@
 # Data (sensitive/large - dataset from Zenodo)
 /data/
 
-# AI agent config
-.claude/
-CLAUDE.md
-
 # Docs (strategy docs, competition PDFs - local only)
 docs/
+
+# Presentation (slides, scripts - local only)
+presentation/
 
 # Python
 __pycache__/
