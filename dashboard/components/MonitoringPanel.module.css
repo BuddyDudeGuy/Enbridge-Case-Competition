@@ -439,8 +439,8 @@
 
 .subsystemGauge {
   position: relative;
-  width: 44px;
-  height: 44px;
+  width: 56px;
+  height: 56px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -465,13 +465,13 @@
 .gaugeValue {
   position: absolute;
   font-family: var(--font-mono), monospace;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 700;
   color: var(--text-primary);
 }
 
 .subsystemName {
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 600;
   color: var(--text-secondary);
   text-transform: uppercase;
@@ -480,6 +480,6 @@
 
 .subsystemDev {
   font-family: var(--font-mono), monospace;
-  font-size: 10px;
+  font-size: 11px;
   color: var(--text-tertiary);
 }
