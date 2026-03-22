@@ -41,12 +41,12 @@
   border-radius: var(--radius-xl);
   box-shadow: var(--shadow-glass);
   overflow: hidden;
-  padding: 16px;
+  padding: 8px;
 }
 
 .canvas {
   width: 100%;
-  max-width: 420px;
+  max-width: 520px;
   aspect-ratio: 1;
   cursor: grab;
   contain: layout paint size;
