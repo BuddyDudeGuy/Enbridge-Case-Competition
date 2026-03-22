@@ -40,16 +40,16 @@ export default function Header() {
 
         <div className={styles.kpiChip}>
           <span className={styles.kpiIcon}>◈</span>
-          <span className={styles.kpiValue}>{fleetKpis.fleetHealth}%</span>
-          <span className={styles.kpiLabel}>Health</span>
+          <span className={styles.kpiValue}>{fleetKpis.fleetTdi}</span>
+          <span className={styles.kpiLabel}>Fleet TDI</span>
         </div>
 
         <div className={styles.divider} />
 
         <div className={styles.kpiChip}>
           <span className={styles.kpiIcon}>↑</span>
-          <span className={styles.kpiValue}>{fleetKpis.uptime}%</span>
-          <span className={styles.kpiLabel}>Uptime</span>
+          <span className={styles.kpiValue}>{fleetKpis.avgTempDeviation}°C</span>
+          <span className={styles.kpiLabel}>Avg Δ Temp</span>
         </div>
 
         <div className={styles.divider} />
