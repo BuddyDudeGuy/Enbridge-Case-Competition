@@ -1,7 +1,7 @@
 'use client'
 
 import styles from './MonitoringPanel.module.css'
-import { farms, fleetKpis, alerts, powerHistory, subsystems } from '@/data/mockData'
+import { farms, fleetKpis, alerts, tdiHistory, subsystems } from '@/data/mockData'
 
 const severityLabel: Record<string, string> = {
   red: 'CRITICAL',
@@ -9,15 +9,21 @@ const severityLabel: Record<string, string> = {
   green: 'RESOLVED',
 }
 
+function getTdiColor(tdi: number) {
+  if (tdi >= 60) return 'red'
+  if (tdi >= 30) return 'amber'
+  return 'green'
+}
+
 export default function MonitoringPanel() {
-  const maxMw = Math.max(...powerHistory.map((p) => p.mw))
+  const maxTdi = Math.max(...tdiHistory.map((p) => p.tdi))
 
   return (
     <div className={styles.container}>
-      {/* System Status */}
+      {/* System Status — now shows TDI per farm */}
       <div className={styles.section}>
         <div className={styles.sectionHeader}>
-          <span className={styles.sectionTitle}>SYSTEM STATUS</span>
+          <span className={styles.sectionTitle}>THERMAL DEGRADATION INDEX</span>
           <span className={styles.sectionTime}>LIVE</span>
         </div>
         <div className={styles.statusList}>
@@ -25,74 +31,89 @@ export default function MonitoringPanel() {
             <div key={farm.id} className={styles.statusRow}>
               <span className={`status-dot ${farm.health}`} />
               <span className={styles.statusName}>{farm.name}</span>
-              <span className={styles.statusLocation}>{farm.location}</span>
-              <span className={styles.statusWind}>{farm.windSpeed} m/s</span>
-              <span className={styles.statusPower}>{farm.powerOutput} MW</span>
-            </div>
-          ))}
-        </div>
-      </div>
-
-      {/* Metric Cards */}
-      <div className={styles.metricsGrid}>
-        <div className={styles.metricCard}>
-          <span className={styles.metricLabel}>TOTAL OUTPUT</span>
-          <div className={styles.metricRow}>
-            <span className={styles.metricValue}>{fleetKpis.totalOutput}</span>
-            <span className={styles.metricUnit}>MW</span>
-          </div>
-        </div>
-        <div className={styles.metricCard}>
-          <span className={styles.metricLabel}>AVG WIND SPEED</span>
-          <div className={styles.metricRow}>
-            <span className={styles.metricValue}>{fleetKpis.avgWindSpeed}</span>
-            <span className={styles.metricUnit}>m/s</span>
-          </div>
-        </div>
-        <div className={styles.metricCard}>
-          <span className={styles.metricLabel}>FLEET UPTIME</span>
-          <div className={styles.metricRow}>
-            <span className={`${styles.metricValue} ${styles.metricGreen}`}>{fleetKpis.uptime}%</span>
-          </div>
-        </div>
-        <div className={styles.metricCard}>
-          <span className={styles.metricLabel}>ACTIVE ALERTS</span>
-          <div className={styles.metricRow}>
-            <span className={`${styles.metricValue} ${styles.metricRed}`}>{fleetKpis.activeAlerts}</span>
-          </div>
-        </div>
-      </div>
-
-      {/* Power Output Chart */}
-      <div className={styles.section}>
-        <div className={styles.sectionHeader}>
-          <span className={styles.sectionTitle}>POWER OUTPUT — 12H</span>
-          <span className={styles.sectionSub}>MW</span>
-        </div>
-        <div className={styles.chart}>
-          {powerHistory.map((p, i) => (
-            <div key={i} className={styles.barCol}>
-              <div className={styles.barWrapper}>
-                <div
-                  className={styles.bar}
-                  style={{
-                    height: `${(p.mw / maxMw) * 100}%`,
-                    animationDelay: `${i * 0.05}s`,
-                  }}
-                />
-              </div>
-              <span className={styles.barLabel}>
-                {i % 2 === 0 ? p.hour : ''}
+              <span className={styles.statusLocation}>{farm.turbines} turbines</span>
+              <span className={styles.statusTemp}>Δ {farm.tempDeviation}°C</span>
+              <span className={`${styles.statusTdi} ${styles[`tdi${getTdiColor(farm.avgTdi).charAt(0).toUpperCase() + getTdiColor(farm.avgTdi).slice(1)}`]}`}>
+                TDI {farm.avgTdi.toFixed(1)}
               </span>
             </div>
           ))}
         </div>
       </div>
 
+      {/* Metric Cards — TDI focused */}
+      <div className={styles.metricsGrid}>
+        <div className={styles.metricCard}>
+          <span className={styles.metricLabel}>FLEET TDI</span>
+          <div className={styles.metricRow}>
+            <span className={`${styles.metricValue} ${styles.metricAmber}`}>{fleetKpis.fleetTdi}</span>
+          </div>
+          <span className={styles.metricSub}>0-100 composite score</span>
+        </div>
+        <div className={styles.metricCard}>
+          <span className={styles.metricLabel}>CARE SCORE</span>
+          <div className={styles.metricRow}>
+            <span className={`${styles.metricValue} ${styles.metricGreen}`}>{fleetKpis.careScore}</span>
+          </div>
+          <span className={styles.metricSub}>detection accuracy</span>
+        </div>
+        <div className={styles.metricCard}>
+          <span className={styles.metricLabel}>AVG TEMP DEVIATION</span>
+          <div className={styles.metricRow}>
+            <span className={styles.metricValue}>{fleetKpis.avgTempDeviation}</span>
+            <span className={styles.metricUnit}>°C</span>
+          </div>
+          <span className={styles.metricSub}>above NBM prediction</span>
+        </div>
+        <div className={styles.metricCard}>
+          <span className={styles.metricLabel}>ACTIVE ALERTS</span>
+          <div className={styles.metricRow}>
+            <span className={`${styles.metricValue} ${styles.metricRed}`}>{fleetKpis.activeAlerts}</span>
+          </div>
+          <span className={styles.metricSub}>{fleetKpis.turbinesRed} critical · {fleetKpis.turbinesYellow} warning</span>
+        </div>
+      </div>
+
+      {/* TDI Trend Chart */}
+      <div className={styles.section}>
+        <div className={styles.sectionHeader}>
+          <span className={styles.sectionTitle}>FLEET TDI TREND — 12H</span>
+          <span className={styles.sectionSub}>score 0-100</span>
+        </div>
+        <div className={styles.chartArea}>
+          <div className={styles.chartThresholds}>
+            <div className={styles.thresholdLine} style={{ bottom: '60%' }}>
+              <span className={styles.thresholdLabel}>60 — Critical</span>
+            </div>
+            <div className={styles.thresholdLine} style={{ bottom: '30%' }}>
+              <span className={styles.thresholdLabel}>30 — Warning</span>
+            </div>
+          </div>
+          <div className={styles.chart}>
+            {tdiHistory.map((p, i) => (
+              <div key={i} className={styles.barCol}>
+                <div className={styles.barWrapper}>
+                  <div
+                    className={`${styles.bar} ${styles[`bar${getTdiColor(p.tdi).charAt(0).toUpperCase() + getTdiColor(p.tdi).slice(1)}`]}`}
+                    style={{
+                      height: `${(p.tdi / 100) * 100}%`,
+                      animationDelay: `${i * 0.05}s`,
+                    }}
+                  />
+                </div>
+                <span className={styles.barLabel}>
+                  {i % 2 === 0 ? p.hour : ''}
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
       {/* Activity Feed */}
       <div className={`${styles.section} ${styles.sectionDark}`}>
         <div className={styles.sectionHeader}>
-          <span className={styles.sectionTitle}>ACTIVITY FEED</span>
+          <span className={styles.sectionTitle}>ANOMALY FEED</span>
           <div className={styles.liveBadge}>
             <span className={styles.liveDot} />
             <span>LIVE</span>
@@ -109,6 +130,7 @@ export default function MonitoringPanel() {
                   <span className={styles.feedTime}>{alert.time}</span>
                   <span className={styles.feedFarm}>Farm {alert.farm}</span>
                   <span className={styles.feedTurbine}>{alert.turbine}</span>
+                  <span className={styles.feedSubsystem}>{alert.subsystem}</span>
                 </div>
                 <span className={styles.feedMessage}>{alert.message}</span>
               </div>
@@ -120,7 +142,7 @@ export default function MonitoringPanel() {
       {/* Subsystem Health */}
       <div className={styles.section}>
         <div className={styles.sectionHeader}>
-          <span className={styles.sectionTitle}>SUBSYSTEM HEALTH</span>
+          <span className={styles.sectionTitle}>THERMAL SUBSYSTEM HEALTH</span>
         </div>
         <div className={styles.subsystemGrid}>
           {subsystems.map((sub) => {
@@ -148,6 +170,7 @@ export default function MonitoringPanel() {
                   <span className={styles.gaugeValue}>{sub.health}</span>
                 </div>
                 <span className={styles.subsystemName}>{sub.name}</span>
+                <span className={styles.subsystemDev}>Δ {sub.avgDeviation}°C</span>
               </div>
             )
           })}

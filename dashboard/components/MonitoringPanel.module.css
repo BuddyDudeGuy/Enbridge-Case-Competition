@@ -39,6 +39,10 @@
   color: var(--text-inverse);
 }
 
+.sectionDark .feedSubsystem {
+  color: rgba(255, 255, 255, 0.5);
+}
+
 .sectionDark .feedMessage {
   color: rgba(255, 255, 255, 0.6);
 }
@@ -110,21 +114,37 @@
   flex: 1;
 }
 
-.statusWind {
+.statusTemp {
   font-family: var(--font-mono), monospace;
   font-size: 13px;
   color: var(--text-primary);
-  min-width: 55px;
+  min-width: 65px;
   text-align: right;
 }
 
-.statusPower {
+.statusTdi {
   font-family: var(--font-mono), monospace;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 700;
-  color: var(--text-primary);
-  min-width: 60px;
-  text-align: right;
+  padding: 2px 8px;
+  border-radius: 4px;
+  min-width: 70px;
+  text-align: center;
+}
+
+.tdiGreen {
+  background: var(--status-green-bg);
+  color: var(--status-green);
+}
+
+.tdiAmber {
+  background: var(--status-amber-bg);
+  color: var(--status-amber);
+}
+
+.tdiRed {
+  background: var(--status-red-bg);
+  color: var(--status-red);
 }
 
 /* Metric Cards */
@@ -181,20 +201,59 @@
   color: rgba(255, 255, 255, 0.5);
 }
 
+.metricSub {
+  font-family: var(--font-mono), monospace;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 4px;
+  display: block;
+}
+
 .metricGreen {
   color: var(--status-green);
+}
+
+.metricAmber {
+  color: var(--status-amber);
 }
 
 .metricRed {
   color: var(--status-red);
 }
 
-/* Power Chart */
+/* TDI Trend Chart */
+.chartArea {
+  position: relative;
+}
+
+.chartThresholds {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.thresholdLine {
+  position: absolute;
+  left: 0;
+  right: 0;
+  border-top: 1px dashed rgba(0, 0, 0, 0.1);
+}
+
+.thresholdLabel {
+  font-family: var(--font-mono), monospace;
+  font-size: 8px;
+  color: var(--text-tertiary);
+  position: absolute;
+  right: 0;
+  top: -10px;
+}
+
 .chart {
   display: flex;
   align-items: flex-end;
   gap: 4px;
   height: 80px;
+  position: relative;
 }
 
 .barCol {
@@ -214,14 +273,25 @@
 
 .bar {
   width: 100%;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.25));
   border-radius: 3px 3px 0 0;
   animation: barGrow 0.8s ease both;
-  transition: background 0.2s ease;
+  transition: opacity 0.2s ease;
+}
+
+.barGreen {
+  background: linear-gradient(to top, rgba(34, 197, 94, 0.3), rgba(34, 197, 94, 0.6));
+}
+
+.barAmber {
+  background: linear-gradient(to top, rgba(245, 158, 11, 0.3), rgba(245, 158, 11, 0.6));
+}
+
+.barRed {
+  background: linear-gradient(to top, rgba(239, 68, 68, 0.3), rgba(239, 68, 68, 0.6));
 }
 
 .bar:hover {
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4));
+  opacity: 0.8;
 }
 
 @keyframes barGrow {
@@ -318,6 +388,15 @@
   font-weight: 700;
 }
 
+.feedSubsystem {
+  font-family: var(--font-mono), monospace;
+  font-size: 10px;
+  color: var(--text-secondary);
+  padding: 1px 6px;
+  background: rgba(0, 0, 0, 0.04);
+  border-radius: 3px;
+}
+
 .feedMessage {
   font-size: 13px;
   color: var(--text-secondary);
@@ -397,4 +476,10 @@
   color: var(--text-secondary);
   text-transform: uppercase;
   letter-spacing: 0.04em;
+}
+
+.subsystemDev {
+  font-family: var(--font-mono), monospace;
+  font-size: 10px;
+  color: var(--text-tertiary);
 }
