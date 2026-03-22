@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-03-21T20:21:57.643468",
+  "care_score": 0.608446,
+  "tdi_threshold": 30,
+  "sub_scores": {
+    "F_bar": 0.205432,
+    "Acc_bar": 0.997597,
+    "EF_beta": 0.688073,
+    "WS_bar": 0.153528
+  },
+  "special_case": null,
+  "event_level": {
+    "TP": 15,
+    "FP": 1,
+    "FN": 30,
+    "TN": 49
+  },
+  "comparison": {
+    "nbm_only_care": 0.573274,
+    "tdi_care": 0.608446,
+    "baseline_care": 0.66,
+    "improvement_over_nbm": 0.035172
+  }
+}
