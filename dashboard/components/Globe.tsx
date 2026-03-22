@@ -47,10 +47,26 @@ export default function Globe() {
       baseColor: [0.92, 0.92, 0.94],
       markerColor: [0.13, 0.77, 0.37],
       glowColor: [0.95, 0.95, 0.97],
-      markers: farms.map((farm) => ({
-        location: [farm.lat, farm.lng] as [number, number],
-        size: farm.turbines * 0.006,
-      })),
+      markers: farms.flatMap((farm) => [
+        // Outer glow ring
+        {
+          location: [farm.lat, farm.lng] as [number, number],
+          size: 0.18,
+          color: healthColor[farm.health].map((c) => c * 0.3) as [number, number, number],
+        },
+        // Mid glow ring
+        {
+          location: [farm.lat, farm.lng] as [number, number],
+          size: 0.12,
+          color: healthColor[farm.health].map((c) => c * 0.6) as [number, number, number],
+        },
+        // Core marker
+        {
+          location: [farm.lat, farm.lng] as [number, number],
+          size: 0.07,
+          color: healthColor[farm.health],
+        },
+      ]),
       onRender: (state) => {
         if (!pointerInteracting.current) {
           phiRef.current += 0.003
