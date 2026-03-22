@@ -8,6 +8,9 @@ CLAUDE.md
 # Docs (strategy docs, competition PDFs - local only)
 docs/
 
+# Presentation (slides, scripts - local only)
+presentation/
+
 # Python
 __pycache__/
 *.py[cod]
