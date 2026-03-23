@@ -1,0 +1,119 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 24px;
+  background: var(--bg-glass-dark);
+  backdrop-filter: blur(var(--blur-heavy));
+  -webkit-backdrop-filter: blur(var(--blur-heavy));
+  border-bottom: 1px solid var(--border-dark);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  animation: fadeIn 0.4s ease both;
+}
+
+/* KPI pills */
+.kpis {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 12px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 100px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.kpiChip {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 2px 4px;
+}
+
+.kpiIcon {
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.alertIcon {
+  color: var(--status-red);
+  animation: pulse 1.5s ease-in-out infinite;
+  font-size: 8px;
+}
+
+.kpiValue {
+  font-family: var(--font-mono), monospace;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-inverse);
+  letter-spacing: -0.01em;
+}
+
+.kpiLabel {
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.45);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+}
+
+.careChip {
+  background: var(--text-primary);
+  padding: 3px 10px;
+  border-radius: 100px;
+  gap: 6px;
+}
+
+.careChip .kpiLabel {
+  color: var(--text-inverse);
+  font-size: 9px;
+  font-weight: 700;
+}
+
+.careChip .kpiValue {
+  color: var(--status-green);
+  font-size: 12px;
+}
+
+.divider {
+  width: 1px;
+  height: 16px;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+/* Meta / right side */
+.meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 3px;
+}
+
+.connectionStatus {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.connDot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--status-green);
+  box-shadow: 0 0 4px var(--status-green);
+}
+
+.connLabel {
+  font-family: var(--font-mono), monospace;
+  font-size: 9px;
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: 0.06em;
+  font-weight: 600;
+}
+
+.time {
+  font-family: var(--font-mono), monospace;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.4);
+}

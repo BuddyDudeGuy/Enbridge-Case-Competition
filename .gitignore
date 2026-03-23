@@ -8,8 +8,11 @@ CLAUDE.md
 # Docs (strategy docs, competition PDFs - local only)
 docs/
 
-# Presentation (slides, scripts - local only)
+# Presentation (slides, scripts, build tooling - local only)
 presentation/
+/node_modules/
+/package.json
+/package-lock.json
 
 # Python
 __pycache__/
@@ -46,6 +49,11 @@ mlruns/
 
 # Streamlit
 .streamlit/
+
+# Dashboard (Next.js)
+dashboard/node_modules/
+dashboard/.next/
+dashboard/out/
 
 # Misc
 *.zip
