@@ -1,0 +1,131 @@
+.card {
+  background: var(--bg-glass-grey);
+  backdrop-filter: blur(var(--blur-heavy));
+  -webkit-backdrop-filter: blur(var(--blur-heavy));
+  border: 1px solid var(--border-dark);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-elevated);
+  padding: 20px;
+  animation: fadeInScale 0.4s ease both;
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.title {
+  font-family: var(--font-mono), monospace;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--text-inverse);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.subtitle {
+  font-family: var(--font-mono), monospace;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 2px;
+  display: block;
+}
+
+.r2Badge {
+  font-family: var(--font-mono), monospace;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--status-green);
+  background: rgba(34, 197, 94, 0.1);
+  padding: 3px 10px;
+  border-radius: 4px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.warningBanner {
+  font-family: var(--font-mono), monospace;
+  font-size: 12px;
+  font-weight: 600;
+  color: #f59e0b;
+  background: rgba(245, 158, 11, 0.1);
+  border: 1px solid rgba(245, 158, 11, 0.25);
+  border-radius: 6px;
+  padding: 8px 14px;
+  margin-bottom: 12px;
+  letter-spacing: 0.02em;
+}
+
+.chartWrapper {
+  width: 100%;
+}
+
+/* Recharts overrides */
+.chartWrapper :global(.recharts-legend-item-text) {
+  color: rgba(255, 255, 255, 0.6) !important;
+  font-size: 11px;
+}
+
+.chartWrapper :global(.recharts-cartesian-grid-horizontal line),
+.chartWrapper :global(.recharts-cartesian-grid-vertical line) {
+  stroke: rgba(255, 255, 255, 0.06);
+}
+
+/* Custom Tooltip */
+.tooltip {
+  background: rgba(20, 20, 28, 0.95);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  padding: 10px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+.tooltipDay {
+  font-family: var(--font-mono), monospace;
+  font-size: 11px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.7);
+  letter-spacing: 0.04em;
+  margin-bottom: 2px;
+}
+
+.tooltipPredicted {
+  font-family: var(--font-mono), monospace;
+  font-size: 12px;
+  color: #3b82f6;
+  font-weight: 600;
+}
+
+.tooltipActual {
+  font-family: var(--font-mono), monospace;
+  font-size: 12px;
+  color: #f97316;
+  font-weight: 600;
+}
+
+.tooltipResidual {
+  font-family: var(--font-mono), monospace;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.5);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 4px;
+  margin-top: 2px;
+}
