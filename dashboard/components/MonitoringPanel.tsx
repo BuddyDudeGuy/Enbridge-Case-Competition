@@ -1,7 +1,11 @@
 'use client'
 
+import { useState } from 'react'
 import styles from './MonitoringPanel.module.css'
-import { farms, fleetKpis, alerts, tdiHistory, subsystems } from '@/data/mockData'
+import { farms, fleetKpis, alerts, tdiHistory, subsystems, farmDetails } from '@/data/mockData'
+import PredictiveChart from './PredictiveChart'
+import EventTimeline from './EventTimeline'
+import { eventChartData } from '@/data/eventChartData'
 
 const severityLabel: Record<string, string> = {
   red: 'CRITICAL',
@@ -15,8 +19,123 @@ function getTdiColor(tdi: number) {
   return 'green'
 }
 
-export default function MonitoringPanel() {
+interface MonitoringPanelProps {
+  selectedFarm: string | null
+  onBack: () => void
+  onFarmSelect: (farmId: string) => void
+}
+
+export default function MonitoringPanel({ selectedFarm, onBack, onFarmSelect }: MonitoringPanelProps) {
+  const [alertsExpanded, setAlertsExpanded] = useState(false)
   const maxTdi = Math.max(...tdiHistory.map((p) => p.tdi))
+
+  if (selectedFarm) {
+    const farm = farms.find((f) => f.id === selectedFarm)
+    const details = farmDetails[selectedFarm]
+    if (!farm || !details) return null
+
+    const tdiColor = getTdiColor(farm.avgTdi)
+    const strongSubs = subsystems.filter((s) => details.strongSubsystems.includes(s.name))
+
+    return (
+      <div className={styles.container}>
+        {/* Farm Header */}
+        <div className={styles.section}>
+          <button className={styles.backButton} onClick={onBack}>
+            &larr; Back to Fleet Overview
+          </button>
+          <div className={styles.farmHeader}>
+            <div>
+              <span className={styles.sectionTitle}>{farm.name} &mdash; {farm.location}</span>
+              <div className={styles.farmHeaderMeta}>
+                <span className={styles.statusLocation}>{farm.turbines} turbines</span>
+                <span className={styles.statusTemp}>&Delta; {farm.tempDeviation}&deg;C</span>
+              </div>
+            </div>
+            <span className={`${styles.statusTdi} ${styles[`tdi${tdiColor.charAt(0).toUpperCase() + tdiColor.slice(1)}`]}`}>
+              TDI {farm.avgTdi.toFixed(1)}
+            </span>
+          </div>
+        </div>
+
+        {/* Detection Highlight */}
+        <div className={styles.detectionBanner}>
+          <span className={styles.sectionTitle}>DETECTION PERFORMANCE</span>
+          <span className={styles.detectionText}>{details.detectionHighlight}</span>
+        </div>
+
+        {/* Key Event */}
+        <div className={styles.keyEventCard}>
+          <span className={styles.keyEventLabel}>KEY EVENT</span>
+          <span className={styles.keyEventText}>{details.keyEvent}</span>
+        </div>
+
+        {/* Predictive Chart & Timeline */}
+        {eventChartData[selectedFarm] && (
+          <>
+            <PredictiveChart
+              title={eventChartData[selectedFarm].title}
+              subtitle={eventChartData[selectedFarm].subtitle}
+              subsystem={eventChartData[selectedFarm].subsystem}
+              r2={eventChartData[selectedFarm].r2}
+              warningDays={eventChartData[selectedFarm].warningDays}
+              totalDays={eventChartData[selectedFarm].totalDays}
+              data={eventChartData[selectedFarm].data}
+              faultStart={eventChartData[selectedFarm].faultStart}
+            />
+            <EventTimeline
+              warningDays={eventChartData[selectedFarm].warningDays}
+              totalDays={eventChartData[selectedFarm].totalDays}
+              eventLabel={farmDetails[selectedFarm].keyEvent}
+            />
+          </>
+        )}
+
+        {/* Prediction Accuracy */}
+        <div className={styles.section}>
+          <div className={styles.sectionHeader}>
+            <span className={styles.sectionTitle}>PREDICTION ACCURACY</span>
+          </div>
+          <span className={styles.sectionSubtitle}>How well our model predicts each subsystem (R&sup2; mapped to 0-100)</span>
+          <div className={styles.subsystemGrid}>
+            {strongSubs.map((sub) => {
+              const r2Key = sub.name === 'Generator Bearings' ? 'genBearingR2'
+                : `${sub.name.toLowerCase()}R2`
+              const r2 = details.keyMetrics[r2Key] ?? 0
+              const r2Pct = Math.round(r2 * 100)
+              const color = r2Pct >= 80 ? 'green' : r2Pct >= 60 ? 'amber' : 'red'
+              return (
+                <div key={sub.name} className={styles.subsystemCard}>
+                  <div className={styles.subsystemGauge}>
+                    <svg viewBox="0 0 36 36" className={styles.gaugeSvg}>
+                      <path
+                        d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+                        fill="none"
+                        stroke="rgba(0,0,0,0.06)"
+                        strokeWidth="3"
+                      />
+                      <path
+                        d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+                        fill="none"
+                        stroke={`var(--status-${color})`}
+                        strokeWidth="3"
+                        strokeDasharray={`${r2Pct}, 100`}
+                        strokeLinecap="round"
+                        className={styles.gaugeArc}
+                      />
+                    </svg>
+                    <span className={styles.gaugeValue}>{r2Pct}</span>
+                  </div>
+                  <span className={styles.subsystemName}>{sub.name}</span>
+                  <span className={styles.subsystemDev}>R&sup2; {r2.toFixed(2)}</span>
+                </div>
+              )
+            })}
+          </div>
+        </div>
+      </div>
+    )
+  }
 
   return (
     <div className={styles.container}>
@@ -65,14 +184,37 @@ export default function MonitoringPanel() {
           </div>
           <span className={styles.metricSub}>above NBM prediction</span>
         </div>
-        <div className={styles.metricCard}>
-          <span className={styles.metricLabel}>ACTIVE ALERTS</span>
+        <div
+          className={`${styles.metricCard} ${styles.metricCardClickable}`}
+          onClick={() => setAlertsExpanded(!alertsExpanded)}
+        >
+          <span className={styles.metricLabel}>ACTIVE ALERTS {alertsExpanded ? '\u25B2' : '\u25BC'}</span>
           <div className={styles.metricRow}>
             <span className={`${styles.metricValue} ${styles.metricRed}`}>{fleetKpis.activeAlerts}</span>
           </div>
           <span className={styles.metricSub}>{fleetKpis.turbinesRed} critical · {fleetKpis.turbinesYellow} warning</span>
         </div>
       </div>
+
+      {alertsExpanded && (
+        <div className={styles.alertDropdown}>
+          {alerts.filter(a => a.severity !== 'green').map((alert) => (
+            <div
+              key={alert.id}
+              className={styles.alertDropdownItem}
+              onClick={() => onFarmSelect(alert.farm)}
+            >
+              <span className={`${styles.feedSeverity} ${styles[`severity${alert.severity.charAt(0).toUpperCase() + alert.severity.slice(1)}`]}`}>
+                {severityLabel[alert.severity]}
+              </span>
+              <span className={styles.alertDropdownFarm}>Farm {alert.farm}</span>
+              <span className={styles.alertDropdownTurbine}>{alert.turbine}</span>
+              <span className={styles.alertDropdownMessage}>{alert.message}</span>
+              <span className={styles.alertDropdownArrow}>&rarr;</span>
+            </div>
+          ))}
+        </div>
+      )}
 
       {/* TDI Trend Chart */}
       <div className={styles.section}>
@@ -142,35 +284,47 @@ export default function MonitoringPanel() {
       {/* Subsystem Health */}
       <div className={styles.section}>
         <div className={styles.sectionHeader}>
-          <span className={styles.sectionTitle}>THERMAL SUBSYSTEM HEALTH</span>
+          <span className={styles.sectionTitle}>PREDICTION ACCURACY</span>
         </div>
+        <span className={styles.sectionSubtitle}>Model prediction confidence per subsystem (higher = better)</span>
         <div className={styles.subsystemGrid}>
           {subsystems.map((sub) => {
             const color = sub.health >= 90 ? 'green' : sub.health >= 75 ? 'amber' : 'red'
+            const hasLimitation = 'limitation' in sub && !!(sub as any).limitation
             return (
-              <div key={sub.name} className={styles.subsystemCard}>
-                <div className={styles.subsystemGauge}>
-                  <svg viewBox="0 0 36 36" className={styles.gaugeSvg}>
-                    <path
-                      d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
-                      fill="none"
-                      stroke="rgba(0,0,0,0.06)"
-                      strokeWidth="3"
-                    />
-                    <path
-                      d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
-                      fill="none"
-                      stroke={`var(--status-${color})`}
-                      strokeWidth="3"
-                      strokeDasharray={`${sub.health}, 100`}
-                      strokeLinecap="round"
-                      className={styles.gaugeArc}
-                    />
-                  </svg>
-                  <span className={styles.gaugeValue}>{sub.health}</span>
-                </div>
+              <div key={sub.name} className={`${styles.subsystemCard} ${hasLimitation ? styles.subsystemLimited : ''}`}>
+                {hasLimitation ? (
+                  <div className={styles.limitationBadge}>
+                    <span className={styles.limitationIcon}>&#9889;</span>
+                  </div>
+                ) : (
+                  <div className={styles.subsystemGauge}>
+                    <svg viewBox="0 0 36 36" className={styles.gaugeSvg}>
+                      <path
+                        d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+                        fill="none"
+                        stroke="rgba(0,0,0,0.06)"
+                        strokeWidth="3"
+                      />
+                      <path
+                        d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+                        fill="none"
+                        stroke={`var(--status-${color})`}
+                        strokeWidth="3"
+                        strokeDasharray={`${sub.health}, 100`}
+                        strokeLinecap="round"
+                        className={styles.gaugeArc}
+                      />
+                    </svg>
+                    <span className={styles.gaugeValue}>{sub.health}</span>
+                  </div>
+                )}
                 <span className={styles.subsystemName}>{sub.name}</span>
-                <span className={styles.subsystemDev}>Δ {sub.avgDeviation}°C</span>
+                {hasLimitation ? (
+                  <span className={styles.limitationText}>{(sub as any).limitation}</span>
+                ) : (
+                  <span className={styles.subsystemDev}>Score {sub.health}</span>
+                )}
               </div>
             )
           })}

@@ -1,39 +1,7 @@
 .container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   height: 100%;
-  gap: 8px;
-}
-
-.globeTitle {
-  display: flex;
-  align-items: baseline;
-  gap: 8px;
-  padding: 0 4px;
-}
-
-.titleLabel {
-  font-family: var(--font-mono), monospace;
-  font-size: 13px;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  color: var(--text-primary);
-  text-transform: uppercase;
-}
-
-.titleSub {
-  font-family: var(--font-mono), monospace;
-  font-size: 10px;
-  color: var(--text-tertiary);
-}
-
-.globeWrapper {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  min-height: 0;
   background: var(--bg-glass);
   backdrop-filter: blur(var(--blur-glass));
   -webkit-backdrop-filter: blur(var(--blur-glass));
@@ -41,95 +9,42 @@
   border-radius: var(--radius-xl);
   box-shadow: var(--shadow-glass);
   overflow: hidden;
-  padding: 8px;
 }
 
-.canvas {
-  width: 100%;
-  max-width: 520px;
-  aspect-ratio: 1;
-  cursor: grab;
-  contain: layout paint size;
-}
-
-.stats {
+/* Vertical farm cards on the left */
+.farmCardsVertical {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  gap: 6px;
+  padding: 10px;
+  border-right: 1px solid var(--border-glass);
   justify-content: center;
-  gap: 12px;
-  padding: 8px 0;
-}
-
-.statItem {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
-
-.statDot {
-  color: var(--status-green);
-  font-size: 8px;
-}
-
-.statValue {
-  font-family: var(--font-mono), monospace;
-  font-size: 14px;
-  font-weight: 700;
-  color: var(--text-primary);
-}
-
-.statLabel {
-  font-size: 12px;
-  color: var(--text-secondary);
-}
-
-.statSep {
-  color: var(--border-subtle);
-  font-size: 12px;
-}
-
-/* Legend */
-.legend {
-  display: flex;
-  justify-content: center;
-  padding: 2px 0;
-}
-
-.legendRow {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 11px;
-}
-
-.legendLabel {
-  color: var(--text-secondary);
-  margin-right: 6px;
-}
-
-/* Farm cards */
-.farmCards {
-  display: flex;
-  gap: 8px;
+  min-width: 120px;
 }
 
 .farmCard {
-  flex: 1;
   padding: 10px 12px;
-  background: var(--bg-glass);
-  backdrop-filter: blur(var(--blur-glass));
-  -webkit-backdrop-filter: blur(var(--blur-glass));
+  background: rgba(255, 255, 255, 0.5);
   border: 1px solid var(--border-glass);
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-subtle);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  cursor: default;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease, border-color 0.2s ease;
+  cursor: pointer;
 }
 
+.farmCardSelected {
+  border-color: rgba(59, 130, 246, 0.6);
+  box-shadow: 0 0 12px rgba(59, 130, 246, 0.2), var(--shadow-glass);
+  transform: translateX(3px);
+}
+
+.farmCardDimmed {
+  opacity: 0.5;
+}
 
 .farmCard:hover,
 .farmCardHover {
-  transform: translateY(-2px);
+  transform: translateX(3px);
   box-shadow: var(--shadow-glass);
 }
 
@@ -137,7 +52,7 @@
   display: flex;
   align-items: center;
   gap: 6px;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 .farmName {
@@ -146,17 +61,9 @@
   color: var(--text-primary);
 }
 
-.farmType {
-  font-family: var(--font-mono), monospace;
-  font-size: 11px;
-  color: var(--text-secondary);
-  margin-left: auto;
-  letter-spacing: 0.02em;
-}
-
 .farmCardBody {
   display: flex;
-  gap: 12px;
+  gap: 10px;
 }
 
 .farmStat {
@@ -167,7 +74,7 @@
 
 .farmStatValue {
   font-family: var(--font-mono), monospace;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 700;
   color: var(--text-primary);
 }
@@ -175,4 +82,104 @@
 .farmStatLabel {
   font-size: 11px;
   color: var(--text-secondary);
+}
+
+/* Globe area */
+.globeArea {
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 0;
+  overflow: hidden;
+  padding: 8px;
+}
+
+.titleOverlay {
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  z-index: 2;
+}
+
+.titleLabel {
+  font-family: var(--font-mono), monospace;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--text-primary);
+  text-transform: uppercase;
+}
+
+.legendOverlay {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  z-index: 2;
+}
+
+.legendRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+}
+
+.legendLabel {
+  color: var(--text-secondary);
+  margin-right: 6px;
+}
+
+.statsOverlay {
+  position: absolute;
+  bottom: 8px;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  background: linear-gradient(transparent, rgba(255,255,255,0.5));
+  padding: 8px 12px 4px;
+}
+
+.canvas {
+  width: 100%;
+  max-width: 380px;
+  aspect-ratio: 1;
+  cursor: grab;
+  contain: layout paint size;
+}
+
+.stats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+
+.statItem {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.statDot {
+  color: var(--status-green);
+  font-size: 9px;
+}
+
+.statValue {
+  font-family: var(--font-mono), monospace;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.statLabel {
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.statSep {
+  color: var(--border-subtle);
+  font-size: 13px;
 }

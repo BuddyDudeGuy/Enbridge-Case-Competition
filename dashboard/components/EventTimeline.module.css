@@ -1,0 +1,196 @@
+.card {
+  background: var(--bg-glass-grey);
+  backdrop-filter: blur(var(--blur-heavy));
+  -webkit-backdrop-filter: blur(var(--blur-heavy));
+  border: 1px solid var(--border-dark);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-subtle);
+  padding: 14px 16px;
+  animation: fadeIn 0.4s ease both;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.title {
+  font-family: var(--font-mono), monospace;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--text-inverse);
+  text-transform: uppercase;
+}
+
+.titleRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.infoBtn {
+  background: none;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+  transition: all 0.2s ease;
+}
+
+.infoBtn:hover,
+.infoBtnActive {
+  color: rgba(255, 255, 255, 0.9);
+  border-color: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.infoBox {
+  background: var(--bg-glass-grey);
+  border: 1px solid var(--border-dark);
+  border-radius: 6px;
+  padding: 10px 12px;
+  margin-bottom: 12px;
+  font-family: var(--font-mono), monospace;
+  font-size: 10px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.6);
+  animation: fadeIn 0.2s ease both;
+}
+
+.eventLabel {
+  font-family: var(--font-mono), monospace;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.labels {
+  display: flex;
+  gap: 0;
+}
+
+.label {
+  font-family: var(--font-mono), monospace;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  white-space: normal;
+  padding: 0 2px;
+}
+
+.bar {
+  display: flex;
+  height: 36px;
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+}
+
+.segmentNormal {
+  background: linear-gradient(135deg, rgba(34, 197, 94, 0.35), rgba(34, 197, 94, 0.2));
+  border-right: 1px solid rgba(255, 255, 255, 0.15);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  transition: width 0.6s ease;
+}
+
+.segmentWarning {
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.4), rgba(245, 158, 11, 0.2));
+  border-right: 1px solid rgba(255, 255, 255, 0.15);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  transition: width 0.6s ease;
+  animation: pulseWarning 2.5s ease-in-out infinite;
+}
+
+@keyframes pulseWarning {
+  0%, 100% {
+    background: linear-gradient(135deg, rgba(245, 158, 11, 0.4), rgba(245, 158, 11, 0.2));
+  }
+  50% {
+    background: linear-gradient(135deg, rgba(245, 158, 11, 0.5), rgba(245, 158, 11, 0.3));
+  }
+}
+
+.segmentFault {
+  background: linear-gradient(135deg, rgba(239, 68, 68, 0.5), rgba(239, 68, 68, 0.3));
+  position: relative;
+  transition: width 0.6s ease;
+}
+
+.marker {
+  position: absolute;
+  right: -5px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+.markerArrow {
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 6px solid rgba(255, 255, 255, 0.5);
+}
+
+.dayMarkers {
+  display: flex;
+  position: relative;
+  height: 14px;
+}
+
+.dayMark {
+  font-family: var(--font-mono), monospace;
+  font-size: 9px;
+  color: rgba(255, 255, 255, 0.35);
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+.dayMark:first-child {
+  left: 0;
+  transform: none;
+}
+
+.dayMarkEnd {
+  font-family: var(--font-mono), monospace;
+  font-size: 9px;
+  color: rgba(255, 255, 255, 0.35);
+  position: absolute;
+  right: 0;
+}

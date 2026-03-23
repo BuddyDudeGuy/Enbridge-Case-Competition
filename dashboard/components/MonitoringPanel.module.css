@@ -81,6 +81,16 @@
   color: var(--text-secondary);
 }
 
+.sectionSubtitle {
+  display: block;
+  font-family: var(--font-mono), monospace;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.45);
+  letter-spacing: 0.02em;
+  margin-top: -4px;
+  margin-bottom: 10px;
+}
+
 /* System Status */
 .statusList {
   display: flex;
@@ -483,4 +493,209 @@
   font-size: 13px;
   font-weight: 600;
   color: var(--text-primary);
+}
+
+/* Farm Detail View */
+.backButton {
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  font-family: var(--font-mono), monospace;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 4px 0;
+  margin-bottom: 8px;
+  transition: color 0.15s ease;
+  letter-spacing: 0.02em;
+}
+
+.backButton:hover {
+  color: var(--text-primary);
+}
+
+.farmHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.farmHeaderMeta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 4px;
+}
+
+.detectionBanner {
+  background: var(--bg-glass);
+  backdrop-filter: blur(var(--blur-glass));
+  -webkit-backdrop-filter: blur(var(--blur-glass));
+  border: 1px solid var(--border-glass);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-subtle);
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  border-left: 3px solid var(--status-green);
+}
+
+.detectionText {
+  font-family: var(--font-mono), monospace;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-primary);
+  letter-spacing: 0.02em;
+}
+
+.keyEventCard {
+  background: var(--bg-glass-grey);
+  backdrop-filter: blur(var(--blur-heavy));
+  -webkit-backdrop-filter: blur(var(--blur-heavy));
+  border: 1px solid var(--border-dark);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-subtle);
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.keyEventLabel {
+  font-family: var(--font-mono), monospace;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+}
+
+.keyEventText {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-inverse);
+  line-height: 1.4;
+}
+
+.figureCard {
+  background: var(--bg-glass);
+  backdrop-filter: blur(var(--blur-glass));
+  -webkit-backdrop-filter: blur(var(--blur-glass));
+  border: 1px solid var(--border-glass);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-subtle);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.figureImage {
+  width: 100%;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.figureCaption {
+  font-family: var(--font-mono), monospace;
+  font-size: 11px;
+  color: var(--text-secondary);
+  text-align: center;
+  line-height: 1.4;
+}
+
+/* Limited subsystem badge */
+.subsystemLimited {
+  opacity: 0.55;
+}
+
+.limitationBadge {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.04);
+  border: 2px dashed rgba(0, 0, 0, 0.12);
+}
+
+.limitationIcon {
+  font-size: 20px;
+  filter: grayscale(0.5);
+}
+
+.limitationText {
+  font-family: var(--font-mono), monospace;
+  font-size: 9px;
+  color: var(--text-tertiary);
+  text-align: center;
+  line-height: 1.3;
+  max-width: 80px;
+}
+
+/* Alert Dropdown */
+.alertDropdown {
+  background: var(--bg-glass-grey);
+  backdrop-filter: blur(var(--blur-heavy));
+  border: 1px solid var(--border-dark);
+  border-radius: var(--radius-md);
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  animation: fadeIn 0.2s ease;
+}
+
+.alertDropdownItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.alertDropdownItem:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.alertDropdownFarm {
+  font-family: var(--font-mono), monospace;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-inverse);
+}
+
+.alertDropdownTurbine {
+  font-family: var(--font-mono), monospace;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.alertDropdownMessage {
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.5);
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.alertDropdownArrow {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.metricCardClickable {
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.metricCardClickable:hover {
+  border-color: var(--status-red);
+  transform: translateY(-2px);
 }
