@@ -16,8 +16,8 @@ export const farms = [
     id: 'B',
     name: 'Farm B',
     location: 'North Sea (Offshore)',
-    lat: 54.0,
-    lng: 7.0,
+    lat: 55.5,
+    lng: 5.0,
     turbines: 9,
     avgTdi: 19.45,
     health: 'green' as const,
@@ -29,8 +29,8 @@ export const farms = [
     id: 'C',
     name: 'Farm C',
     location: 'North Sea (Offshore)',
-    lat: 54.2,
-    lng: 7.3,
+    lat: 52.5,
+    lng: 9.0,
     turbines: 22,
     avgTdi: 60.94,
     health: 'red' as const,
@@ -44,7 +44,7 @@ export const fleetKpis = {
   totalTurbines: 36,
   activeAlerts: 4,
   fleetTdi: 31.2,
-  careScore: 0.61,
+  careScore: 0.608,
   avgTempDeviation: 4.3,
   detectionRate: 53,
   falseAlarmRate: 6,
@@ -55,11 +55,10 @@ export const fleetKpis = {
 
 export const subsystems = [
   { name: 'Gearbox', health: 82, weight: 0.25, avgDeviation: 5.4 },
-  { name: 'Generator', health: 91, weight: 0.20, avgDeviation: 2.1 },
-  { name: 'Transformer', health: 76, weight: 0.20, avgDeviation: 7.8 },
-  { name: 'Hydraulic', health: 88, weight: 0.15, avgDeviation: 3.2 },
-  { name: 'Cooling', health: 94, weight: 0.10, avgDeviation: 1.4 },
-  { name: 'Nacelle', health: 97, weight: 0.10, avgDeviation: 0.8 },
+  { name: 'Generator', health: 85, weight: 0.20, avgDeviation: 2.1 },
+  { name: 'Transformer', health: 30, weight: 0.20, avgDeviation: 7.8, limitation: 'Requires electrical telemetry' },
+  { name: 'Hydraulic', health: 45, weight: 0.15, avgDeviation: 3.2, limitation: 'Requires actuator telemetry' },
+  { name: 'Cooling', health: 90, weight: 0.10, avgDeviation: 1.4 },
 ]
 
 export const alerts = [
@@ -140,22 +139,45 @@ export const tdiHistory = [
   { hour: '17:00', tdi: 31 },
 ]
 
-export const chatConversation = [
-  {
-    role: 'user' as const,
-    text: 'Which turbines need immediate attention?',
+export const farmDetails: Record<string, {
+  strongSubsystems: string[]
+  keyMetrics: Record<string, number>
+  figures: { src: string; caption: string }[]
+  keyEvent: string
+  detectionHighlight: string
+  tdiScores: Record<string, number>
+}> = {
+  A: {
+    strongSubsystems: ['Gearbox', 'Cooling', 'Generator Bearings'],
+    keyMetrics: { gearboxR2: 0.804, coolingR2: 0.849, genBearingR2: 0.767 },
+    tdiScores: { Gearbox: 82, Cooling: 90, 'Generator Bearings': 85 } as Record<string, number>,
+    figures: [
+      { src: '/figures/farm_a_gearbox_zoomed.png', caption: 'Gearbox Event 72 — 7-day early warning detected' },
+      { src: '/figures/farm_a_generator_bearing_normal_vs_anomaly.png', caption: 'Generator bearing anomaly vs normal behavior' },
+    ],
+    keyEvent: 'Event 72: Gearbox oil temp diverged 7 days before failure',
+    detectionHighlight: 'R² 0.80 Gearbox · R² 0.85 Cooling · R² 0.77 Gen Bearings',
   },
-  {
-    role: 'ai' as const,
-    text: 'Based on current TDI scores, 2 turbines are critical on Farm C:\n\n• T-14 — Gearbox bearing temp is 12°C above the Normal Behavior Model prediction. TDI score: 84. Pattern matches historical gearbox failure Event 72 from Farm A (91% similarity). Recommend inspection within 48 hours.\n\n• T-07 — Transformer core temp has breached the CUSUM threshold. TDI score: 71. Rising trend started 6 hours ago. Recommend prioritizing due to offshore access constraints.',
+  B: {
+    strongSubsystems: ['Gearbox', 'Generator Bearings'],
+    keyMetrics: { gearboxR2: 0.768, genBearingR2: 0.50 },
+    tdiScores: { Gearbox: 78, 'Generator Bearings': 72 } as Record<string, number>,
+    figures: [
+      { src: '/figures/timeline_farm_b_event53_bearing.png', caption: '42-day bearing degradation — earliest warning in fleet' },
+      { src: '/figures/farm_b_bearing_degradation_normal_vs_anomaly.png', caption: 'Rotor bearing: normal vs degradation pattern' },
+    ],
+    keyEvent: 'Event 53: Bearing degradation visible 42 days before replacement',
+    detectionHighlight: '42-Day Early Warning · R² 0.77 Gearbox',
   },
-]
-
-export const suggestedQueries = [
-  'Farm C health trends',
-  'What caused T-14 alert?',
-  'Compare farms A vs B',
-  'Next maintenance window',
-  'Show CARE score breakdown',
-  'Turbine health scores',
-]
+  C: {
+    strongSubsystems: ['Gearbox', 'Cooling', 'Generator Bearings'],
+    keyMetrics: { gearboxR2: 0.788, coolingR2: 0.761, genBearingR2: 0.721 },
+    tdiScores: { Gearbox: 79, Cooling: 85, 'Generator Bearings': 76 } as Record<string, number>,
+    figures: [
+      { src: '/figures/farm_c_cooling_normal_vs_anomaly.png', caption: 'Cooling valve misposition — dramatic thermal spike detected' },
+      { src: '/figures/farm_c_hydraulic_normal_vs_anomaly.png', caption: 'Hydraulic oil 25°C → 70°C spike in 4 minutes' },
+    ],
+    keyEvent: 'Event 44: Cooling valve failure caught by thermal signature',
+    detectionHighlight: '63% Detection Rate · R² 0.79 Gearbox · R² 0.76 Cooling',
+  },
+}
