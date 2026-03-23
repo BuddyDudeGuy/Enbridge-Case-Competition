@@ -1,8 +1,16 @@
 # Enbridge Wind Turbine Anomaly Detection
 
-Predictive maintenance system for wind turbine fleets using SCADA sensor data. Built for the DSMLC x Enbridge case competition at the University of Calgary.
+Built for the DSMLC x Enbridge case competition at the University of Calgary.
 
-Develops a Unified Thermal Degradation Index (TDI) that scores turbine health from 0-100 using Normal Behavior Models (LightGBM), LSTM-Autoencoders, and statistical anomaly detection (CUSUM/EWMA).
+## The Problem
+
+Wind turbine fleets generate massive volumes of SCADA sensor data across dozens of thermal subsystems, but operators still rely on static alarm thresholds that either fire too late or drown teams in false positives. Faults like gearbox oil overheating or bearing degradation can develop over days or weeks with no alert, while sudden spikes in unrelated sensors trigger unnecessary shutdowns. There is no unified, fleet-wide metric that quantifies how thermally degraded a turbine actually is relative to its own normal operating behavior.
+
+## Our Solution
+
+We built a Unified Thermal Degradation Index (TDI) -- a single 0-100 composite health score per turbine event that replaces static thresholds with learned baselines. The pipeline trains Normal Behavior Models (LightGBM) on healthy operating data for each thermal subsystem (gearbox, generator bearings, cooling, transformer, hydraulic), then flags deviations using CUSUM and EWMA on the residuals. An LSTM-Autoencoder runs as a complementary detection layer and produces learned embeddings for cross-event similarity search. The per-subsystem anomaly signals roll up into the TDI score, giving operators a single number that captures the severity and spread of thermal degradation across the entire turbine.
+
+The framework is asset-agnostic -- the same learn-normal-then-score-deviations pattern applies anywhere you have sensor data and a concept of "healthy" operation: pipelines, compressor stations, solar inverters, industrial motors, or any fleet of instrumented equipment.
 
 ## Setup
 
@@ -62,6 +70,10 @@ Notebooks are numbered sequentially: EDA (01-08), SHAP analysis (09), residual v
 │   └── reports/       TDI scores, model results
 └── requirements.txt
 ```
+
+## Future Work
+
+The current dashboard displays pre-computed TDI scores and event timelines. The next step is a conversational fleet intelligence layer -- a RAG (Retrieval-Augmented Generation) system where every historical event, its sensor residuals, SHAP explanations, and maintenance outcomes get embedded into a vector store. An operator could ask "has this turbine shown this pattern before?" or "which farms had cooling anomalies last quarter?" and get grounded, citation-backed answers pulled directly from the fleet's own data rather than a generic model. Vectorizing the event fingerprints (residual signatures + SHAP feature attributions) also enables a similar-fault finder that surfaces the closest historical matches to a developing anomaly, giving maintenance teams a head start on diagnosis before a technician is even dispatched.
 
 ## Tech Stack
 
