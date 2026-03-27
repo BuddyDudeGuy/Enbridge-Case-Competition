@@ -6,7 +6,9 @@
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-subtle);
   padding: 14px 16px;
+  padding-bottom: 18px;
   animation: fadeIn 0.4s ease both;
+  overflow: visible;
 }
 
 @keyframes fadeIn {
@@ -82,13 +84,16 @@
 .eventLabel {
   font-family: var(--font-mono), monospace;
   font-size: 11px;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 600;
 }
 
 .timeline {
   display: flex;
   flex-direction: column;
   gap: 6px;
+  overflow: visible;
+  padding-bottom: 4px;
 }
 
 .labels {
@@ -101,10 +106,13 @@
   font-size: 11px;
   font-weight: 600;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.95);
   text-align: center;
-  white-space: normal;
+  white-space: nowrap;
   padding: 0 2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
 }
 
 .bar {
@@ -165,21 +173,24 @@
   height: 0;
   border-top: 5px solid transparent;
   border-bottom: 5px solid transparent;
-  border-left: 6px solid rgba(255, 255, 255, 0.5);
+  border-left: 6px solid rgba(255, 255, 255, 0.8);
 }
 
 .dayMarkers {
   display: flex;
   position: relative;
-  height: 14px;
+  height: 18px;
+  overflow: visible;
 }
 
 .dayMark {
   font-family: var(--font-mono), monospace;
-  font-size: 9px;
-  color: rgba(255, 255, 255, 0.35);
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 600;
   position: absolute;
   transform: translateX(-50%);
+  white-space: nowrap;
 }
 
 .dayMark:first-child {
@@ -189,8 +200,9 @@
 
 .dayMarkEnd {
   font-family: var(--font-mono), monospace;
-  font-size: 9px;
-  color: rgba(255, 255, 255, 0.35);
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 600;
   position: absolute;
   right: 0;
 }

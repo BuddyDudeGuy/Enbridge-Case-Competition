@@ -12,6 +12,7 @@
   padding: 16px;
   padding-top: 8px;
   min-height: 0;
+  overflow: hidden;
 }
 
 .globePanel {

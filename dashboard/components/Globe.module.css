@@ -64,6 +64,7 @@
 .farmCardBody {
   display: flex;
   gap: 10px;
+  flex-wrap: wrap;
 }
 
 .farmStat {
@@ -124,6 +125,7 @@
   align-items: center;
   gap: 8px;
   font-size: 12px;
+  white-space: nowrap;
 }
 
 .legendLabel {
@@ -154,6 +156,7 @@
   align-items: center;
   justify-content: center;
   gap: 14px;
+  flex-wrap: wrap;
 }
 
 .statItem {

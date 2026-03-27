@@ -79,12 +79,16 @@ export default function EventTimeline({
         {/* Day markers */}
         <div className={styles.dayMarkers}>
           <span className={styles.dayMark}>Day 0</span>
-          <span className={styles.dayMark} style={{ left: `${normalPct}%` }}>
-            Day {normalDays}
-          </span>
-          <span className={styles.dayMark} style={{ left: `${normalPct + warningPct}%` }}>
-            Day {normalDays + warningDays}
-          </span>
+          {normalPct > 8 && (
+            <span className={styles.dayMark} style={{ left: `${normalPct}%` }}>
+              Day {normalDays}
+            </span>
+          )}
+          {normalPct + warningPct > 8 && normalPct + warningPct < 92 && (
+            <span className={styles.dayMark} style={{ left: `${normalPct + warningPct}%` }}>
+              Day {normalDays + warningDays}
+            </span>
+          )}
           <span className={styles.dayMarkEnd}>Day {totalDays}</span>
         </div>
       </div>

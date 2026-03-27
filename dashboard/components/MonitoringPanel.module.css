@@ -56,6 +56,8 @@
   align-items: center;
   justify-content: space-between;
   margin-bottom: 10px;
+  gap: 8px;
+  flex-wrap: wrap;
 }
 
 .sectionTitle {
@@ -105,6 +107,7 @@
   padding: 6px 8px;
   border-radius: var(--radius-sm);
   transition: background 0.15s ease;
+  flex-wrap: wrap;
 }
 
 .statusRow:hover {
@@ -377,6 +380,7 @@
   align-items: center;
   gap: 8px;
   margin-bottom: 2px;
+  flex-wrap: wrap;
 }
 
 .feedTime {
@@ -519,6 +523,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 12px;
+  flex-wrap: wrap;
 }
 
 .farmHeaderMeta {
@@ -526,6 +531,7 @@
   align-items: center;
   gap: 12px;
   margin-top: 4px;
+  flex-wrap: wrap;
 }
 
 .detectionBanner {
