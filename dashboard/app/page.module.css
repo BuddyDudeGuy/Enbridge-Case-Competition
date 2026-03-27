@@ -16,7 +16,7 @@
 }
 
 .globePanel {
-  flex: 0 0 30%;
+  flex: 0 0 38%;
   display: flex;
   flex-direction: column;
   animation: fadeIn 0.6s ease 0.1s both;
